@@ -1,0 +1,109 @@
+.slider {
+    height: 480px;
+
+    a.previousButton {
+
+        background: #fff;
+        width: 48px;
+        border-radius: 100px;
+        height: 48px;
+
+        svg {
+            width: 25px;
+        }
+    }
+
+    a.nextButton {
+
+        background: #fff;
+        width: 48px;
+        border-radius: 100px;
+        height: 48px;
+
+        svg {
+            width: 25px;
+        }
+    }
+
+    .slide {
+        &:nth-child(2) {
+            h1 {
+                color: #fff !important;
+            }
+
+            h2 {
+                color: #fff !important;
+            }
+        }
+
+        &:nth-child(3) {
+            h1 {
+                color: #fff !important;
+            }
+
+            h2 {
+                color: #fff !important;
+            }
+        }
+
+        &:nth-child(4) {
+            h1 {
+                color: #fff !important;
+            }
+
+            h2 {
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .slider {
+        height: 250px;
+
+        .slide {
+            padding-top: 30px;
+        }
+
+        .previousButton,
+        .nextButton {
+            display: none !important;
+        }
+    }
+
+    h1.react-reveal.text-light {
+        font-size: 28px;
+    }
+
+    h2.text-light.w-75.mx-auto {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .slider {
+        height: 360px;
+
+        .slide {
+            padding-top: 30px;
+        }
+
+        .previousButton,
+        .nextButton {
+            display: none !important;
+        }
+    }
+
+    h1.react-reveal.text-light {
+        font-size: 28px;
+    }
+
+    h2.text-light.w-75.mx-auto {
+        font-size: 20px;
+    }
+
+}

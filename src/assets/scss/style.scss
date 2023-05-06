@@ -330,7 +330,7 @@ input[type="radio"] {
 /** Button style **/
 .theme-btn,
 a.theme-btn {
-  background: #104cba;
+  background: #162E55;
   font-size: 16px;
   color: white;
   cursor: pointer;
@@ -990,7 +990,7 @@ a.theme-btn.gradient-btn-one:not(hover):before {
 
 /* Background Colors */
 .bg-blue {
-  background-color: #104cba;
+  background-color: #162E55;
 }
 
 .bg-black {
@@ -6061,7 +6061,9 @@ h6,
   position: relative;
 
   img {
-    height: 110px;
+    width: 80%;
+    height: 100px;
+    object-fit: contain;
   }
 }
 
@@ -6602,7 +6604,7 @@ h6,
 
 /* Header One */
 .header-one .logo-outer {
-  margin-right: 45px;
+  padding-left: 50px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -6614,7 +6616,7 @@ h6,
 
 .header-one .header-top {
   padding-left: 85px;
-  padding-right: 230px;
+  padding-right: 100px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -6625,7 +6627,7 @@ h6,
 }
 
 .header-one .header-inner {
-  padding-right: 230px;
+  padding-right: 100px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -8845,6 +8847,8 @@ h6,
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
+  display: table;
 }
 
 .service-box:hover .service-normal {
@@ -10755,7 +10759,7 @@ h6,
 .gallery-section:before {
   opacity: 1;
   height: 50%;
-  background: #104cba;
+  background: #475878;
 }
 
 .gallery-item {
@@ -14288,6 +14292,11 @@ blockquote .author {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .main-header {
+    display: none;
+  }
+
   .error-content h2 {
     font-size: 30px;
   }
@@ -14406,7 +14415,7 @@ blockquote .author {
 }
 
 .main-slider-wrap .slick-arrow.prev {
-  left: 200px;
+  left: 50px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -14416,7 +14425,7 @@ blockquote .author {
 }
 
 .main-slider-wrap .slick-arrow.next {
-  right: 200px;
+  right: 50px;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -15293,11 +15302,18 @@ blockquote .author {
 /**************** 31. Main Footer Style ****************/
 /*******************************************************/
 .footer-widget-area {
-  background-color: #1256d1;
+  background-color: #182732;
 }
 
 .footer-logo {
   margin-top: -10px;
+}
+
+.footer-logo a img {
+  // width: 100px;
+  height: 100px;
+  object-fit: contain;
+  width: 80%;
 }
 
 .footer-widget {
@@ -15496,7 +15512,7 @@ blockquote .author {
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
-  background: #1359db;
+  background: #162E55;
 }
 
 .footer-one .newsletter-widget form {

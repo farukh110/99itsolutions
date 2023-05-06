@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 // header
 .header-top {
     padding-left: 85px;
@@ -90,7 +94,7 @@
 }
 
 .bgs-cover {
-    background: url(../images/footer-bg-dots.png) #1256d1;
+    background: url(../images/footer-bg.png) #1256d1;
 }
 
 .bg-blue {

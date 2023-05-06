@@ -1,0 +1,16 @@
+.tab-container {
+    .nav-item {
+        button {
+            color: #162E55;
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
+
+    .nav-tabs {
+        .nav-link.active {
+            background: #162E55;
+            color: #fff;
+        }
+    }
+}

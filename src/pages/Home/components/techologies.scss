@@ -1,0 +1,27 @@
+.technologies {
+    background: #F5F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .tech-column {
+        transition: all 0.3s;
+
+        &:hover {
+            background: #F7AA23;
+        }
+    }
+
+    img {
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .technologies {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}

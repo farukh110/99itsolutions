@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import logo from '../../assets/images/logo.png';
 import MobileHeader from './components/mobile/MobileHeader';
 import StickyMenu from './components/StickyMenu';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -19,18 +20,18 @@ const Header = () => {
                     <div className="top-left">
                         <ul>
                             <li>
-                                Call Us: <a href="callto:548978478">548978478</a>
+                                Call: <a href="callto:03312781741">03312781741</a>
                             </li>
                             <li>
-                                Email us: <a href="mailto:demo@example.com">demo@example.com</a>
+                                Email: <a className='text-lowercase' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a>
                             </li>
-                            <li>Our address: 45 Dream street Austria</li>
+                            <li>Our address: Karachi</li>
                         </ul>
                     </div>
                     <div className="top-right">
                         <div className="office-time">
                             <i className="far fa-clock"></i>
-                            <span>08:00 am - 06:00 pm</span>
+                            <span>09:00 am - 06:00 pm</span>
                         </div>
                         <div className="social-style-one">
                             <a href="http://facebook.com">
@@ -53,18 +54,18 @@ const Header = () => {
                         <div className="header-inner d-flex align-items-center">
                             <div className="logo-outer px-85">
                                 <div className="logo">
-                                    <a href="/">
+                                    <Link href="/">
                                         <img className='img-fluid' src={logo} alt="Logo" title="Logo" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
 
                             <div className="nav-outer clearfix d-flex align-items-center">
                                 <Navigation className="nav-home-one" />
                                 <div className="menu-btn">
-                                    <a href="/contact" className="theme-btn">
+                                    <Link to="/contact" className="theme-btn">
                                         meet with us
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

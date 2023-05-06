@@ -1,0 +1,24 @@
+.portfolio-page-container {
+    .btn-outline-primary {
+        border-color: #162E55;
+        color: #162E55;
+
+        &:hover {
+            background: #162E55;
+            color: #fff !important;
+        }
+    }
+
+    .active {
+        background: #162E55 !important;
+        color: #fff !important;
+    }
+}
+
+.portfolio-page-container {
+
+    img {
+        height: 400px !important;
+        object-fit: cover;
+    }
+}
