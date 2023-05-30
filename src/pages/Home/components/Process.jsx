@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import planning from '../../../assets/images/process/process.png';
-import design from '../../../assets/images/process/design.png';
-import develop from '../../../assets/images/process/develop.png';
+import planning from '../../../assets/images/process/planning.jpg';
+import design from '../../../assets/images/process/design.jpg';
+import develop from '../../../assets/images/process/develop.jpg';
 import testing from '../../../assets/images/process/testing.png';
-import delivery from '../../../assets/images/process/delivery.png';
+import delivery from '../../../assets/images/process/delivery.jpg';
+import support from '../../../assets/images/process/support.jpg';
 import './Process.scss';
 
 const Process = () => {
@@ -95,13 +96,28 @@ const Process = () => {
 
                     </div>
 
+                    <div className='col-md-2 col-6 p-1'>
+
+                        <div className="d-grid">
+                            <button
+                                className={`btn ${currentTab === 'maintenance' ? 'btn-primary' : 'btn-info'
+                                    }`}
+                                onClick={() => handleClick('maintenance')}
+                            >
+                                Maintenance
+                            </button>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
                 {/* ----------- start planning content ------------ */}
 
                 {currentTab === 'planning' && (
-                    <div id='planning' className='row planning'>
-                        <div className='col-md-5'>
+                    <div id='planning' className='row mt-md-5 planning'>
+                        <div className='col-md-5 '>
                             <img className='img-fluid' src={planning} alt='' />
                         </div>
 
@@ -143,7 +159,7 @@ const Process = () => {
                 {currentTab === 'design' && (<div id="design" className='row design'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid' src={design} alt="" />
+                        <img className='img-fluid mt-md-5' src={design} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
@@ -176,7 +192,7 @@ const Process = () => {
                 {currentTab === 'develop' && (<div id="develop" className='row develop'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid' src={develop} alt="" />
+                        <img className='img-fluid mt-md-5' src={develop} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
@@ -213,7 +229,7 @@ const Process = () => {
                 {currentTab === 'test' && (<div id="test" className='row test'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid' src={testing} alt="" />
+                        <img className='img-fluid mt-md-5' src={testing} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
@@ -254,7 +270,7 @@ const Process = () => {
                 {currentTab === 'deliver' && (<div id="deliver" className='row deliver'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid' src={delivery} alt="" />
+                        <img className='img-fluid mt-md-5' src={delivery} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
@@ -293,6 +309,51 @@ const Process = () => {
                 </div>)}
 
                 {/* ----------- end deliver content ------------ */}
+
+                {/* ----------- start maintenance content ------------ */}
+
+                {currentTab === 'maintenance' && (<div id="maintenance" className='row deliver'>
+
+                    <div className='col-md-5 pt-md-5'>
+                        <img className='img-fluid' src={support} alt="" />
+                    </div>
+
+                    <div className='col-md-7 mb-md-0 mb-4'>
+
+                        <h5 className="text-darkblue mt-md-5">
+                            Handoff to client Be sure the client is
+                        </h5>
+
+                        <h3>Satisfied with the product</h3>
+                        <p>
+                            Business re-enters the picture at this point as you take care of all the little tasks related to closing the project. Packaging source files, providing instructions for use, and any required training occurs at this time.
+                        </p>
+
+                        {/* <h6>Planning 20%</h6>
+
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '20%' }}></div></div>
+
+                        <h6 className='mt-md-3'>Design 40%</h6>
+
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '40%' }}></div></div>
+
+                        <h6 className='mt-md-3'>Develop 60%</h6>
+
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '60%' }}></div></div>
+
+                        <h6 className='mt-md-3'>Test 80%</h6>
+
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div></div>
+
+                        <h6 className='mt-md-3'>Deliver 100%</h6>
+
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}></div></div> */}
+
+                    </div>
+
+                </div>)}
+
+                {/* ----------- end maintenance content ------------ */}
 
             </div>
         </>

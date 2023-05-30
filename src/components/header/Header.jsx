@@ -54,7 +54,7 @@ const Header = () => {
                         <div className="header-inner d-flex align-items-center">
                             <div className="logo-outer px-85">
                                 <div className="logo">
-                                    <Link href="/">
+                                    <Link to="/">
                                         <img className='img-fluid' src={logo} alt="Logo" title="Logo" />
                                     </Link>
                                 </div>

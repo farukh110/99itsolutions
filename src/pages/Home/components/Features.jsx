@@ -3,6 +3,7 @@ import brand from "../../../assets/images/services/main-services/brand.jpg";
 import hosting from "../../../assets/images/services/main-services/hosting.jpg";
 import graphic from "../../../assets/images/services/main-services/graphic.jpg";
 import marketing from "../../../assets/images/services/main-services/marketing.jpg";
+import "./Features.scss";
 
 const Features = () => {
     return (
@@ -23,11 +24,9 @@ const Features = () => {
                                 <div className="icon">
                                     <img className='img-fluid' src={brand} alt="" />
                                 </div>
-                                <h5>Lift Bar</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                    do eiusmod tempor
-                                </p>
+                                <br />
+                                <h5>Brand Identity</h5>
+
                                 <a href="service-details" className="learn-more">
                                     Read More <i className="fas fa-arrow-right"></i>
                                 </a>
@@ -41,11 +40,9 @@ const Features = () => {
                                 <div className="icon">
                                     <img className='img-fluid' src={hosting} alt="" />
                                 </div>
-                                <h5>Lift Bar</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                    do eiusmod tempor
-                                </p>
+                                <br />
+                                <h5>Domain and Hosting</h5>
+
                                 <a href="/service-details" className="learn-more">
                                     Read More <i className="fas fa-arrow-right"></i>
                                 </a>
@@ -59,11 +56,9 @@ const Features = () => {
                                 <div className="icon">
                                     <img className='img-fluid' src={graphic} alt="" />
                                 </div>
-                                <h5>Lift Bar</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                    do eiusmod tempor
-                                </p>
+                                <br />
+                                <h5>Graphic Design</h5>
+
                                 <a href="/service-details" className="learn-more">
                                     Read More <i className="fas fa-arrow-right"></i>
                                 </a>
@@ -77,11 +72,9 @@ const Features = () => {
                                 <div className="icon">
                                     <img className='img-fluid' src={marketing} alt="" />
                                 </div>
-                                <h5>Lift Bar</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                                    do eiusmod tempor
-                                </p>
+                                <br />
+                                <h5>Digital Marketing</h5>
+
                                 <a href="/service-details" className="learn-more">
                                     Read More <i className="fas fa-arrow-right"></i>
                                 </a>

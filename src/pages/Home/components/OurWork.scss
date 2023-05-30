@@ -1,0 +1,23 @@
+.portfolio-home-section {
+
+    button {
+        border-radius: 5px;
+        background: #162E55;
+        color: #fff;
+
+        &:hover {
+            background: #F9AD2F;
+            border-color: #F9AD2F;
+        }
+
+        &:active {
+            background: #F9AD2F !important;
+            border-color: #F9AD2F !important;
+        }
+    }
+
+    .active {
+        background: #F9AD2F !important;
+        border-color: #F9AD2F !important;
+    }
+}

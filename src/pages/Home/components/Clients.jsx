@@ -1,17 +1,17 @@
 import React from 'react';
 import SliderCom from '../../../helpers/SliderCom';
-import client1 from "../../../assets/images/client-logo/client-logo-1.png";
-import client2 from "../../../assets/images/client-logo/client-logo-2.png";
-import client3 from "../../../assets/images/client-logo/client-logo-3.png";
-import client4 from "../../../assets/images/client-logo/client-logo-4.png";
-import client5 from "../../../assets/images/client-logo/client-logo-5.png";
-import client6 from "../../../assets/images/client-logo/client-logo-6.png";
-import client7 from "../../../assets/images/client-logo/client-logo-7.png";
-import client8 from "../../../assets/images/client-logo/client-logo-8.png";
-import client9 from "../../../assets/images/client-logo/client-logo-9.png";
-import client10 from "../../../assets/images/client-logo/client-logo-10.png";
-import client11 from "../../../assets/images/client-logo/client-logo-11.png";
-import client12 from "../../../assets/images/client-logo/client-logo-12.png";
+import client1 from "../../../assets/images/logos/1.png";
+// import client2 from "../../../assets/images/logos/2.png";
+import client3 from "../../../assets/images/logos/3.png";
+import client4 from "../../../assets/images/logos/4.png";
+import client5 from "../../../assets/images/logos/5.png";
+import client6 from "../../../assets/images/logos/7.png";
+import client7 from "../../../assets/images/logos/8.png";
+import client8 from "../../../assets/images/logos/9.png";
+import client9 from "../../../assets/images/logos/11.png";
+import client10 from "../../../assets/images/logos/12.png";
+import client11 from "../../../assets/images/logos/14.png";
+import client12 from "../../../assets/images/logos/15.png";
 
 const Clients = () => {
 
@@ -60,14 +60,14 @@ const Clients = () => {
                                 />
                             </a>
                         </div>
-                        <div className="logo-item">
+                        {/* <div className="logo-item">
                             <a href="!#">
                                 <img
                                     src={client2}
                                     alt="Client Logo"
                                 />
                             </a>
-                        </div>
+                        </div> */}
                         <div className="logo-item">
                             <a href="!#">
                                 <img
@@ -148,6 +148,7 @@ const Clients = () => {
                                 />
                             </a>
                         </div>
+
                     </SliderCom>
                 </div>
             </div>

@@ -40,7 +40,7 @@ const OurGalleries = () => {
             <div className="container">
                 <div className="section-title gellery-section-title mb-55 wow fadeInUp delay-0-2s">
                     <span className="sub-title">Our Gallery</span>
-                    <h2>Explore our recent projects</h2>
+                    <h2>Explore our recent products</h2>
                     <div className="gallery-carousel-arrow mt-25">
                         <button
                             onClick={prevHandler}

@@ -9,7 +9,7 @@ import './index.scss';
 export default function MainSection() {
   return (
     <>
-      <section className="about-section style-five mt-md-5 mb-md-5 rpy-100">
+      <section className="about-section style-five mt-md-0 mb-md-5 rpy-100">
         <div className="container">
           <div className="row">
 

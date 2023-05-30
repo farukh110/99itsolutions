@@ -1,7 +1,65 @@
+.contact-form-section {
+    background: #1a1b1b url(../../../assets/images/contact/home_section_bg.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
 .custom-form {
+
+    input {
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+
+        &::placeholder {
+            color: #fff;
+        }
+
+        &:focus {
+            background: transparent;
+            color: #fff;
+            border-color: #fff;
+        }
+    }
+
+    select {
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+
+        option {
+            background: #162E55;
+            color: #fff;
+            border-color: #162E55;
+        }
+
+        &:focus {
+            background: transparent;
+            color: #fff;
+            border-color: #fff;
+        }
+    }
 
     .custom-text-area {
         height: 210px;
         resize: none;
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    button {
+        background: #162E55;
+        color: #fff;
+        border-color: #162E55;
+
+        &:hover {
+            background: #fff;
+            border-color: #fff;
+            color: #162E55;
+        }
     }
 }

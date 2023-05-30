@@ -19,8 +19,10 @@
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+    "react-three-fiber": "^6.0.13",
     "react-type-animation": "^2.1.2",
     "slick-carousel": "^1.8.1",
+    "three": "^0.152.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

@@ -1,19 +1,16 @@
 import React from "react";
-import Layouts from "../../../helpers/Layouts";
 import MainServices from "../components/MainServices/MainServices";
-// import WorkProcessSection from "../ServiceOne/WorkProcessSection";
+import CustomBanner from "../../../components/layout/CustomBanner/CustomBanner";
+import banner from "../../../assets/images/services/services.jpeg"
+
 export default function ServiceTwo() {
-  return (
-    <Layouts
-      pageTitle="Service Two"
-      breadcrumbs={[
-        { name: "Home", path: "/" },
-        { name: "service", path: "/service-two" },
-      ]}
-    >
 
-      <MainServices />
-
-    </Layouts>
+  return (<>
+    <CustomBanner
+      imgSource={banner}
+      imgSourceAlt="Our Services"
+    />
+    <MainServices />
+  </>
   );
 }

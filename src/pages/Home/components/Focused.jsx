@@ -27,7 +27,7 @@ const Focused = () => {
     return (
         <div className='container focused-container'>
 
-            <h2 className='text-center'> Focused Verticles </h2>
+            <h2 className='text-center text-navy-blue'> Focused Verticles </h2>
 
             <div className='row my-md-5 my-0'>
 
