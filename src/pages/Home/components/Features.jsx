@@ -3,18 +3,23 @@ import brand from "../../../assets/images/services/main-services/brand.jpg";
 import hosting from "../../../assets/images/services/main-services/hosting.jpg";
 import graphic from "../../../assets/images/services/main-services/graphic.jpg";
 import marketing from "../../../assets/images/services/main-services/marketing.jpg";
+import { Link } from 'react-router-dom';
 import "./Features.scss";
 
 const Features = () => {
     return (
-        <section className="featured-section bgs-cover pt-md-5 rpt-150 pb-120 rpb-100">
+        <section className="featured-section bgs-cover pt-md-5 rpt-150 pb-40 rpb-100">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-lg-6 col-md-8 col-sm-10">
-                        <div className="section-title text-center mb-35">
-                            <span className="sub-title">Our Core Services</span>
-                            <h2>We deal with the aspects of professional IT Services</h2>
+                    <div className="col-lg-12 col-md-8 col-sm-10">
+                        <div className="section-title text-center mb-15">
+                            <span className="sub-title">What We Do</span>
+                            <h2 className='mb-0'>We deal with the aspects of professional IT Services</h2>
                         </div>
+                        <p>
+                            Our team of professionals has 6 years of experience in web development, design, and marketing. We can help take your business to the next level. Our vision is to offer startups and growing businesses high-quality services and intelligent business solutions that are comparable to those utilized by big brands. We aim to provide these services at competitive market prices while delivering the highest possible returns on investment.
+
+                        </p>
                     </div>
                 </div>
                 <div className="row align-items-center">
@@ -84,9 +89,9 @@ const Features = () => {
 
                 </div>
                 <div className="feature-btn text-center mt-20">
-                    <a href="/service-one" className="theme-btn">
+                    <Link to="/services" className="theme-btn">
                         view all services
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

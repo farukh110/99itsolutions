@@ -5,6 +5,7 @@ import Clients from "../../Home/components/Clients";
 import Counters from "../../Home/components/Counters";
 import ServicesTab from "./ServicesTab";
 import './index.scss';
+import Technologies from "../../Home/components/Technologies";
 
 export default function MainSection() {
   return (
@@ -47,7 +48,7 @@ export default function MainSection() {
                   learn about more
                 </a>
               </div> */}
-              <h2> 99 IT Solutions-The Crowning Jewel Of Business </h2>
+              <h2> 99 IT Solutions - Your Trusted Technology Partner </h2>
               <p>
 
                 Since 2015, we have been running 99 IT Solutions that provides a full range of IT services, including Logo designing, domain, hosting, Animation Services, web designing and software development, digital marketing and customer support. We strive to provide the latest technology and best customer service to meet the needs of all my clients.
@@ -65,6 +66,7 @@ export default function MainSection() {
 
               <p>
                 Our company is a leader in creating excellent websites, mobile apps, software, graphics, and online marketing. We have expertise in promoting and marketing businesses, helping clients develop competitive strategies that deliver measurable outcomes. Our method is designed to produce the best results in a short period of time. Our tools are our intellect, and we are dedicated to providing top-notch work, support, and maintenance at the most reasonable prices.
+
               </p>
             </div>
 
@@ -153,6 +155,7 @@ export default function MainSection() {
       </section>
       <ServicesTab />
       <Counters />
+      <Technologies />
       <section className="container">
 
         <Clients />

@@ -12,6 +12,7 @@ import client9 from "../../../assets/images/logos/11.png";
 import client10 from "../../../assets/images/logos/12.png";
 import client11 from "../../../assets/images/logos/14.png";
 import client12 from "../../../assets/images/logos/15.png";
+import "./Clients.scss";
 
 const Clients = () => {
 
@@ -22,7 +23,7 @@ const Clients = () => {
         autoplaySpeed: 2000,
         arrows: false,
         speed: 1000,
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
             {
@@ -50,17 +51,30 @@ const Clients = () => {
         <div className="client-logo-area">
             <div className="container">
 
-                <div className="logo-carousel-wrap pt-65 pb-65">
-                    <SliderCom settings={settings}>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client1}
-                                    alt="Client Logo"
-                                />
-                            </a>
+                <div className='row'>
+
+                    <div className='col-md-3'>
+
+                        <div className="section-title text-left mb-30 mt-md-5">
+                            {/* <span className="sub-title">Our Portfolio</span> */}
+                            <h2>Our Trusted Partners and Valuable clients</h2>
                         </div>
-                        {/* <div className="logo-item">
+
+
+                    </div>
+
+                    <div className='col-md-9 align-self-center'>
+                        <div className="logo-carousel-wrap pt-0">
+                            <SliderCom settings={settings}>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client1}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                {/* <div className="logo-item">
                             <a href="!#">
                                 <img
                                     src={client2}
@@ -68,89 +82,93 @@ const Clients = () => {
                                 />
                             </a>
                         </div> */}
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client3}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client4}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client5}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client6}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client7}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client8}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client9}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client10}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client11}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
-                        <div className="logo-item">
-                            <a href="!#">
-                                <img
-                                    src={client12}
-                                    alt="Client Logo"
-                                />
-                            </a>
-                        </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client3}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client4}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client5}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client6}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client7}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client8}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client9}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client10}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client11}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
+                                <div className="logo-item">
+                                    <a href="!#">
+                                        <img
+                                            src={client12}
+                                            alt="Client Logo"
+                                        />
+                                    </a>
+                                </div>
 
-                    </SliderCom>
+                            </SliderCom>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     );

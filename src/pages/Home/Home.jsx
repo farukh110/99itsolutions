@@ -13,32 +13,34 @@ import OurServices from './components/OurServices';
 import ContactForm from './components/ContactForm';
 // import OurItSolutions from './components/OurItSolutions';
 import Clients from './components/Clients';
-// import MainSlider from './components/MainSlider';
+import MainSlider from './components/MainSlider';
 import OurGalleries from './components/OurGalleries';
 import OurWork from './components/OurWork';
 import Focused from './components/Focused';
 import Counters from './components/Counters';
 import Process from './components/Process';
-import MainBanner from './components/MainBanner/MainBanner';
+import FibonacciSphere from './components/FibonacciSphere/FibonacciSphere';
+// import MainBanner from './components/MainBanner/MainBanner';
 
 const Home = () => {
 
     return (
         <>
-            <MainBanner />
+            {/* <MainBanner /> */}
+            <FibonacciSphere />
             {/* <MainSlider /> */}
             <TextSlider />
-            <Focused />
-            <Features />
-            <Counters />
             <OurServices />
             <Skills />
+            <Focused />
+            <Features />
             <Process />
-            <OurGalleries />
+            <Counters />
             <OurWork />
+            <OurGalleries />
             {/* <Work /> */}
-            <Technologies />
-            <ContactForm />
+            {/* <Technologies /> */}
+            <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
         </>
     )

@@ -8,6 +8,7 @@ import gfs from "../../assets/images/gallery/gfs.jpg";
 import green from "../../assets/images/gallery/greensensebilling.png";
 import navhoo from "../../assets/images/gallery/navhoo.png";
 import app from "../../assets/images/gallery/appedology.jpg";
+import OurWork from '../Home/components/OurWork';
 
 const PortfolioPage = () => {
 
@@ -111,7 +112,7 @@ const PortfolioPage = () => {
 
     return (
         <>
-            <div className='container portfolio-page-container'>
+            {/* <div className='container portfolio-page-container'>
 
                 <h2 className='text-center'> Portfolio </h2>
 
@@ -208,7 +209,9 @@ const PortfolioPage = () => {
 
                 </div>
 
-            </div>
+            </div> */}
+            <OurWork />
+
         </>
     )
 }

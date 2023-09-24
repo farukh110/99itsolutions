@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navigation.scss';
 
 const Navigation = ({ className }) => {
     return (
         <>
             <div className={`restly-header-main-menu ${className || ""}`}>
-                <ul>
+                <ul className='main-navigation'>
                     <li>
                         <Link to="/">
                             Home

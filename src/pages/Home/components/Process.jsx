@@ -18,7 +18,7 @@ const Process = () => {
     return (
         <>
             <div className='process-section container my-md-4 my-4'>
-                <h2 className='text-center'> Process </h2>
+                <h2 className='text-center'> How we do (Process) </h2>
 
                 <div className='row justify-content-center mt-md-4'>
 
@@ -122,16 +122,14 @@ const Process = () => {
                         </div>
 
                         <div className='col-md-7 mb-md-0 mb-4'>
-                            <h5 className='text-darkblue mt-md-5'>
-                                The planning stage is arguable.
+                            <h5 className='text-darkblue mt-md-0'>
+                                The planning stage is debatable
                             </h5>
 
-                            <h3>The most important</h3>
+                            <h3>but crucial</h3>
                             <p>
-                                Because what’s decided and mapped here sets the stage for the
-                                entire project. This is also the stage that requires client
-                                interaction and the accompanying attention to detail.
-                                Requirements analysis,Project charter &amp; Site map.
+                                as it sets the foundation of the project. With active client involvement and careful attention to detail, the 99 i.T Solutions team will work with you to create a detailed project plan and roadmap, defining milestones and scope. This stage plays a critical role in setting the direction for the entire project. We will conduct requirements analysis, develop a project charter, and design a site map to ensure a thorough and well-planned approach.
+
                             </p>
 
                             <h6>Planning 20%</h6>
@@ -165,12 +163,13 @@ const Process = () => {
                     <div className='col-md-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-5">
-                            The design stage typically.
+                            The design stage mostly.
                         </h5>
 
-                        <h3>Involves moving the</h3>
+                        <h3>After sorting out the scope</h3>
                         <p>
-                            The information outlined the planning stage further into reality. The main deliverables are a documented site structure and, more importantly, a visual representation. Upon completion of the design phase, the website should more or less have taken shape, but for the absence of the content and special features.
+                            The 99 i.T Solutions team brings your design to life in the design stage. We transform the planned design structure into a visual representation, including documented design structure, wireframes, and UX maps. Our expertise in UI design ensures a visually appealing and user-friendly design experience for your project.
+
                         </p>
 
                         <h6>Planning 20%</h6>
@@ -198,12 +197,12 @@ const Process = () => {
                     <div className='col-md-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-5">
-                            Development involves the bulk
+                            The development stage primarily involves the core
                         </h5>
 
-                        <h3>of the programming work</h3>
+                        <h3>and extensive programming tasks</h3>
                         <p>
-                            Keep code organized and commented, and continuously refer to the planning details as the full website takes shape. Take a strategic approach, and avoid future hassles by constantly testing as you go.
+                            Maintain code organized, well-structured, and commented, and continuously refer to the planning details as the project evolves. Adopting a strategic approach and conducting regular testing throughout the development process helps prevent future complications. Designs undergo rigorous testing using relevant technologies as part of the development process, and the architects forward the builds for testing.
                         </p>
 
                         <h6>Planning 20%</h6>
@@ -235,12 +234,13 @@ const Process = () => {
                     <div className='col-md-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-5">
-                            Run the website through the final diagnostics
+                            Perform the project through the final diagnostics
                         </h5>
 
                         <h3>using the available tools</h3>
                         <p>
-                            code validators, broken-link checkers, website health checks, spell-checker and the like. You want to find any mistakes yourself rather than hearing complaints from the client or an end-user.
+                            such as code validators, broken-link checkers, website health checks, and spell-checker. Proactively identify and address any mistakes to ensure a flawless experience for the client and end-users.
+
                         </p>
 
                         <h6>Planning 20%</h6>
@@ -276,12 +276,13 @@ const Process = () => {
                     <div className='col-md-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-5">
-                            Handoff to client Be sure the client is
+                            Upon reaching the handover stage
                         </h5>
 
-                        <h3>Satisfied with the product</h3>
+                        <h3>Our priority is to ensure the client's satisfaction</h3>
                         <p>
-                            Business re-enters the picture at this point as you take care of all the little tasks related to closing the project. Packaging source files, providing instructions for use, and any required training occurs at this time.
+                            with the project or final product. The business takes charge of closing the project by addressing any remaining tasks. This includes packaging source files, providing usage instructions, and delivering any required training. After thorough testing, the seamless product is launched and deployed to relevant servers or app stores, marking a successful launch and delivery of the project.
+
                         </p>
 
                         <h6>Planning 20%</h6>
@@ -321,12 +322,13 @@ const Process = () => {
                     <div className='col-md-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-5">
-                            Handoff to client Be sure the client is
+                            During the maintenance phase
                         </h5>
 
-                        <h3>Satisfied with the product</h3>
+                        <h3>we ensure your website remains in optimal condition and</h3>
                         <p>
-                            Business re-enters the picture at this point as you take care of all the little tasks related to closing the project. Packaging source files, providing instructions for use, and any required training occurs at this time.
+                            continues to perform at its best. Our dedicated team takes care of regular updates, security patches, and ongoing support to keep your online presence running smoothly. We proactively monitor for any issues and swiftly address them to ensure minimal downtime. With our comprehensive maintenance services, you can focus on your core business while we handle the technical aspects, providing you peace of mind and continuous website excellence.
+
                         </p>
 
                         {/* <h6>Planning 20%</h6>
@@ -343,11 +345,11 @@ const Process = () => {
 
                         <h6 className='mt-md-3'>Test 80%</h6>
 
-                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div></div>
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '80%' }}></div></div> */}
 
-                        <h6 className='mt-md-3'>Deliver 100%</h6>
+                        <h6 className='mt-md-3'>Up to date 100%</h6>
 
-                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}></div></div> */}
+                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '100%' }}></div></div>
 
                     </div>
 

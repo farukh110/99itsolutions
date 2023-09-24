@@ -1,12 +1,4 @@
 /*----------------------------------------------------------------------
-    Template Name: Restly - IT Solutions & Technology HTML Template
-    Template URI: https://webtend.net/demo/html/restly/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
-
-    Note: This is Main Style CSS File. */
-/*----------------------------------------------------------------------
 	CSS INDEX
 	----------------------
 
@@ -43,7 +35,7 @@
     31. Main Footer */
 /* -------------------------------------------------------------- */
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Rubik:wght@400;500&display=swap");
+@import url("https: //fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
 
 /*******************************************************/
 /******************* 01. Default Style *****************/
@@ -63,7 +55,7 @@ body {
   font-weight: 400;
   line-height: 28px;
   font-size: 16px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -281,9 +273,9 @@ input[type="radio"] {
 
 /** Section Title style **/
 .section-title .sub-title {
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 20px;
-  color: #104cba;
+  color: #1A3059;
   display: inline-block;
 }
 
@@ -457,7 +449,7 @@ a.theme-btn.style-eight {
   font-size: 18px;
   padding: 16px 40px;
   background: #2969e6;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 375px) {
@@ -663,7 +655,7 @@ a.theme-btn.gradient-btn-one:not(hover):before {
   display: -ms-inline-flexbox;
   display: inline-flex;
   text-decoration: underline;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .read-more i {
@@ -1090,7 +1082,7 @@ a.theme-btn.gradient-btn-one:not(hover):before {
 .home-seven h5,
 .home-seven h6 {
   color: #000f5c;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home-seven h2 {
@@ -1175,7 +1167,7 @@ a.theme-btn.gradient-btn-one:not(hover):before {
 .home-nine h5,
 .home-nine h6 {
   font-weight: 700;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .home-nine .sub-title {
@@ -1333,7 +1325,7 @@ h6,
 .pricing-header .price {
   font-weight: 800;
   color: #000000;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .service-normal .icon i,
@@ -6587,7 +6579,7 @@ h6,
 }
 
 .header-number .number-content {
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-number .number-content span {
@@ -7018,7 +7010,7 @@ h6,
 .header-seven .main-menu .navbar-collapse li a {
   font-size: 18px;
   font-weight: 500;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-seven .main-menu .navbar-collapse li .dropdown-btn {
@@ -7037,7 +7029,7 @@ h6,
   color: #000f5c;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 991px) {
@@ -7358,7 +7350,7 @@ h6,
   color: white;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-nine .main-menu .navbar-collapse li.dropdown .dropdown-btn {
@@ -9552,7 +9544,7 @@ h6,
   font-weight: 600;
   margin-bottom: 15px;
   color: #2f97f7;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .success-item.circle-style.color-two .count-text {
@@ -9638,7 +9630,7 @@ h6,
   font-weight: 500;
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .success-item.style-four .count-text.m-plus:after {
@@ -9686,7 +9678,7 @@ h6,
 
 .success-item.style-five .count-text {
   margin-bottom: 15px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .success-item.style-five .count-text.bg-text {
@@ -10081,7 +10073,7 @@ h6,
   bottom: 5px;
   line-height: 1;
   color: #104cba;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
   transform: translate(-50%);
@@ -10209,7 +10201,7 @@ h6,
   opacity: 0.1;
   font-size: 48px;
   font-weight: 700;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .work-progress-item-five h3 {
@@ -10641,7 +10633,7 @@ h6,
   line-height: 1;
   padding: 5px 0;
   font-size: 14px;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pricing-tab a.active {
@@ -10685,7 +10677,7 @@ h6,
   display: flex;
   margin-bottom: 25px;
   padding-bottom: 25px;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -11557,7 +11549,7 @@ h6,
   text-align: center;
   border-radius: 10px;
   background: #f43336;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0px -10px auto auto;
 }
 
@@ -13806,8 +13798,8 @@ blockquote .author {
   z-index: -1;
   top: 0;
   left: 0;
-  opacity: 0.6;
-  background-color: #104cba;
+  opacity: 0.9;
+  background-color: #001f4e;
 }
 
 .contact-form-left h2 {
@@ -14166,7 +14158,7 @@ blockquote .author {
   transition: 0.5s;
   padding: 25px 40px;
   background: transparent;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -14873,7 +14865,7 @@ blockquote .author {
 .action-item .content .bid-dots .bid {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .action-item .content .bid-dots .bid b {
@@ -15009,7 +15001,7 @@ blockquote .author {
   background: #1b2429;
   margin-right: 20px;
   margin-bottom: 10px;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -15246,7 +15238,7 @@ blockquote .author {
   color: #a0a4a8;
   font-size: 14px;
   position: absolute;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   width: 30px;
   height: 30px;
   background: rgba(196, 196, 196, 0.1);
@@ -15295,7 +15287,7 @@ blockquote .author {
   color: #cacccf;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Urbanist", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*******************************************************/
@@ -15812,7 +15804,7 @@ blockquote .author {
 
 .footer-six .copyright-inner .footer-menu li {
   margin: 0 10px 5px 0;
-  font-family: "Circular Std";
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Footer Seven */

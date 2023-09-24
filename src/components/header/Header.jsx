@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo.png';
 import MobileHeader from './components/mobile/MobileHeader';
 import StickyMenu from './components/StickyMenu';
 import { Link } from 'react-router-dom';
+import './Header.scss';
 
 const Header = () => {
 
@@ -19,32 +20,37 @@ const Header = () => {
                 <div className="header-top bg-lighter py-10">
                     <div className="top-left">
                         <ul>
+                            {/* <li>
+                                <Link to='/contact' className="btn btn-danger btn-get btn_wiggle">Request a Quote</Link>
+                            </li> */}
                             <li>
-                                Call: <a href="callto:03312781741">03312781741</a>
+                                <span className='bold-text'> Email us on: </span> <a className='text-lowercase' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a>
                             </li>
                             <li>
-                                Email: <a className='text-lowercase' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a>
+                                <span className='bold-text'> Give us a call: </span> <a href="callto:+92 331 293-9594">+92 331 293-9594</a>
                             </li>
-                            <li>Our address: Karachi</li>
                         </ul>
                     </div>
                     <div className="top-right">
-                        <div className="office-time">
-                            <i className="far fa-clock"></i>
-                            <span>09:00 am - 06:00 pm</span>
-                        </div>
+
                         <div className="social-style-one">
-                            <a href="http://facebook.com">
+                            <a target='_blank' rel="noreferrer" href="https://www.facebook.com/Ninetynineitsolutions">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
-                            <a href="http://twitter.com">
+                            <a target='_blank' rel="noreferrer" href="https://twitter.com/99itsolutions">
                                 <i className="fab fa-twitter"></i>
                             </a>
-                            <a href="https://www.instagram.com/">
+                            <a target='_blank' rel="noreferrer" href="https://www.instagram.com/99i.tsolutions">
                                 <i className="fab fa-instagram"></i>
                             </a>
-                            <a href="https://www.pinterest.com/">
+                            <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/company/99itsolutions">
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                            <a target='_blank' rel="noreferrer" href="https://www.pinterest.com/99itsolutions/">
                                 <i className="fab fa-pinterest-p"></i>
+                            </a>
+                            <a target='_blank' rel="noreferrer" href="https://www.behance.net/99-itsolutions">
+                                <i className="fab fa-behance"></i>
                             </a>
                         </div>
                     </div>
@@ -63,9 +69,7 @@ const Header = () => {
                             <div className="nav-outer clearfix d-flex align-items-center">
                                 <Navigation className="nav-home-one" />
                                 <div className="menu-btn">
-                                    <Link to="/contact" className="theme-btn">
-                                        meet with us
-                                    </Link>
+                                    <Link to='/get-free-quote' className="btn btn-danger btn-get btn_wiggle">Request a Quote / Demo</Link>
                                 </div>
                             </div>
                         </div>

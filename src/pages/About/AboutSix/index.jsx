@@ -16,7 +16,7 @@ export default function AboutSix() {
     <>
       <CustomBanner
         imgSource={banner}
-        imgSourceAlt="About Us"
+        imgSourceAlt="Who We Are"
       />
       <MainSection />
     </>

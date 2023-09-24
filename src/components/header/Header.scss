@@ -1,0 +1,92 @@
+$orange-color: #F9AD2F;
+
+.header-top {
+    background: #1A3059;
+    color: #fff;
+
+    .top-left {
+
+        .bold-text {
+            font-weight: 500;
+        }
+
+        ul {
+            li {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .social-style-one {
+        a {
+            color: $orange-color;
+        }
+    }
+}
+
+.btn-get {
+    background-color: $orange-color;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: $orange-color;
+    color: #040025 !important;
+
+    &:hover {
+        background: #1A3059;
+        border-color: #fff;
+        color: #fff !important;
+    }
+}
+
+.btn_wiggle {
+    animation: wiggle 2s linear infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: wiggle;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}

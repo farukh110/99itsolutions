@@ -25,9 +25,9 @@ const Focused = () => {
     const [dataItems, setDataItems] = useState(items);
 
     return (
-        <div className='container focused-container'>
+        <div className='container focused-container mt-md-5'>
 
-            <h2 className='text-center text-navy-blue'> Focused Verticles </h2>
+            <h2 className='text-center'> Focused Verticles </h2>
 
             <div className='row my-md-5 my-0'>
 

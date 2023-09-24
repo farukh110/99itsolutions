@@ -1,9 +1,13 @@
 import React, { useRef } from "react";
 import SliderCom from "../../../helpers/SliderCom";
 
-import g1 from "../../../assets/images/gallery/gallery-three-1.jpg";
-import g3 from "../../../assets/images/gallery/gallery-three-3.jpg";
+import erp from "../../../assets/images/products/erp.jpg";
+import pos from "../../../assets/images/products/pos-system.jpg";
+import school from "../../../assets/images/products/school.jpg";
+import lms from "../../../assets/images/products/lms.jpg";
+import rms from "../../../assets/images/products/rms.jpg";
 
+import "./OurGalleries.scss";
 
 const OurGalleries = () => {
 
@@ -39,7 +43,7 @@ const OurGalleries = () => {
         <section className="gallery-section-three overlay pt-120 rpt-50 pb-105 rpb-40">
             <div className="container">
                 <div className="section-title gellery-section-title mb-55 wow fadeInUp delay-0-2s">
-                    <span className="sub-title">Our Gallery</span>
+                    <span className="sub-title">Our Products</span>
                     <h2>Explore our recent products</h2>
                     <div className="gallery-carousel-arrow mt-25">
                         <button
@@ -62,119 +66,67 @@ const OurGalleries = () => {
                     <SliderCom selector={sliderRef} settings={settings}>
                         <div className="gallery-item style-three">
                             <img
-                                src={g1}
+                                src={erp}
                                 alt="Gallery"
                             />
                             <div className="gallery-content">
                                 <h5>
-                                    <a href="/portfolio-details">Our Digital Service</a>
+                                    <a target="_blank" rel="noreferrer" href="http://erp-frontend-deployment-deploybucket-15s02qdqzubpd.s3-website.us-east-2.amazonaws.com/orders">Enterprise resource planning</a>
+                                </h5>
+
+                            </div>
+                        </div>
+
+                        <div className="gallery-item style-three">
+                            <img
+                                src={pos}
+                                alt="Gallery"
+                            />
+                            <div className="gallery-content">
+                                <h5>
+                                    <a target="_blank" rel="noreferrer" href="http://pos.revenue.gov.to/">Point of Sales</a>
                                 </h5>
 
                             </div>
                         </div>
                         <div className="gallery-item style-three">
                             <img
-                                src={g3}
+                                src={school}
                                 alt="Gallery"
                             />
                             <div className="gallery-content">
                                 <h5>
-                                    <a href="/portfolio-details">Domain and Hosting</a>
+                                    <a target="_blank" rel="noreferrer" href="http://newalkebulanschools.com/">School Mangement System</a>
                                 </h5>
 
                             </div>
                         </div>
                         <div className="gallery-item style-three">
                             <img
-                                src={g1}
+                                src={lms}
                                 alt="Gallery"
                             />
                             <div className="gallery-content">
                                 <h5>
-                                    <a href="/portfolio-details">Logo Design</a>
+                                    <a target="_blank" rel="noreferrer" href="https://dashboards.khuddamlearningonline.org/site/login">Learning management System</a>
                                 </h5>
 
                             </div>
                         </div>
+
                         <div className="gallery-item style-three">
                             <img
-                                src={g1}
+                                src={rms}
                                 alt="Gallery"
                             />
                             <div className="gallery-content">
                                 <h5>
-                                    <a href="/portfolio-details">Web Design</a>
+                                    <a href="/portfolio-details">Restaurant management System</a>
                                 </h5>
 
                             </div>
                         </div>
-                        <div className="gallery-item style-three">
-                            <img
-                                src={g3}
-                                alt="Gallery"
-                            />
-                            <div className="gallery-content">
-                                <h5>
-                                    <a href="/portfolio-details">Development</a>
-                                </h5>
 
-                            </div>
-                        </div>
-                        <div className="gallery-item style-three">
-                            <img
-                                src={g1}
-                                alt="Gallery"
-                            />
-                            <div className="gallery-content">
-                                <h5>
-                                    <a href="/portfolio-details">E-commerce Integration</a>
-                                </h5>
-                            </div>
-                        </div>
-                        <div className="gallery-item style-three">
-                            <img
-                                src={g1}
-                                alt="Gallery"
-                            />
-                            <div className="gallery-content">
-                                <h5>
-                                    <a href="/portfolio-details">Video Animation</a>
-                                </h5>
-                            </div>
-                        </div>
-                        <div className="gallery-item style-three">
-                            <img
-                                src={g1}
-                                alt="Gallery"
-                            />
-                            <div className="gallery-content">
-                                <h5>
-                                    <a href="/portfolio-details">Application</a>
-                                </h5>
-                            </div>
-                        </div>
-                        <div className="gallery-item style-three">
-                            <img
-                                src={g1}
-                                alt="Gallery"
-                            />
-                            <div className="gallery-content">
-                                <h5>
-                                    <a href="/portfolio-details">Digital Products</a>
-                                </h5>
-                            </div>
-                        </div>
-                        <div className="gallery-item style-three">
-                            <img
-                                src={g1}
-                                alt="Gallery"
-                            />
-                            <div className="gallery-content">
-                                <h5>
-                                    <a href="/portfolio-details">Content Writing</a>
-                                </h5>
-                            </div>
-                        </div>
                     </SliderCom>
                 </div>
             </div>

@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import ServiceTwo from './pages/services/ServiceTwo';
 import ServiceSix from './pages/services/ServiceSix/index';
 import PortfolioPage from './pages/Portfolio/PortfolioPage';
+import RequestDemo from './pages/RequestQuote';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path="/services" element={<ServiceTwo />} />
         <Route exact path="/services/software-development" element={<ServiceSix />} />
         <Route exact path="/portfolio" element={<PortfolioPage />} />
+        <Route exact path="/get-free-quote" element={<RequestDemo />} />
 
       </Routes>
       <Footer />

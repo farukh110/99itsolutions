@@ -1,10 +1,17 @@
+$black-color: #1A3059;
+$orange-color: #F9AD2F;
+
 .text-slider {
     font-size: 30px;
-    color: #F9AD2F;
+    // color: #F9AD2F;
+    color: $orange-color;
 }
 
 .text-navy-blue {
-    color: #1A3059;
+    // color: #1A3059;
+    color: $black-color;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 @media (max-width: 480px) {

@@ -1,0 +1,17 @@
+.request-quote-form {
+    textarea {
+        height: 209px;
+    }
+
+    button {
+        background: #1A3059;
+        border-color: #1A3059;
+        transition: all 0.3s;
+
+        &:hover {
+            background: #fff;
+            border-color: #1A3059;
+            color: #1A3059;
+        }
+    }
+}

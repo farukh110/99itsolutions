@@ -1,0 +1,14 @@
+.main-navigation {
+
+    li {
+        &:hover {
+            a {
+                &::before {
+
+                    opacity: 1;
+                    transform: scaleX(1);
+                }
+            }
+        }
+    }
+}

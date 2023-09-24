@@ -1,192 +1,248 @@
 import React, { useState } from 'react';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import * as Yup from 'yup';
+import emailjs from '@emailjs/browser';
+import { message } from 'antd';
 import './ContactForm.scss';
 
-const ContactForm = () => {
+const ContactForm = (props) => {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [phone, setPhone] = useState('');
-    const [timings, setTimings] = useState('');
-    const [services, setServices] = useState('');
-    const [budget, setBudget] = useState('');
-    const [social, setSocial] = useState('');
-    const [message, setMessage] = useState('');
+    const { customPadding } = props;
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        // add code here to handle form submission and sending data to the server
-        alert(`Form Submitted Successfully! Name: ${name} Email: ${email} Phone: ${phone} Timings: ${timings} Services: ${services} Budget: ${budget} Social: ${social} Message: ${message}`);
-        setName('');
-        setEmail('');
-        setPhone('');
-        setTimings('');
-        setServices('');
-        setBudget('');
-        setSocial('');
-        setMessage('');
-    }
+    const form = React.useRef();
+    const serviceDropdownRef = React.useRef();
+    const productDropdownRef = React.useRef();
+
+    const YOUR_SERVICE_ID = 'service_jeqiunf';
+    const YOUR_TEMPLATE_ID = 'template_smrg2vr';
+    const YOUR_USER_ID = 'w66GluiKNpzOAH91p';
+
+    const [showServiceDropdown, setShowServiceDropdown] = useState(true);
+    const [showProductDropdown, setShowProductDropdown] = useState(true);
+
+    const [selectedService, setSelectedService] = useState('Service');
+    const [selectedProduct, setSelectedProduct] = useState('Product');
+
+    // const [selectedValue, setSelectedValue] = useState('');
+
+
+    const initialValues = {
+        name: '',
+        email: '',
+        phone: '',
+        timings: 'Best time to call',
+        services: 'Service',
+        products: 'Product',
+        budget: 'Budget',
+        social: 'Social',
+        message: '',
+    };
+
+    const validationSchema = Yup.object().shape({
+        name: Yup.string().required('Name is required'),
+        email: Yup.string().email('Invalid email').required('Email is required'),
+        phone: Yup.string().required('Phone number is required'),
+        timings: Yup.string().notOneOf(['Best time to call'], 'Please select a call time'),
+        // services: Yup.string().notOneOf(['Service'], 'Please select a service'),
+        // products: Yup.string().notOneOf(['Product'], 'Please select a product'),
+        budget: Yup.string().notOneOf(['Budget'], 'Please select your budget'),
+        social: Yup.string().notOneOf(['Social'], 'Please select how you found us'),
+        message: Yup.string().required('Message is required'),
+    });
+
+    const handleSubmit = (values, { resetForm }) => {
+
+        emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_USER_ID)
+            .then((result) => {
+                console.log(result.text);
+                message.success("Message sent successfully!");
+                resetForm();
+            })
+            .catch((error) => {
+                console.log(error.text);
+                message.error("Failed to send message. Please try again.");
+            });
+    };
+
+    const handleServiceChange = (event) => {
+        const selectedService = event.target.value;
+        // setSelectedValue(selectedService);
+        setSelectedService(selectedService);
+        setShowProductDropdown(selectedService === 'Service');
+
+        if (serviceDropdownRef.current) {
+
+            const colClassName = selectedService === 'Service' ? 'col-md-3 my-md-2 my-2' : 'col-md-6 my-md-2 my-2';
+            serviceDropdownRef.current.className = colClassName;
+        }
+
+    };
+
+    const handleProductChange = (event) => {
+        const selectedProduct = event.target.value;
+        // setSelectedValue(selectedProduct);
+        setSelectedProduct(selectedProduct);
+        setShowServiceDropdown(selectedProduct === 'Product');
+
+        if (productDropdownRef.current) {
+            const colClassName = selectedProduct === 'Product' ? 'col-md-3 my-md-2 my-2' : 'col-md-6 my-md-2 my-2';
+            productDropdownRef.current.className = colClassName;
+
+        }
+    };
+
 
     return (
         <div className='contact-form-section pt-md-4 pb-md-4'>
             <div className='container my-md-5 my-4'>
-                <h2 className="text-center text-light"> Request a Quote/Callback </h2>
+                <h2 className='text-center text-light'> Request a Quote/Callback </h2>
 
-                <form className='custom-form' onSubmit={handleSubmit}>
-
-                    <div className='row'>
-
-                        <div className='col-md-4'>
-
+                <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
+                    {({ values }) => (
+                        <Form ref={form} className={`custom-form ${customPadding}`}>
                             <div className='row'>
+                                <div className='col-md-3'>
+                                    <div className='row'>
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field type='text' name='name' placeholder='Name' className='form-control' />
+                                            <ErrorMessage name='name' component='div' className='error text-white' />
+                                        </div>
 
-                                <div className='col-md-12 my-md-2 my-2'>
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field type='email' name='email' placeholder='enter your email' className='form-control' />
+                                            <ErrorMessage name='email' component='div' className='error text-white' />
+                                        </div>
 
-                                    <input type='text' placeholder='Name' className='form-control' value={name} onChange={(e) => setName(e.target.value)} />
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field type='text' name='phone' placeholder='enter your phone number' className='form-control' />
+                                            <ErrorMessage name='phone' component='div' className='error text-white' />
+                                        </div>
 
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field as='select' name='timings' className='form-control'>
+                                                <option value='Best time to call'>Best time to call</option>
+                                                <option value='Morning'>Morning</option>
+                                                <option value='Afternoon'>Afternoon</option>
+                                                <option value='Evening'>Evening</option>
+                                                <option value='Anytime'>Anytime</option>
+                                            </Field>
+                                            <ErrorMessage name='timings' component='div' className='error text-white' />
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div className='col-md-12 my-md-2 my-2'>
+                                <div className='col-md-9'>
+                                    <div className='row'>
 
-                                    <input type='email' placeholder='enter your email' className='form-control' value={email} onChange={(e) => setEmail(e.target.value)} />
+                                        {showServiceDropdown && (<div ref={serviceDropdownRef} className='col-md-3 my-md-2 my-2 service-dropdown'>
 
+                                            <Field as='select' name='services' className='form-control' value={selectedService} onChange={handleServiceChange}>
+                                                <option value='Service'>Select Service</option>
+                                                <option value='Domain'>Domain</option>
+                                                <option value='Hosting'>Hosting</option>
+                                                <option value='Graphic Design'>Graphic Design</option>
+                                                <option value='Logo Design'>Logo Design</option>
+                                                <option value='Stationery Design'>Stationery Design</option>
+                                                <option value='Cad Design'>Cad Design</option>
+                                                <option value='Video Animation'>Video Animation</option>
+                                                <option value='Content Writing'>Content Writing</option>
+                                                <option value='Web Design'>Web Design</option>
+                                                <option value='Digital marketing'>Digital marketing</option>
+                                                <option value='SEO'>SEO</option>
+                                                <option value='Social Media Marketing'>Social Media Marketing</option>
+                                                <option value='PPC'>PPC</option>
+                                                <option value='Software Development'>Software Development</option>
+                                                <option value='Web Development'>Web Development</option>
+                                                <option value='Mobile App Development'>Mobile App Development</option>
+                                                <option value='Xreality'>Xreality</option>
+                                                <option value='AR'>AR</option>
+                                                <option value='VR'>VR</option>
+                                                <option value='MR'>MR</option>
+                                                <option value='Game Development'>Game Development</option>
+                                                <option value='Readymade Softwares'>Readymade Softwares</option>
+                                                <option value='Product Development'>Product Development</option>
+                                            </Field>
+
+                                            <ErrorMessage name='services' component='div' className='error text-white' />
+                                        </div>
+                                        )}
+
+                                        {showProductDropdown && (
+                                            <div ref={productDropdownRef} className='col-md-3 my-md-2 my-2'>
+
+                                                <Field as='select' name='products' className='form-control' value={selectedProduct} onChange={handleProductChange}>
+                                                    <option value='Product'>Select Product</option>
+                                                    <option value='ERP'>ERP</option>
+                                                    <option value='POS'>POS</option>
+                                                    <option value='CRM'>CRM</option>
+                                                    <option value='School Management System'>School Management System</option>
+                                                    <option value='LMS'>LMS</option>
+                                                    <option value='Restaurant  Management System'>Restaurant  Management System</option>
+                                                    <option value='HR Management System'>HR Management System</option>
+                                                    <option value='Hospital Management System'>Hospital Management System</option>
+                                                    <option value='Clinic Management System'>Clinic Management System</option>
+                                                    <option value='Pharmacy Management System'>Pharmacy Management System</option>
+                                                    <option value='Hotel Management System'>Hotel Management System</option>
+                                                    <option value='Property Management System'>Property Management System</option>
+                                                    <option value='Job Portal'>Job Portal</option>
+                                                    <option value='Food System'>Food System</option>
+                                                    <option value='E-commerce website & Software'>E-commerce website & Software</option>
+                                                    <option value='News Management System'>News Management System</option>
+                                                    <option value='Mobile shop software'>Mobile shop software</option>
+                                                    <option value='Other software (Please specify details)'>Other software (Please specify details)</option>
+
+                                                </Field>
+
+                                                <ErrorMessage name='products' component='div' className='error text-white' />
+                                            </div>
+                                        )}
+
+                                        <div className='col-md-3 my-md-2 my-2'>
+                                            <Field as='select' name='budget' className='form-control'>
+                                                <option value='Budget'>Select Your Budget</option>
+                                                <option value='$500 - $1000'>$500 - $1000</option>
+                                                <option value='$1000 - $5000'>$1000 - $5000</option>
+                                                <option value='$5000 - $10000'>$5000 - $10000</option>
+                                                <option value='$10000 & up'>$10000 & up</option>
+                                            </Field>
+                                            <ErrorMessage name='budget' component='div' className='error text-white' />
+                                        </div>
+
+                                        <div className='col-md-3 my-md-2 my-2'>
+                                            <Field as='select' name='social' className='form-control'>
+                                                <option value='Social'>How did You Find Us</option>
+                                                <option value='Google'>Google</option>
+                                                <option value='Social Media'>Social Media</option>
+                                                <option value='Through a Friend'>Through a Friend</option>
+                                                <option value='From another website'>From another website</option>
+                                                <option value='Others'>Others</option>
+                                            </Field>
+                                            <ErrorMessage name='social' component='div' className='error text-white' />
+                                        </div>
+
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field as='textarea' name='message' className='form-control custom-text-area' placeholder='Message' />
+                                            <ErrorMessage name='message' component='div' className='error text-white' />
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div className='col-md-12 my-md-2 my-2'>
-
-                                    <input type='text' placeholder='enter your phone number' className='form-control' value={phone} onChange={(e) => setPhone(e.target.value)} />
-
-                                </div>
-
-                                <div className='col-md-12 my-md-2 my-2'>
-
-                                    <select name="call_time" className="form-control" value={timings} onChange={(e) => setTimings(e.target.value)}>
-                                        <option value="Best time to call">Best time to call</option>
-                                        <option value="Morning">Morning</option>
-                                        <option value="Afternoon">Afternoon</option>
-                                        <option value="Evening">Evening</option>
-                                        <option value="Anytime">Anytime</option>
-                                    </select>
-
-                                </div>
-
-
-
                             </div>
 
-                        </div>
-
-                        <div className='col-md-8'>
-
-                            <div className='row'>
-
-                                <div className='col-md-4 my-md-2 my-2'>
-
-                                    <select
-                                        className="form-control"
-                                        value={services} onChange={(e) => setServices(e.target.value)}>
-
-                                        <option value="Service">
-                                            Select Service
-                                        </option>
-                                        <option value="Ready Softwares">Ready Softwares
-                                        </option>
-                                        <option value="Ready Softwares">Ready Softwares
-                                        </option>
-                                        <option value="Warehouse Management System">Warehouse Management System
-                                        </option>
-                                        <option value="ERP">ERP</option>
-                                        <option value="POS">POS</option>
-                                        <option value="HRM">HRM</option>
-                                        <option value="CRM">CRM</option>
-                                        <option value="Hotel Management System">Hotel Management System
-                                        </option>
-
-                                        <option value="Morning">Web Development
-                                        </option>
-                                        <option value="Afternoon">Software Development
-                                        </option>
-                                        <option value="Evening">Domain and Hosting
-                                        </option>
-                                        <option value="Anytime"> Products
-                                        </option>
-                                    </select>
-
+                            <div className='row justify-content-center mt-md-4 mt-2'>
+                                <div className='col-md-3 my-md-3'>
+                                    <div className='d-grid'>
+                                        <button type='submit' className='btn btn-primary p-3'>
+                                            Send Message
+                                        </button>
+                                    </div>
                                 </div>
-
-                                <div className='col-md-4 my-md-2 my-2'>
-
-                                    <select
-                                        className="form-control"
-                                        value={budget} onChange={(e) => setBudget(e.target.value)}>
-                                        <option value="budget">
-                                            Select Your Budget
-                                        </option>
-                                        <option value="Morning">$500 - $1000
-                                        </option>
-                                        <option value="Afternoon">$1000 - $5000
-                                        </option>
-                                        <option value="Afternoon">$1000 - $5000
-                                        </option>
-                                        <option value="Afternoon">$5000 - $10000
-                                        </option>
-                                        <option value="Afternoon">$10000 & up
-                                        </option>
-
-                                    </select>
-
-                                </div>
-
-                                <div className='col-md-4 my-md-2 my-2'>
-
-                                    <select
-                                        className="form-control"
-                                        value={social} onChange={(e) => setSocial(e.target.value)}>
-                                        <option value="Social">
-                                            How did You Find Us
-                                        </option>
-                                        <option value="Morning"> Google
-                                        </option>
-                                        <option value="Afternoon"> Social Media
-                                        </option>
-                                        <option value="Afternoon"> Through a Friend
-                                        </option>
-                                        <option value="Afternoon"> From another website
-                                        </option>
-                                        <option value="Afternoon"> Others
-                                        </option>
-
-                                    </select>
-
-                                </div>
-
-                                <div className='col-md-12 my-md-2 my-2'>
-
-                                    <textarea value={message} onChange={(e) => setMessage(e.target.value)} className="form-control custom-text-area" placeholder='Message'></textarea>
-
-                                </div>
-
                             </div>
-
-                        </div>
-
-                    </div>
-
-                    <div className='row justify-content-center mt-md-4 mt-2'>
-
-                        <div className='col-md-3 my-md-3'>
-
-                            <div className='d-grid'>
-                                <button type="submit" className='btn btn-primary p-3'> Send Message </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </form>
-
+                        </Form>
+                    )}
+                </Formik>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default ContactForm;

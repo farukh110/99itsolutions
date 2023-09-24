@@ -1,5 +1,6 @@
 import React from 'react';
 import CounterUp from "../../../helpers/CounterUp";
+import "./Counters.scss";
 
 const Counters = () => {
     return (
@@ -10,31 +11,31 @@ const Counters = () => {
             <div className="container">
                 <div className="section-title mb-55">
                     <h2>
-                        Over 1200+ finished work and <br />
+                        Over 100+ finished work and <br />
                         Still counting.
                     </h2>
                 </div>
                 <div className="row">
                     <div className="col-lg-3 col-sm-6">
                         <div className="success-item circle-style wow fadeInUp delay-0-2s">
-                            <span className="count-text k" data-speed="5000" data-stop="35">
+                            <span className="count-text plus" data-speed="5000" data-stop="35">
                                 <CounterUp
-                                    endValue="35"
+                                    endValue="100"
                                     sectionSelect="cournter-section-three"
                                 />
                             </span>
-                            <span>Complate</span>
+                            <span>Projects</span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div className="success-item circle-style wow fadeInUp delay-0-4s color-two">
-                            <span className="count-text k" data-speed="5000" data-stop="34">
+                            <span className="count-text plus" data-speed="5000" data-stop="34">
                                 <CounterUp
-                                    endValue="34"
+                                    endValue="50"
                                     sectionSelect="cournter-section-three"
                                 />
                             </span>
-                            <span>Trusted Users</span>
+                            <span>Happy Clients</span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
@@ -45,11 +46,11 @@ const Counters = () => {
                                 data-stop="119"
                             >
                                 <CounterUp
-                                    endValue="119"
+                                    endValue="20"
                                     sectionSelect="cournter-section-three"
                                 />
                             </span>
-                            <span>Awards</span>
+                            <span>Skilled Experts</span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
@@ -60,11 +61,11 @@ const Counters = () => {
                                 data-stop="119"
                             >
                                 <CounterUp
-                                    endValue="300"
+                                    endValue="10"
                                     sectionSelect="cournter-section-three"
                                 />
                             </span>
-                            <span>Happy Clients</span>
+                            <span>Experienced</span>
                         </div>
                     </div>
                 </div>

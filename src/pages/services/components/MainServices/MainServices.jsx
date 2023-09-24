@@ -4,12 +4,15 @@ import brand from "../../../../assets/images/services/main-services/brand.jpg";
 import hosting from "../../../../assets/images/services/main-services/hosting.jpg";
 import graphic from "../../../../assets/images/services/main-services/graphic.jpg";
 import marketing from "../../../../assets/images/services/main-services/marketing.jpg";
+import products from "../../../../assets/images/services/main-services/Product-development.jpg";
+// import digitalMarketing from "../../../../assets/images/services/main-services/digital-marketing.jpg";
 import mobileApp from "../../../../assets/images/services/main-services/mobile-apps.png";
 import contentWriting from "../../../../assets/images/services/main-services/content-writing.png";
 import dev from "../../../../assets/images/services/main-services/dev.jpg";
-import webDesgin from "../../../../assets/images/services/main-services/webdesign_small.jpg";
+import webDesgin from "../../../../assets/images/services/main-services/Web-Design-Terms.jpg";
 import videoAnimation from "../../../../assets/images/services/main-services/video.jpeg";
 import ecommerce from "../../../../assets/images/services/main-services/ecommerce.jpeg";
+import games from "../../../../assets/images/services/main-services/games.jpg";
 
 const MainServices = () => {
     return (
@@ -35,7 +38,7 @@ const MainServices = () => {
 
                                     <img src={brand} alt="" />
 
-                                    <h6> Our Digital Service </h6>
+                                    <h6> Brand Identity </h6>
 
                                     {/* <p>Lorem ipsum dolor sit amet consectetur adipisc</p> */}
 
@@ -84,8 +87,7 @@ const MainServices = () => {
                                 <div className="service-hover bg-blue text-white">
 
                                     <p>
-                                        At 99 iT Solutions Logo Designs, we create effective logos that represent
-                                        your online brand identity and project what your business needs.
+                                        At 99 iT Solutions Logo Designs, we create effective logos that represent your online brand identity and project what your business needs.
                                     </p>
 
                                 </div>
@@ -125,7 +127,11 @@ const MainServices = () => {
                                 </div>
                                 <div className="service-hover bg-blue text-white">
 
-                                    <p>We provide expert web development services for creating killer websites, including easy navigation and feature-rich online stores..</p>
+                                    <p>
+
+                                        We provide expert web development services for creating killer websites, including easy navigation and feature-rich online stores..
+
+                                    </p>
 
                                 </div>
                             </div>
@@ -188,8 +194,6 @@ const MainServices = () => {
 
                                     <p>
                                         We build unique application designs to improve business and personal efficiency, helping clients feel like royalty
-                                        DIGITAL MARKETING
-                                        Boost your business with 99 iT Solutions' digital marketing services. We've helped SMBs generate $3B+ revenue with SEO, SMM, PPC, web design, and more.
                                     </p>
 
                                 </div>
@@ -202,6 +206,27 @@ const MainServices = () => {
 
                                     <img src={marketing} alt="" />
 
+                                    <h6> DIGITAL MARKETING </h6>
+
+                                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisc</p> */}
+
+                                </div>
+                                <div className="service-hover bg-blue text-white">
+
+                                    <p>
+                                        Boost your business with 99 iT Solutions' digital marketing services. We've helped SMBs generate $3B+ revenue with SEO, SMM, PPC, web design, and more.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-3 col-sm-6 pt-md-4">
+                            <div className="service-box wow fadeInUp delay-0-4s">
+                                <div className="service-normal text-center">
+
+                                    <img src={products} alt="" />
+
                                     <h6> Digital Products </h6>
 
                                     {/* <p>Lorem ipsum dolor sit amet consectetur adipisc</p> */}
@@ -211,6 +236,7 @@ const MainServices = () => {
 
                                     <p>
                                         We create optimized digital products for your business with high ROIs, including software development, game development, animations and videos.
+
                                     </p>
 
                                 </div>
@@ -231,7 +257,28 @@ const MainServices = () => {
                                 <div className="service-hover bg-blue text-white">
 
                                     <p>
-                                        99 Solutions offers professional article writing services at affordable prices, including SEO articles, blog posts, website content, product descriptions, reviews, and more. Our customized articles are designed to increase your search engine ranking and attract your client's attention.
+                                        99 iT Solutions' customized and affordable content writing services can enhance your online presence and attract clients
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-3 col-sm-6 pt-md-4">
+                            <div className="service-box wow fadeInUp delay-0-4s">
+                                <div className="service-normal text-center">
+
+                                    <img src={games} alt="" />
+
+                                    <h6> 2D/3D GAMES </h6>
+
+                                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisc</p> */}
+
+                                </div>
+                                <div className="service-hover bg-blue text-white">
+
+                                    <p>
+                                        We create custom Unity games: 2D/3D, multiplayer, mobile. Creative visuals, addictive gameplay, latest trends.
                                     </p>
 
                                 </div>

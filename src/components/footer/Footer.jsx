@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             <footer className="main-footer footer-one text-white">
-                <div className="footer-widget-area bgs-cover pt-md-5 pt-4 pb-md-5">
+                <div className="footer-widget-area bgs-cover pt-md-5 pt-4 pb-md-0">
                     <div className="container">
                         <div className='row'>
                             <div className='col-md-4'>
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt-md-5 mb-md-5">
+                        <div className="row mt-md-5 mb-md-0">
                             <div className="col-lg-4 col-md-3 col-sm-6">
                                 <div className="footer-widget about-widget">
                                     <div className="footer-logo mt-md-0 mt-2 mb-md-1">
@@ -95,11 +95,11 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-lg-2 col-sm-6">
-                                <div className="footer-widget contact-widget mr-30 rmr-0">
+                                <div className="footer-widget contact-widget mr-0 rmr-0">
                                     <h4 className="footer-title">Contacts</h4>
                                     <ul className="list-style-two">
-                                        <li><i className="fa-solid fa-phone"></i> <a href="callto:03312781741">03312781741</a></li>
-                                        <li><i className="fas fa-envelope"></i> <a className='text-lowercase' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a></li>
+                                        <li><i className="fa-solid fa-phone"></i> <a className='text-lowercase' href="callto:+923312939594">+923312939594</a></li>
+                                        <li><i className="fas fa-envelope"></i> <a className='text-lowercase pulse' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a></li>
                                         <li><i className="fa fa-map-marker-alt"></i> <span>Plot No. C-115, Scheme 7 Dhoraji CHS, Karachi City, Sindh</span></li>
 
                                     </ul>
@@ -121,13 +121,27 @@ const Footer = () => {
                 <div className="copyright-area bg-blue">
                     <div className="container">
                         <div className="copyright-inner pt-md-3">
-                            <div className="social-style-one mb-md-3">
-                                <a href="http://facebook.com"><i className="fab fa-facebook-f"></i></a>
-                                <a href="http://twitter.com"><i className="fab fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
-                                <a href="https://www.pinterest.com/"><i className="fab fa-pinterest-p"></i></a>
+                            <div className="social-style-one mb-md-2">
+                                <a target='_blank' rel="noreferrer" href="https://www.facebook.com/Ninetynineitsolutions">
+                                    <i className="fab fa-facebook-f"></i>
+                                </a>
+                                <a target='_blank' rel="noreferrer" href="https://twitter.com/99itsolutions">
+                                    <i className="fab fa-twitter"></i>
+                                </a>
+                                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/99i.tsolutions">
+                                    <i className="fab fa-instagram"></i>
+                                </a>
+                                <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/company/99itsolutions">
+                                    <i className="fab fa-linkedin"></i>
+                                </a>
+                                <a target='_blank' rel="noreferrer" href="https://www.pinterest.com/99itsolutions/">
+                                    <i className="fab fa-pinterest-p"></i>
+                                </a>
+                                <a target='_blank' rel="noreferrer" href="https://www.behance.net/99-itsolutions">
+                                    <i className="fab fa-behance"></i>
+                                </a>
                             </div>
-                            <p>@copyright 2022 99itsolutions All Rights Reserved.</p>
+                            <p>Copyright @ 2015-2022 99 iT Solutions | All Rights Reserved. Powered by 99 iT Solutions</p>
                         </div>
                     </div>
                 </div>

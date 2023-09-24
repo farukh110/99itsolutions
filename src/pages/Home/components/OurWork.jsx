@@ -7,6 +7,18 @@ import g5 from "../../../assets/images/gallery/ei.jpg";
 import g6 from "../../../assets/images/gallery/tlc.jpg";
 import g7 from "../../../assets/images/gallery/ready.jpg";
 import g8 from "../../../assets/images/gallery/nar.jpg";
+import bi from "../../../assets/images/portfolio/web-development/bi.jpg";
+import bill from "../../../assets/images/portfolio/web-development/bill.jpg";
+import cw from "../../../assets/images/portfolio/web-development/cw.jpg";
+import dental from "../../../assets/images/portfolio/web-development/dental.JPG";
+import jdc from "../../../assets/images/portfolio/web-development/jdc.jpg";
+import intt from "../../../assets/images/portfolio/web-development/int.jpg";
+import nalli from "../../../assets/images/portfolio/web-development/nalliancetech.png";
+import wheel from "../../../assets/images/portfolio/web-development/wheel.jpg";
+import zapup from "../../../assets/images/portfolio/web-development/zapup.jpg";
+
+
+
 import './OurWork.scss';
 
 const OurWork = () => {
@@ -14,31 +26,31 @@ const OurWork = () => {
     const portfolioItems = [
         {
             id: 1,
-            image: g1,
-            name: "project 1",
+            image: bi,
+            name: "Building Energy Tax Savers",
             category: "web",
-            link: "http"
+            link: "https://buildingenergytaxsavers.com/"
         },
         {
             id: 2,
-            image: g2,
-            name: "project 2",
+            image: bill,
+            name: "Billgenix",
             category: "web",
-            link: "http"
+            link: "https://billgenix.com/"
         },
         {
             id: 3,
-            image: g3,
-            name: "project 3",
+            image: cw,
+            name: "Chronic Wounds",
             category: "web",
-            link: "http"
+            link: "http://chronicwounds.co/"
         },
         {
             id: 4,
-            image: g4,
-            name: "project 4",
+            image: dental,
+            name: "Anderson Lake Dental",
             category: "web",
-            link: "http"
+            link: "https://andersonlakedental.com/"
         },
         {
             id: 5,
@@ -103,6 +115,41 @@ const OurWork = () => {
             category: "logo",
             link: "http"
         },
+        {
+            id: 14,
+            image: intt,
+            name: "Integrated Machinery",
+            category: "web",
+            link: "https://integratedmachinery.net/"
+        },
+        {
+            id: 15,
+            image: jdc,
+            name: "Jd Cleaning LLc",
+            category: "web",
+            link: "https://jdcleaningllc.com/"
+        },
+        {
+            id: 16,
+            image: nalli,
+            name: "Nalliance Tech",
+            category: "web",
+            link: "https://nalliancetech.com/"
+        },
+        {
+            id: 17,
+            image: wheel,
+            name: "Wheel Barrel Products",
+            category: "web",
+            link: "https://wheelbarrelproducts.com/"
+        },
+        {
+            id: 18,
+            image: zapup,
+            name: "Zapup Store",
+            category: "web",
+            link: "https://zapupstore.com/"
+        },
     ];
 
     const [items, setItems] = useState(portfolioItems);
@@ -124,7 +171,7 @@ const OurWork = () => {
     };
 
     return (
-        <section className="gallery-section portfolio-home-section px-55 rpx-0 rpt-30 pb-85 rpb-20">
+        <section className="gallery-section portfolio-home-section px-55 rpx-0 rpt-30 pb-85 rpb-20 mt-md-5">
             <div className="container-fluid">
                 <div className="section-title text-center mb-30">
                     <span className="sub-title">Our Portfolio</span>
@@ -132,6 +179,14 @@ const OurWork = () => {
                 </div>
 
                 <div className='row'>
+
+                    <div className='col-md-1'>
+                        <div className="d-grid">
+                            <button onClick={() => setItems(portfolioItems)} className={`btn btn-outline-primary ${activeCategory === null ? 'active' : ''}`}>
+                                All
+                            </button>
+                        </div>
+                    </div>
 
                     <div className='col-md-2'>
                         <div className="d-grid">
@@ -151,7 +206,7 @@ const OurWork = () => {
                         </div>
                     </div>
 
-                    <div className='col-md-2'>
+                    <div className='col-md-3'>
                         <div className="d-grid">
                             <button onClick={() => filterItem('mobile')} className={`btn btn-outline-primary ${activeCategory === 'mobile' ? 'active' : ''}`}>
                                 Mobile App Development
@@ -171,14 +226,6 @@ const OurWork = () => {
                         <div className="d-grid">
                             <button onClick={() => filterItem('graphic')} className={`btn btn-outline-primary ${activeCategory === 'graphic' ? 'active' : ''}`}>
                                 Grahpic Design
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className='col-md-2'>
-                        <div className="d-grid">
-                            <button onClick={() => setItems(portfolioItems)} className={`btn btn-outline-primary ${activeCategory === null ? 'active' : ''}`}>
-                                All
                             </button>
                         </div>
                     </div>
@@ -212,7 +259,7 @@ const OurWork = () => {
                                             <div className="gallery-content-inner">
                                                 <span className="category">Our Gallery</span>
                                                 <h5>{name}</h5>
-                                                <a href={link}>
+                                                <a target="_blank" rel="noreferrer" href={link}>
                                                     <i className="fas fa-arrow-right"></i>
                                                 </a>
                                             </div>
