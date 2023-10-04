@@ -48,7 +48,7 @@ const Drawer = ({ drawer, action }) => {
 
                                         <li className="menu-item-has-children">
 
-                                            <Link to="/about-us">About</Link>
+                                            <Link to="/about-us">Who We Are</Link>
 
                                         </li>
                                         <li
@@ -59,7 +59,7 @@ const Drawer = ({ drawer, action }) => {
                                             <span className="menu-expand">
                                                 <i className="fa fa-angle-down"></i>
                                             </span>
-                                            <Link to="/services">Service</Link>
+                                            <Link to="/services">What We Do </Link>
                                             <ul
                                                 className="sub-menu"
                                                 style={{
@@ -77,7 +77,7 @@ const Drawer = ({ drawer, action }) => {
                                             </ul>
                                         </li>
                                         <li className="menu-item-has-children active">
-                                            <a href="!#">Portfolio</a>
+                                            <Link to="/portfolio">Portfolio</Link>
 
                                         </li>
 
@@ -95,14 +95,14 @@ const Drawer = ({ drawer, action }) => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="!#">
-                                                <i className="fa fa-phone"></i> 0331-2781741
+                                            <a href="tel:+92 331 293-9594">
+                                                <i className="fa fa-phone"></i> +92 331 293-9594
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="!#">
-                                                <i className="fa fa-map-marker-alt"></i> 1102, Dhoraji Pride, Old Dhoraji, Karachi
-                                            </a>
+                                            <span>
+                                                <i className="fa fa-map-marker-alt"></i> Plot No. C-115, Scheme 7 Dhoraji CHS, Karachi City, Sindh
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>

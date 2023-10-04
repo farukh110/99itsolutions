@@ -25,3 +25,24 @@
         border-color: #F9AD2F !important;
     }
 }
+
+@media(max-width: 480px) {
+
+    .portfolio-home-section {
+
+        button {
+            height: 48px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .portfolio-home-section {
+
+        button {
+            font-size: 12px;
+        }
+    }
+}

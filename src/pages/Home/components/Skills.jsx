@@ -27,7 +27,7 @@ const Skills = () => {
 
                     </div> */}
 
-                    <div className='col-md-12 mt-md-0 mt-4'>
+                    <div className='col-md-12 mt-md-0 mt-0'>
 
                         <div className='row mt-md-0 mt-3'>
 

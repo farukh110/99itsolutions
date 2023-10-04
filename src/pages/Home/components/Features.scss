@@ -21,3 +21,27 @@
         display: table;
     }
 }
+
+@media (max-width: 480px) {
+
+    .featured-section {
+
+        span {
+            font-size: 26px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .feature-content {
+            margin: 0 auto;
+
+            img {
+                width: 100% !important;
+                object-fit: contain !important;
+            }
+        }
+
+    }
+}

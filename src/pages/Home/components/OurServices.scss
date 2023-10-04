@@ -11,3 +11,18 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 480px) {
+
+    .our-services {
+        h2 {
+            font-size: 26px;
+        }
+    }
+
+    .services-ul {
+        li {
+            margin-top: 0px;
+        }
+    }
+}

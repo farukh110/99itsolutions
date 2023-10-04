@@ -16,7 +16,7 @@ const Footer = () => {
                                         <i className="fa-brands fa-facebook-f"></i>
                                     </div>
                                     <div className="ft2-content">
-                                        <label>2.19 m</label>
+                                        <label>600</label>
                                         <span>Likes</span></div>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ const Footer = () => {
                                         <i className="fa-brands fa-twitter"></i>
                                     </div>
                                     <div className="ft2-content">
-                                        <label>114 k</label>
+                                        <label>20</label>
                                         <span>Followers</span>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ const Footer = () => {
                                         <i className="fa-brands fa-linkedin-in"></i>
                                     </div>
                                     <div className="ft2-content">
-                                        <label>2.19 m</label>
+                                        <label>100</label>
                                         <span>Likes</span></div>
                                 </div>
                             </div>

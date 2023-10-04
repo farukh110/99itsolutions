@@ -8,7 +8,7 @@ import "./Features.scss";
 
 const Features = () => {
     return (
-        <section className="featured-section bgs-cover pt-md-5 rpt-150 pb-40 rpb-100">
+        <section className="featured-section bgs-cover pt-md-5 rpt-50 pb-10 rpb-20">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-12 col-md-8 col-sm-10">
@@ -23,7 +23,7 @@ const Features = () => {
                     </div>
                 </div>
                 <div className="row align-items-center">
-                    <div className="col-xl-3 col-md-6">
+                    <div className="col-xl-3 col-md-6 col-sm-6 col-12">
                         <div className="feature-item wow fadeInUp delay-0-2s">
                             <div className="feature-content">
                                 <div className="icon">
@@ -38,7 +38,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-md-6">
+                    <div className="col-xl-3 col-md-6 col-sm-6 col-12">
                         <div className="feature-item wow fadeInUp delay-0-4s">
 
                             <div className="feature-content">
@@ -54,7 +54,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-md-6">
+                    <div className="col-xl-3 col-md-6 col-sm-6 col-12">
                         <div className="feature-item wow fadeInUp delay-0-6s">
 
                             <div className="feature-content">
@@ -70,7 +70,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-md-6">
+                    <div className="col-xl-3 col-md-6 col-sm-6 col-12">
                         <div className="feature-item wow fadeInUp delay-0-6s">
 
                             <div className="feature-content">

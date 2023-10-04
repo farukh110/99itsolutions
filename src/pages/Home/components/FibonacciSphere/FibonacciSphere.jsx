@@ -50,6 +50,7 @@ const FibonacciSphere = () => {
 
 
         function onResize() {
+
             PERSPECTIVE = width * 0.8;
             PROJECTION_CENTER_X = width / 2;
             PROJECTION_CENTER_Y = height / 2;
@@ -58,16 +59,26 @@ const FibonacciSphere = () => {
             width = canvas.offsetWidth;
             height = canvas.offsetHeight;
 
+            width = window.innerWidth;
+            height = window.innerHeight;
+
             if (window.devicePixelRatio > 1) {
-                canvas.width = canvas.clientWidth * 2;
-                canvas.height = canvas.clientHeight * 2;
-                ctx.scale(2, 2);
+                if (width < 480) {
+                    canvas.width = canvas.clientWidth * window.devicePixelRatio;
+                    canvas.height = canvas.clientHeight * window.devicePixelRatio;
+                    ctx.scale(3, 3);
+                } else {
+                    canvas.width = canvas.clientWidth * 2;
+                    canvas.height = canvas.clientHeight * 2;
+                    ctx.scale(2, 2);
+                }
             } else {
                 canvas.width = width;
                 canvas.height = height;
             }
         }
         window.addEventListener('resize', onResize);
+        window.addEventListener('orientationchange', onResize);
         onResize();
 
         let PHI = Math.PI * (3.0 - Math.sqrt(5.0));
@@ -208,7 +219,7 @@ const FibonacciSphere = () => {
 
 
     return (
-        <div>
+        <div className='main-fib'>
             <canvas id="myCanvas" width="100%" height="100%"></canvas>
 
             <div id="svg-container" style={{ display: 'none' }}>

@@ -2,3 +2,10 @@
     object-fit: cover;
     height: 85vh;
 }
+
+@media(max-width: 480px) {
+
+    .img-height {
+        height: 50vh;
+    }
+}

@@ -35,7 +35,7 @@ const Clients = () => {
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 },
             },
             {
@@ -48,14 +48,14 @@ const Clients = () => {
     };
 
     return (
-        <div className="client-logo-area">
+        <div className="client-logo-area mt-md-4">
             <div className="container">
 
                 <div className='row'>
 
-                    <div className='col-md-3'>
+                    <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12'>
 
-                        <div className="section-title text-left mb-30 mt-md-5">
+                        <div className="section-title text-left mb-30 mt-md-5 mt-5">
                             {/* <span className="sub-title">Our Portfolio</span> */}
                             <h2>Our Trusted Partners and Valuable clients</h2>
                         </div>
@@ -63,7 +63,7 @@ const Clients = () => {
 
                     </div>
 
-                    <div className='col-md-9 align-self-center'>
+                    <div className='col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12 align-self-center'>
                         <div className="logo-carousel-wrap pt-0">
                             <SliderCom settings={settings}>
                                 <div className="logo-item">

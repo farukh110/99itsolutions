@@ -17,7 +17,7 @@ const Process = () => {
 
     return (
         <>
-            <div className='process-section container my-md-4 my-4'>
+            <div className='process-section container my-lg-5 my-md-4 my-4'>
                 <h2 className='text-center'> How we do (Process) </h2>
 
                 <div className='row justify-content-center mt-md-4'>
@@ -116,13 +116,13 @@ const Process = () => {
                 {/* ----------- start planning content ------------ */}
 
                 {currentTab === 'planning' && (
-                    <div id='planning' className='row mt-md-5 planning'>
-                        <div className='col-md-5 '>
+                    <div id='planning' className='row mt-md-5 mt-4 planning'>
+                        <div className='col-md-5'>
                             <img className='img-fluid' src={planning} alt='' />
                         </div>
 
                         <div className='col-md-7 mb-md-0 mb-4'>
-                            <h5 className='text-darkblue mt-md-0'>
+                            <h5 className='text-darkblue mt-md-0 mt-4'>
                                 The planning stage is debatable
                             </h5>
 
@@ -153,50 +153,50 @@ const Process = () => {
                 {/* ----------- end planning content ------------ */}
 
                 {/* ----------- start design content ------------ */}
+                {currentTab === 'design' && (
+                    <div id="design" className='row mt-md-5 mt-4'>
 
-                {currentTab === 'design' && (<div id="design" className='row design'>
+                        <div className='col-md-5'>
+                            <img className='img-fluid' src={design} alt="" />
+                        </div>
 
-                    <div className='col-md-5'>
-                        <img className='img-fluid mt-md-5' src={design} alt="" />
-                    </div>
+                        <div className='col-md-7 mb-md-0 mb-4'>
 
-                    <div className='col-md-7 mb-md-0 mb-4'>
+                            <h5 className="text-darkblue mt-md-0 mt-4">
+                                The design stage mostly.
+                            </h5>
 
-                        <h5 className="text-darkblue mt-md-5">
-                            The design stage mostly.
-                        </h5>
+                            <h3>After sorting out the scope</h3>
+                            <p>
+                                The 99 i.T Solutions team brings your design to life in the design stage. We transform the planned design structure into a visual representation, including documented design structure, wireframes, and UX maps. Our expertise in UI design ensures a visually appealing and user-friendly design experience for your project.
 
-                        <h3>After sorting out the scope</h3>
-                        <p>
-                            The 99 i.T Solutions team brings your design to life in the design stage. We transform the planned design structure into a visual representation, including documented design structure, wireframes, and UX maps. Our expertise in UI design ensures a visually appealing and user-friendly design experience for your project.
+                            </p>
 
-                        </p>
+                            <h6>Planning 20%</h6>
 
-                        <h6>Planning 20%</h6>
+                            <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '20%' }}></div></div>
 
-                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '20%' }}></div></div>
+                            <h6 className='mt-md-3'>Design 40%</h6>
 
-                        <h6 className='mt-md-3'>Design 40%</h6>
+                            <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '40%' }}></div></div>
 
-                        <div className="progress"><div role="progressbar" className="progress-bar progress-bar-striped progress-bar-animated planning" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{ width: '40%' }}></div></div>
+                        </div>
 
-                    </div>
-
-                </div>)}
+                    </div>)}
 
                 {/* ----------- end design content ------------ */}
 
                 {/* ----------- start develop content ------------ */}
 
-                {currentTab === 'develop' && (<div id="develop" className='row develop'>
+                {currentTab === 'develop' && (<div id="develop" className='row mt-md-5 mt-4 develop'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid mt-md-5' src={develop} alt="" />
+                        <img className='img-fluid' src={develop} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
 
-                        <h5 className="text-darkblue mt-md-5">
+                        <h5 className="text-darkblue mt-md-0 mt-4">
                             The development stage primarily involves the core
                         </h5>
 
@@ -225,15 +225,15 @@ const Process = () => {
 
                 {/* ----------- start test content ------------ */}
 
-                {currentTab === 'test' && (<div id="test" className='row test'>
+                {currentTab === 'test' && (<div id="test" className='row mt-md-5 mt-4 test'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid mt-md-5' src={testing} alt="" />
+                        <img className='img-fluid' src={testing} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
 
-                        <h5 className="text-darkblue mt-md-5">
+                        <h5 className="text-darkblue mt-md-0 mt-4">
                             Perform the project through the final diagnostics
                         </h5>
 
@@ -267,15 +267,15 @@ const Process = () => {
 
                 {/* ----------- start deliver content ------------ */}
 
-                {currentTab === 'deliver' && (<div id="deliver" className='row deliver'>
+                {currentTab === 'deliver' && (<div id="deliver" className='row mt-md-5 mt-4 deliver'>
 
                     <div className='col-md-5'>
-                        <img className='img-fluid mt-md-5' src={delivery} alt="" />
+                        <img className='img-fluid' src={delivery} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
 
-                        <h5 className="text-darkblue mt-md-5">
+                        <h5 className="text-darkblue mt-md-0 mt-4">
                             Upon reaching the handover stage
                         </h5>
 
@@ -313,15 +313,15 @@ const Process = () => {
 
                 {/* ----------- start maintenance content ------------ */}
 
-                {currentTab === 'maintenance' && (<div id="maintenance" className='row deliver'>
+                {currentTab === 'maintenance' && (<div id="maintenance" className='row mt-md-5 mt-4 deliver'>
 
-                    <div className='col-md-5 pt-md-5'>
+                    <div className='col-md-5'>
                         <img className='img-fluid' src={support} alt="" />
                     </div>
 
                     <div className='col-md-7 mb-md-0 mb-4'>
 
-                        <h5 className="text-darkblue mt-md-5">
+                        <h5 className="text-darkblue mt-md-0 mt-4">
                             During the maintenance phase
                         </h5>
 

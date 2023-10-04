@@ -25,3 +25,12 @@
         border-color: #F9AD2F !important;
     }
 }
+
+@media (max-width: 480px) {
+
+    .process-section {
+        h2 {
+            font-size: 26px;
+        }
+    }
+}

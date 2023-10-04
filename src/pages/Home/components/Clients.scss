@@ -4,3 +4,29 @@
         font-size: 26px;
     }
 }
+
+@media (max-width: 480px) {
+
+    .client-logo-area {
+
+        margin-top: 15px;
+        margin-bottom: 30px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .client-logo-area {
+
+        margin-top: 15px;
+        margin-bottom: 30px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+}
