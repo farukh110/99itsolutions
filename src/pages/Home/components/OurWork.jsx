@@ -273,6 +273,9 @@ const OurWork = () => {
     ];
 
     const [items, setItems] = useState(portfolioItems);
+
+    const [visibleProjects, setVisibleProjects] = useState(8);
+
     const [isLoading, setIsLoading] = useState(false);
     const [activeCategory, setActiveCategory] = useState(null);
 
@@ -288,6 +291,14 @@ const OurWork = () => {
         }, 1000);
 
         setActiveCategory(categItem);
+    };
+
+    const loadMoreProjects = () => {
+        setIsLoading(true);
+        setTimeout(() => {
+            setVisibleProjects(portfolioItems.length);
+            setIsLoading(false);
+        }, 1000);
     };
 
     return (
@@ -361,7 +372,7 @@ const OurWork = () => {
                             </div>
                         </div>
                     ) : (
-                        items.map((item) => {
+                        items.slice(0, visibleProjects).map((item) => {
 
                             const { id, name, image, link } = item;
 
@@ -392,6 +403,11 @@ const OurWork = () => {
                     )}
 
                 </div>
+                {visibleProjects < portfolioItems.length && (
+                    <button className='btn btn-primary mx-auto d-block' onClick={loadMoreProjects}>
+                        More Projects
+                    </button>
+                )}
             </div>
         </section>
     )

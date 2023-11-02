@@ -1,0 +1,24 @@
+$color: #1a3059;
+
+.banner {
+
+    h2 {
+        font-weight: bold;
+        color: $color;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: $color;
+    }
+
+    .btn-subscribe {
+
+        background: #1A3059;
+
+        &:hover {
+
+            background: #1A3059;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+$color: #1A3059;
+
+.about-details {
+
+    background: url(../../../../../assets/images/services/about-us.png);
+
+    .content-small {
+
+        h2 {
+
+            font-size: 30px;
+        }
+
+        h1 {
+
+            font-size: 36px;
+            color: $color;
+        }
+    }
+
+    .services-h {
+
+        h3 {
+
+            color: $color;
+        }
+    }
+}

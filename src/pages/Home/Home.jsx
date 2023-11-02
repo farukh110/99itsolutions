@@ -21,8 +21,34 @@ import Counters from './components/Counters';
 import Process from './components/Process';
 import FibonacciSphere from './components/FibonacciSphere/FibonacciSphere';
 // import MainBanner from './components/MainBanner/MainBanner';
+import brain from '../../assets/images/services/brain1.jpg';
+
 
 const Home = () => {
+
+    let leftPoints = [
+        { id: 1, point: 'Understanding your requirements fully.' },
+        { id: 2, point: 'Prompt and effective communication by our business coordinators.' },
+        { id: 3, point: 'Utilization of the latest tools and software.' },
+        { id: 4, point: 'Personalized attention with dedicated Project Managers.' },
+        { id: 5, point: 'Timely delivery of high-quality work.' },
+        { id: 6, point: '100% Satisfaction Guarantee.' }
+    ];
+
+    let rightPoints = [
+        { id: 1, point: 'Budget-friendly solutions.' },
+        { id: 2, point: 'Building long-term relationships with clients.' },
+        { id: 3, point: 'Working together for your greatest benefit.' },
+        { id: 4, point: 'Collaborate with renowned brands and award-winning designs.' },
+        { id: 5, point: 'Experience creativity, reliability, and customer-centricity.' },
+        { id: 6, point: 'Choose us for exceptional services that exceed expectations.' }
+    ];
+
+    const imgStyle = {
+
+        objectFit: 'cover',
+        height: '85vh'
+    }
 
     return (
         <>
@@ -31,7 +57,12 @@ const Home = () => {
             {/* <MainSlider /> */}
             <TextSlider />
             <OurServices />
-            <Skills />
+            <Skills
+                ImgStyle={imgStyle}
+                leftImage={brain}
+                smallContent='At 99iTsolutions, we serve as a focal point for representing your ideas and concepts, ensuring they are transformed into visually meaningful results. Our teams solve complex and sophisticated problems with highly advanced digital solutions and a streamlined production process.Our extensive range of IT services includes logo designing, domain and hosting, animation services, web designing and software development, digital marketing, and customer support. Here are some key features we offer:'
+                leftPoints={leftPoints}
+                rightPoints={rightPoints} />
             <Focused />
             <Features />
             <Process />

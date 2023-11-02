@@ -9,6 +9,7 @@ import ServiceTwo from './pages/services/ServiceTwo';
 import ServiceSix from './pages/services/ServiceSix/index';
 import PortfolioPage from './pages/Portfolio/PortfolioPage';
 import RequestDemo from './pages/RequestQuote';
+import WebDevelopment from './pages/services/inner-services/web-development';
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/about-us" element={<AboutSix />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/services" element={<ServiceTwo />} />
+        <Route exact path="/services/web-development" element={<WebDevelopment />} />
         <Route exact path="/services/software-development" element={<ServiceSix />} />
         <Route exact path="/portfolio" element={<PortfolioPage />} />
         <Route exact path="/get-free-quote" element={<RequestDemo />} />

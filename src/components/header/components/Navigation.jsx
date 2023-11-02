@@ -28,7 +28,7 @@ const Navigation = ({ className }) => {
                                 <Link to="/services/software-development">Software Development</Link>
                             </li>
                             <li>
-                                <Link to="/service-two">Web Development</Link>
+                                <Link to="/services/web-development">Web Development</Link>
                             </li>
 
                         </ul>
