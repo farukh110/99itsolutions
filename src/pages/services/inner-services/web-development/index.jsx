@@ -11,6 +11,7 @@ import Highlights from './Highlights/Highlights';
 import AboutDetails from './AboutDetails/AboutDetails';
 import webServices from '../../../../assets/images/services/web-development-banner.jpg';
 import webDesign from '../../../../assets/images/services/web-design.png';
+import PricingTables from '../../../../components/PricingTables/PricingTables';
 
 const WebDevelopment = () => {
 
@@ -152,6 +153,7 @@ const WebDevelopment = () => {
 
             <Highlights />
             <OurWork />
+            <PricingTables />
             <ContactForm customPadding="ps-0 pe-0" />
             <Technologies />
         </>
