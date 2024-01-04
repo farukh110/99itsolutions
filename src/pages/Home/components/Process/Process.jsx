@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import planning from '../../../assets/images/process/planning.jpg';
-import design from '../../../assets/images/process/design.jpg';
-import develop from '../../../assets/images/process/develop.jpg';
-import testing from '../../../assets/images/process/testing.png';
-import delivery from '../../../assets/images/process/delivery.jpg';
-import support from '../../../assets/images/process/support.jpg';
+import planning from '../../../../assets/images/process/planning.jpg';
+import design from '../../../../assets/images/process/design.jpg';
+import develop from '../../../../assets/images/process/develop.jpg';
+import testing from '../../../../assets/images/process/testing.png';
+import delivery from '../../../../assets/images/process/delivery.jpg';
+import support from '../../../../assets/images/process/support.jpg';
 import './Process.scss';
 
 const Process = () => {

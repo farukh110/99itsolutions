@@ -1,8 +1,8 @@
 import React from 'react';
-import brand from "../../../assets/images/services/main-services/brand.jpg";
-import hosting from "../../../assets/images/services/main-services/hosting.jpg";
-import graphic from "../../../assets/images/services/main-services/graphic.jpg";
-import marketing from "../../../assets/images/services/main-services/marketing.jpg";
+import brand from "../../../../assets/images/services/main-services/brand.jpg";
+import hosting from "../../../../assets/images/services/main-services/hosting.jpg";
+import graphic from "../../../../assets/images/services/main-services/graphic.jpg";
+import marketing from "../../../../assets/images/services/main-services/marketing.jpg";
 import { Link } from 'react-router-dom';
 import "./Features.scss";
 

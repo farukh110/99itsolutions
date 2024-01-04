@@ -1,27 +1,27 @@
 import React from 'react';
 // import About from './components/About';
-import Features from './components/Features';
 // import Gallery from './components/Gallery';
 // import Hero from './components/Hero';
 // import Pricing from './components/Pricing';
 // import Services from './components/Services';
-import Technologies from './components/Technologies';
-import TextSlider from './components/TextSlider';
+// import Technologies from './components/Technologies';
 // import FullSlider from './components/FullSlider';
-import Skills from './components/Skills';
 import OurServices from './components/OurServices';
-import ContactForm from './components/ContactForm';
 // import OurItSolutions from './components/OurItSolutions';
-import Clients from './components/Clients';
-import MainSlider from './components/MainSlider';
+// import MainSlider from './components/MainSlider';
 import OurGalleries from './components/OurGalleries';
 import OurWork from './components/OurWork';
-import Focused from './components/Focused';
 import Counters from './components/Counters';
-import Process from './components/Process';
 import FibonacciSphere from './components/FibonacciSphere/FibonacciSphere';
 // import MainBanner from './components/MainBanner/MainBanner';
 import brain from '../../assets/images/services/brain1.jpg';
+import Focused from './components/Focused/Focused';
+import Process from './components/Process/Process';
+import Skills from './components/Skills/Skills';
+import Features from './components/Features/Features';
+import Clients from './components/Clients/Clients';
+import TextSlider from './components/TextSlider/TextSlider';
+import ContactForm from './components/ContactForm/ContactForm';
 
 
 const Home = () => {

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import gov from '../../../assets/images/focused/g1.png';
-import cor from '../../../assets/images/focused/c1.png';
-import ecom from '../../../assets/images/focused/e1.png';
-import re from '../../../assets/images/focused/r1.png';
-import ed from '../../../assets/images/focused/ed1.png';
-import tra from '../../../assets/images/focused/t1.png';
-import ins from '../../../assets/images/focused/i1.png';
-import hea from '../../../assets/images/focused/h1.png';
+import gov from '../../../../assets/images/focused/g1.png';
+import cor from '../../../../assets/images/focused/c1.png';
+import ecom from '../../../../assets/images/focused/e1.png';
+import re from '../../../../assets/images/focused/r1.png';
+import ed from '../../../../assets/images/focused/ed1.png';
+import tra from '../../../../assets/images/focused/t1.png';
+import ins from '../../../../assets/images/focused/i1.png';
+import hea from '../../../../assets/images/focused/h1.png';
 import './Focused.scss';
 
 const Focused = () => {

@@ -6,7 +6,6 @@ import banner from "../../assets/images/contact/contact-us-Banner.png";
 import CustomBanner from "../../components/layout/CustomBanner/CustomBanner";
 // import emailjs from '@emailjs/browser';
 // import { message } from 'antd';
-import ContactForm from "../Home/components/ContactForm";
 import phone from "../../assets/images/contact/icons/phone.png";
 import email from "../../assets/images/contact/icons/email.png";
 import location from "../../assets/images/contact/icons/location.png";
@@ -18,6 +17,7 @@ import img2 from "../../assets/images/contact/img-2.png";
 
 
 import './index.scss';
+import ContactForm from "../Home/components/ContactForm/ContactForm";
 
 // const YOUR_SERVICE_ID = "service_tdgcnmj";
 // const YOUR_TEMPLATE_ID = "template_of24zr7";

@@ -1,15 +1,15 @@
 import React from 'react';
-import frontend from '../../../assets/images/technologies/front-end.svg';
-import fullstack from '../../../assets/images/technologies/full-stack.svg';
-import angular from '../../../assets/images/technologies/angular.svg';
-import node from '../../../assets/images/technologies/node.svg';
-import javascript from '../../../assets/images/technologies/javascript.svg';
-import reactjs from '../../../assets/images/technologies/react.svg';
-import dotnet from '../../../assets/images/technologies/dotnet.svg';
-import java from '../../../assets/images/technologies/java.svg';
-import scala from '../../../assets/images/technologies/scala.svg';
-import php from '../../../assets/images/technologies/php.svg';
-import c from '../../../assets/images/technologies/c.svg';
+import frontend from '../../../../assets/images/technologies/front-end.svg';
+import fullstack from '../../../../assets/images/technologies/full-stack.svg';
+import angular from '../../../../assets/images/technologies/angular.svg';
+import node from '../../../../assets/images/technologies/node.svg';
+import javascript from '../../../../assets/images/technologies/javascript.svg';
+import reactjs from '../../../../assets/images/technologies/react.svg';
+import dotnet from '../../../../assets/images/technologies/dotnet.svg';
+import java from '../../../../assets/images/technologies/java.svg';
+import scala from '../../../../assets/images/technologies/scala.svg';
+import php from '../../../../assets/images/technologies/php.svg';
+import c from '../../../../assets/images/technologies/c.svg';
 import './techologies.scss';
 
 const Technologies = () => {

@@ -1,17 +1,17 @@
 import React from 'react';
 import './index.scss';
-import Technologies from '../../../Home/components/Technologies';
+import Technologies from '../../../Home/components/Techologies/Technologies';
 // import OurServices from '../../../Home/components/OurServices';
-import Skills from '../../../Home/components/Skills';
 import Banner from './Banner/Banner';
 import OurWork from '../../../Home/components/OurWork';
 import newTech from '../../../../assets/images/services/new-technology.jpg';
-import ContactForm from '../../../Home/components/ContactForm';
+import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Highlights from './Highlights/Highlights';
 import AboutDetails from './AboutDetails/AboutDetails';
 import webServices from '../../../../assets/images/services/web-development-banner.jpg';
 import webDesign from '../../../../assets/images/services/web-design.png';
 import PricingTables from '../../../../components/PricingTables/PricingTables';
+import Skills from '../../../Home/components/Skills/Skills';
 
 const WebDevelopment = () => {
 
