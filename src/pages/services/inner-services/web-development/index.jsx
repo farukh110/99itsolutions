@@ -6,12 +6,14 @@ import Banner from './Banner/Banner';
 import OurWork from '../../../Home/components/OurWork';
 import newTech from '../../../../assets/images/services/new-technology.jpg';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
-import Highlights from './Highlights/Highlights';
+// import Highlights from './Highlights/Highlights';
 import AboutDetails from './AboutDetails/AboutDetails';
 import webServices from '../../../../assets/images/services/web-development-banner.jpg';
 import webDesign from '../../../../assets/images/services/web-design.png';
-import PricingTables from '../../../../components/PricingTables/PricingTables';
+// import PricingTables from '../../../../components/PricingTables/PricingTables';
 import Skills from '../../../Home/components/Skills/Skills';
+
+import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
 
 const WebDevelopment = () => {
 
@@ -103,9 +105,19 @@ const WebDevelopment = () => {
         height: 'unset'
     }
 
+    const bannerContent = `Your website is possibly your most crucial marketing tool,
+                                    and if it's not helping your business grow, it might be time
+                                    for a fresh one. Research shows that 75% of customers
+                                    assess a company's trustworthiness by evaluating its website design.`;
+
     return (
         <>
-            <Banner />
+            <Banner
+                bannerHeading1='We offer'
+                bannerHeading2='Custom website design services.'
+                bannerContent={bannerContent}
+                bannerImage={webDevService}
+            />
             {/* <OurServices /> */}
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Web Design Services</h2>
             <Skills
@@ -151,9 +163,9 @@ const WebDevelopment = () => {
                 rightPoints={servicePointsR} />
 
 
-            <Highlights />
+            {/* <Highlights /> */}
             <OurWork />
-            <PricingTables />
+            {/* <PricingTables /> */}
             <ContactForm customPadding="ps-0 pe-0" />
             <Technologies />
         </>

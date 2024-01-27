@@ -1,8 +1,10 @@
 import React from 'react';
 import './Banner.scss';
-import webDevService from '../../../../../assets/images/services/main-services/dev.jpg';
 
-const Banner = () => {
+const Banner = (props) => {
+
+    const { bannerHeading1, bannerHeading2, bannerContent, bannerImage } = props;
+
     return (
         <>
             <div className="banner container my-4">
@@ -11,14 +13,11 @@ const Banner = () => {
                         <div className="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12">
                             <div className="header-content">
                                 <h2 className='mb-0'>
-                                    We offer
+                                    {bannerHeading1}
                                 </h2>
-                                <h1 className='mb-md-1'> Custom website design services. </h1>
+                                <h1 className='mb-md-1'> {bannerHeading2} </h1>
                                 <p>
-                                    Your website is possibly your most crucial marketing tool,
-                                    and if it's not helping your business grow, it might be time
-                                    for a fresh one. Research shows that 75% of customers
-                                    assess a company's trustworthiness by evaluating its website design.
+                                    {bannerContent}
                                 </p>
                                 <div className="input-group mb-3">
                                     <input
@@ -47,7 +46,7 @@ const Banner = () => {
                             <div className="animation-container">
                                 <img
                                     className="img-fluid header-img"
-                                    src={webDevService}
+                                    src={bannerImage}
                                     alt=""
                                 />
                                 <div className="people-content">

@@ -4,7 +4,7 @@ import './skills.scss'
 
 const Skills = (props) => {
 
-    const { ImgStyle, leftImage, smallContent, leftPoints, rightPoints } = props;
+    const { ImgStyle, leftImage, smallContent, leftPoints, rightPoints, belowText } = props;
 
     console.log(leftPoints, rightPoints);
 
@@ -57,6 +57,12 @@ const Skills = (props) => {
                                             })}
 
                                         </ul>
+
+                                    </div>
+
+                                    <div className='col-md-12'>
+
+                                        <p>{belowText}</p>
 
                                     </div>
 
