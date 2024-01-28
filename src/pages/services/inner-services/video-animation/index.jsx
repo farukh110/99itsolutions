@@ -1,16 +1,14 @@
 import React from 'react'
 import Banner from '../web-development/Banner/Banner';
 
-import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
-
-import webServices from '../../../../assets/images/services/web-development-banner.jpg';
+import video from '../../../../assets/images/video-animation/video-animation.png';
 import AboutDetails from '../web-development/AboutDetails/AboutDetails';
 import Skills from '../../../Home/components/Skills/Skills';
-import newTech from '../../../../assets/images/services/new-technology.jpg';
+import videoAnimation from '../../../../assets/images/video-animation/video.png';
+import animation from '../../../../assets/images/video-animation/animation.svg';
 // import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
-
 
 const VideoAnimation = () => {
 
@@ -74,18 +72,18 @@ const VideoAnimation = () => {
                 bannerHeading1='Ignite Your Brand with the Fastest'
                 bannerHeading2='Growing Video Animation Agency:'
                 bannerContent={bannerContent}
-                bannerImage={webDevService}
+                bannerImage={video}
             />
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Video Animation Services:</h2>
             <Skills
-                leftImage={newTech}
+                leftImage={videoAnimation}
                 ImgStyle={imgStyle}
                 smallContent="Explore our full suite of 3D animation services, producing both graphic and photorealistic styles. Our advanced capabilities include 360° interactive product spins, machine rigging, industrial modeling, and product process simulation."
                 leftPoints={leftPoints}
                 rightPoints={[]} />
 
             <AboutDetails
-                leftImage={webServices}
+                leftImage={animation}
                 smallContent="
                 <h2 class='fw-bolder'> Conceptualize and Animate with Our Experts: </h2> 
                 Whether it's a straightforward logo design or an extensive app development venture, we follow a proven process to breathe life into your ideas.

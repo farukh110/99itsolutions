@@ -1,12 +1,12 @@
 import React from 'react'
 import Banner from '../web-development/Banner/Banner';
 
-import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
+import logoDesignService from '../../../../assets/images/logo-design/logo.png';
 
-import webServices from '../../../../assets/images/services/web-development-banner.jpg';
+import webServices from '../../../../assets/images/logo-design/logo-design2.png';
 import AboutDetails from '../web-development/AboutDetails/AboutDetails';
 import Skills from '../../../Home/components/Skills/Skills';
-import newTech from '../../../../assets/images/services/new-technology.jpg';
+import newTech from '../../../../assets/images/logo-design/logo-design1.jpg';
 import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
@@ -38,7 +38,7 @@ const LogoDesign = () => {
     const imgStyle = {
 
         objectFit: 'cover',
-        height: '30vh',
+        height: '40vh',
         width: '100%'
     }
 
@@ -48,7 +48,7 @@ const LogoDesign = () => {
                 bannerHeading1='Allow Your Logo to'
                 bannerHeading2='Convey Your Message.'
                 bannerContent={bannerContent}
-                bannerImage={webDevService}
+                bannerImage={logoDesignService}
             />
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Elevate Your Brand with Our Logo Design Services.</h2>
             <Skills

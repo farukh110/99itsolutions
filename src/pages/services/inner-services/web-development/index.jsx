@@ -4,7 +4,7 @@ import Technologies from '../../../Home/components/Techologies/Technologies';
 // import OurServices from '../../../Home/components/OurServices';
 import Banner from './Banner/Banner';
 import OurWork from '../../../Home/components/OurWork';
-import newTech from '../../../../assets/images/services/new-technology.jpg';
+import newTech from '../../../../assets/images/web-dev/web.png';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 // import Highlights from './Highlights/Highlights';
 import AboutDetails from './AboutDetails/AboutDetails';
@@ -13,7 +13,7 @@ import webDesign from '../../../../assets/images/services/web-design.png';
 // import PricingTables from '../../../../components/PricingTables/PricingTables';
 import Skills from '../../../Home/components/Skills/Skills';
 
-import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
+import webDevService from '../../../../assets/images/web-dev/web-development.webp';
 
 const WebDevelopment = () => {
 

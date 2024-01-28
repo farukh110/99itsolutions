@@ -1,12 +1,12 @@
 import React from 'react'
 import Banner from '../web-development/Banner/Banner';
 
-import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
+import contentWriting from '../../../../assets/images/content-writing/Website-Creator-cuate.png';
 
-import webServices from '../../../../assets/images/services/web-development-banner.jpg';
+import webServices from '../../../../assets/images/content-writing/content-management.png';
 import AboutDetails from '../web-development/AboutDetails/AboutDetails';
 import Skills from '../../../Home/components/Skills/Skills';
-import newTech from '../../../../assets/images/services/new-technology.jpg';
+import newTech from '../../../../assets/images/content-writing/white-label-seo-content-writing-services-graphic.webp';
 // import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
@@ -70,7 +70,7 @@ const ContentWriting = () => {
     const imgStyle = {
 
         objectFit: 'cover',
-        height: '55vh',
+        height: null,
         width: '100%'
     }
 
@@ -80,7 +80,7 @@ const ContentWriting = () => {
                 bannerHeading1='Elevate Your Brand with the Premier'
                 bannerHeading2='Content Writing Services.'
                 bannerContent={bannerContent}
-                bannerImage={webDevService}
+                bannerImage={contentWriting}
             />
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Content Writing Services:</h2>
             <Skills

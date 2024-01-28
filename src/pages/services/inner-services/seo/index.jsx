@@ -1,12 +1,13 @@
 import React from 'react'
 import Banner from '../web-development/Banner/Banner';
 
-import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
+// import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
 
-import webServices from '../../../../assets/images/services/web-development-banner.jpg';
+import seo from '../../../../assets/images/seo/seo.png';
 import AboutDetails from '../web-development/AboutDetails/AboutDetails';
 import Skills from '../../../Home/components/Skills/Skills';
-import newTech from '../../../../assets/images/services/new-technology.jpg';
+import newTech from '../../../../assets/images/seo/Mango-Mash-SEO-1.jpg';
+import seoCompany from '../../../../assets/images/seo/seo-company.svg';
 // import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
@@ -78,8 +79,8 @@ const Seo = () => {
 
     const imgStyle = {
 
-        objectFit: 'cover',
-        height: '60vh',
+        objectFit: 'fill',
+        height: '48vh',
         width: '100%'
     }
 
@@ -89,7 +90,7 @@ const Seo = () => {
                 bannerHeading1='Boost Your Visibility with'
                 bannerHeading2='Cutting-Edge SEO Services.'
                 bannerContent={bannerContent}
-                bannerImage={webDevService}
+                bannerImage={seo}
             />
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>SEO Services:</h2>
             <Skills
@@ -100,7 +101,7 @@ const Seo = () => {
                 rightPoints={[]} />
 
             <AboutDetails
-                leftImage={webServices}
+                leftImage={seoCompany}
                 smallContent="
                 <h2 class='fw-bolder'> Strategize and Optimize with Our Experts: </h2> 
                 Whether it's a straightforward logo design or an extensive app development venture, we follow a proven process to optimize your online presence.

@@ -1,9 +1,13 @@
 import React from 'react'
 import Banner from '../web-development/Banner/Banner';
 
-import webDevService from '../../../../assets/images/services/main-services/dev.jpg';
+import mobileApp from '../../../../assets/images/mobile-dev/app.svg';
 
-import webServices from '../../../../assets/images/services/web-development-banner.jpg';
+import mobileApp1 from '../../../../assets/images/mobile-dev/mobile-app.png';
+import mobileApp2 from '../../../../assets/images/mobile-dev/android-developers.png';
+
+import mobile from '../../../../assets/images/mobile-dev/mobile.jpeg';
+
 import AboutDetails from '../web-development/AboutDetails/AboutDetails';
 import Skills from '../../../Home/components/Skills/Skills';
 import newTech from '../../../../assets/images/services/new-technology.jpg';
@@ -91,11 +95,11 @@ const AppDevelopment = () => {
                 bannerHeading1='Elevate Your Application'
                 bannerHeading2='with the Best in Design.'
                 bannerContent={bannerContent}
-                bannerImage={webDevService}
+                bannerImage={mobileApp}
             />
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>App Design Services:</h2>
             <Skills
-                leftImage={newTech}
+                leftImage={mobileApp1}
                 ImgStyle={imgStyle}
                 smallContent="Designing an application is an art of space management. Our mobile 
                 applications are characterized by beautiful user experiences, attractive designs, 
@@ -104,7 +108,7 @@ const AppDevelopment = () => {
                 rightPoints={[]} />
 
             <AboutDetails
-                leftImage={webServices}
+                leftImage={mobileApp2}
                 smallContent="
                 <h2 class='fw-bolder'> Planning to Develop a Mobile Application? </h2> 
                 <h1 class='fw-bolder mb-md-2'> The best time to embark on this journey is now. </h1>
@@ -116,7 +120,7 @@ const AppDevelopment = () => {
 
             <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>App Development Services:</h2>
             <Skills
-                leftImage={newTech}
+                leftImage={mobile}
                 ImgStyle={imgStyle}
                 smallContent="Our expert team of mobile app developers loves a challenge, whether it's creating a high-quality app to simplify complex data or revolutionizing an industry. Our focus is always on the user experience."
                 leftPoints={leftPoints2}
