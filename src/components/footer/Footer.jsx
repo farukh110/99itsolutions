@@ -100,7 +100,7 @@ const Footer = () => {
                                     <ul className="list-style-two">
                                         <li><i className="fa-solid fa-phone"></i> <a className='text-lowercase' href="callto:+923312939594">+923312939594</a></li>
                                         <li><i className="fas fa-envelope"></i> <a className='text-lowercase pulse' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a></li>
-                                        <li><i className="fa fa-map-marker-alt"></i> <span>Plot No. C-115, Scheme 7 Dhoraji CHS, Karachi City, Sindh</span></li>
+                                        <li><i className="fa fa-map-marker-alt"></i> <span>Shaheen Arcade, 26 National Stadium Rd, Shanti Nagar Chandni Chowk (New Town), Karachi, Karachi City, Sindh 74800</span></li>
 
                                     </ul>
                                 </div>

@@ -164,7 +164,7 @@ const WebDevelopment = () => {
 
 
             {/* <Highlights /> */}
-            <OurWork />
+            <OurWork isWebPage={true} />
             {/* <PricingTables /> */}
             <ContactForm customPadding="ps-0 pe-0" />
             <Technologies />

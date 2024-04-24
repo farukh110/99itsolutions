@@ -36,7 +36,7 @@ import abadraho from "../../../assets/images/portfolio/web-development/abadraho.
 
 import './OurWork.scss';
 
-const OurWork = () => {
+const OurWork = ({ isLogoDesignPage, isWebPage, isGraphicDesignPage }) => {
 
     const portfolioItems = [
         {
@@ -311,31 +311,35 @@ const OurWork = () => {
 
                 <div className='row justify-content-center'>
 
-                    <div className='col-xl-1 col-lg-1 col-md-1 col-sm-4 col-6'>
-                        <div className="d-grid">
-                            <button onClick={() => setItems(portfolioItems)} className={`btn btn-outline-primary ${activeCategory === null ? 'active' : ''}`}>
-                                All
-                            </button>
+                    {!isLogoDesignPage || !isWebPage || !isGraphicDesignPage || (
+                        <div className='col-xl-1 col-lg-1 col-md-1 col-sm-4 col-6'>
+                            <div className="d-grid">
+                                <button onClick={() => setItems(portfolioItems)} className={`btn btn-outline-primary ${activeCategory === null ? 'active' : ''}`}>
+                                    All
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    )}
 
-                    <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6'>
-                        <div className="d-grid">
-                            <button onClick={() => filterItem('logo')} className={`btn btn-outline-primary ${activeCategory === 'logo' ? 'active' : ''}`}>
-                                Logo Design
-                            </button>
+                    {isLogoDesignPage && (
+                        <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6'>
+                            <div className="d-grid">
+                                <button onClick={() => filterItem('logo')} className={`btn btn-outline-primary ${activeCategory === 'logo' ? 'active' : ''}`}>
+                                    Logo Design
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    )}
 
-                    <div className='col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6 mt-md-0 mt-sm-0 mt-2'>
-                        <div className="d-grid">
-
-                            <button onClick={() => filterItem('web')} className={`btn btn-outline-primary ${activeCategory === 'web' ? 'active' : ''}`}>
-                                Web Development
-                            </button>
-
+                    {isWebPage && (
+                        <div className='col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6 mt-md-0 mt-sm-0 mt-2'>
+                            <div className="d-grid">
+                                <button onClick={() => filterItem('web')} className={`btn btn-outline-primary ${activeCategory === 'web' ? 'active' : ''}`}>
+                                    Web Development
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    )}
 
                     {/* <div className='col-md-3 col-6 mt-md-0 mt-2'>
                         <div className="d-grid">
@@ -353,13 +357,16 @@ const OurWork = () => {
                         </div>
                     </div> */}
 
-                    <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mt-md-0 mt-2'>
-                        <div className="d-grid">
-                            <button onClick={() => filterItem('graphic')} className={`btn btn-outline-primary ${activeCategory === 'graphic' ? 'active' : ''}`}>
-                                Grahpic Design
-                            </button>
+                    {isGraphicDesignPage && (
+                        <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mt-md-0 mt-2'>
+                            <div className="d-grid">
+                                <button onClick={() => filterItem('graphic')} className={`btn btn-outline-primary ${activeCategory === 'graphic' ? 'active' : ''}`}>
+                                    Graphic Design
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    )}
+
 
                 </div>
 

@@ -67,7 +67,7 @@ const Home = () => {
             <Features />
             <Process />
             <Counters />
-            <OurWork />
+            <OurWork isLogoDesignPage={true} isWebPage={true} isGraphicDesignPage={true} />
             <OurGalleries />
             {/* <Work /> */}
             {/* <Technologies /> */}

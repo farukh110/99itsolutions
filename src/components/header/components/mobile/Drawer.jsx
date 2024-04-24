@@ -101,7 +101,7 @@ const Drawer = ({ drawer, action }) => {
                                         </li>
                                         <li>
                                             <span>
-                                                <i className="fa fa-map-marker-alt"></i> Plot No. C-115, Scheme 7 Dhoraji CHS, Karachi City, Sindh
+                                                <i className="fa fa-map-marker-alt"></i> Shaheen Arcade, 26 National Stadium Rd, Shanti Nagar Chandni Chowk (New Town), Karachi, Karachi City, Sindh 74800
                                             </span>
                                         </li>
                                     </ul>

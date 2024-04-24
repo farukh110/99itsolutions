@@ -73,7 +73,7 @@ const LogoDesign = () => {
                 "
                 leftPoints={leftText}
                 rightPoints={[]} />
-            <OurWork />
+            <OurWork isLogoDesignPage={true} />
             <ContactForm customPadding="ps-0 pe-0" />
             <Technologies />
         </>

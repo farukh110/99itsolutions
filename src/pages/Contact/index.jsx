@@ -118,7 +118,7 @@ const Contact = () => {
                     </span>
                     <br />
                     <span className="normal_text">
-                      <span> Plot No. C-115, Scheme 7 Dhoraji CHS, Karachi City, Sindh </span>
+                      <span> Shaheen Arcade, 26 National Stadium Rd, <br /> Shanti Nagar Chandni Chowk (New Town), Karachi, Karachi City, Sindh 74800 </span>
                     </span>
                   </div>
                 </div>
