@@ -36,7 +36,7 @@ import abadraho from "../../../assets/images/portfolio/web-development/abadraho.
 
 import './OurWork.scss';
 
-const OurWork = ({ isLogoDesignPage, isWebPage, isGraphicDesignPage }) => {
+const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPage }) => {
 
     const portfolioItems = [
         {
@@ -270,6 +270,69 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isGraphicDesignPage }) => {
             category: "logo",
             link: "https://www.behance.net/gallery/137799783/Talc-Industries"
         },
+        {
+            id: 34,
+            image: 'https://play-lh.googleusercontent.com/BwyMm9DGOE1vYctQhEpDglyypo1hbuitmVxAINfhmbukV-KeI7qKCXQpAmNuKmwdZyo=w2560-h1440-rw',
+            name: "DMFR Molecular Lab",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.dmfr&hl=en&gl=US"
+        },
+        {
+            id: 35,
+            image: 'https://play-lh.googleusercontent.com/NTB0YxC5k4K_krgH0k8WEJ_JZ0T4p2C3gp_rGsCWRg0Q3QqNfqFl1HJsbhvWnDvvV6NK=w2560-h1440-rw',
+            name: "Toticell",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.toticell&hl=en&gl=US"
+        },
+        {
+            id: 36,
+            image: 'https://play-lh.googleusercontent.com/VK59suKVHAFvXjBMyJwGmd1Tpyqy9UC1sytP_luSkiOuhEUR7gpii_F_czy-0X37gQ=w2560-h1440-rw',
+            name: "Concord Pharmaceuticals Ltd",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.concordmpo&hl=en&gl=US"
+        },
+        {
+            id: 37,
+            image: 'https://play-lh.googleusercontent.com/ZS2LrrZeCoFwOiRJX8Yu11dYJVnUQ-Ez-7sCeAAP24Ww0Ll-0Xynx289286fn37wgHR7=w2560-h1440-rw',
+            name: "Sarf ki Dunya",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.sarfkidunya&hl=en&gl=US"
+        },
+        {
+            id: 38,
+            image: 'https://play-lh.googleusercontent.com/RXEhvPL7Hq-An07MGOctm2lY3mGlDpw5nx4uVBqqVy3OagtL5kQSoJnrVfXFcBEtuoM=w2560-h1440-rw',
+            name: "Nahw Ki Dunya - Arabic Quiz",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.nahwkidunya&hl=en&gl=US"
+        },
+        {
+            id: 39,
+            image: 'https://play-lh.googleusercontent.com/a4t75WTu4-Rf4UT9NYycHC2ep_1y7aIzq26ROCQrt-cu0_Kwi62PEmxiYKcqDLiXVQ=w2560-h1440-rw',
+            name: "Gufhtugu - Urdu Books Library",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.gufhtugupublication&hl=en&gl=US"
+        },
+        {
+            id: 40,
+            image: 'https://play-lh.googleusercontent.com/Ha48aOOaCQvkIhSXUSmPGu9EkX-Z7bwNY4BZeiYyl92Bov5mW8-7qkcpHP6yu8wl3Rcr=w2560-h1440-rw',
+            name: "Cosmeciety",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.cosmeciety_app&hl=en&gl=US"
+        },
+        {
+            id: 41,
+            image: 'https://play-lh.googleusercontent.com/2_OLdaSW5nApQ02AjVyOzOLT4vDtORvY9ERGY9X-zCFt9HcLX30q6NK0YYUsr2rC8g=w2560-h1440-rw',
+            name: "SuperWomen.pk",
+            category: "mobile",
+            link: "https://play.google.com/store/apps/details?id=com.superwomen.pk&hl=en&gl=US"
+        },
+        {
+            id: 42,
+            image: 'https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e3/77/30/e3773078-78d1-83f3-4cc3-e45565b1e4d9/d0507bca-8f70-4785-add3-0fc001cac596_1.png/300x0w.webp',
+            name: "Qari.io - Teacher",
+            category: "mobile",
+            link: "https://apps.apple.com/pk/app/qari-io-teacher/id1637227564"
+        },
     ];
 
     const [items, setItems] = useState(portfolioItems);
@@ -311,7 +374,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isGraphicDesignPage }) => {
 
                 <div className='row justify-content-center'>
 
-                    {!isLogoDesignPage || !isWebPage || !isGraphicDesignPage || (
+                    {!isLogoDesignPage || !isWebPage || !isGraphicDesignPage || !isMobilePage || (
                         <div className='col-xl-1 col-lg-1 col-md-1 col-sm-4 col-6'>
                             <div className="d-grid">
                                 <button onClick={() => setItems(portfolioItems)} className={`btn btn-outline-primary ${activeCategory === null ? 'active' : ''}`}>
@@ -336,6 +399,16 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isGraphicDesignPage }) => {
                             <div className="d-grid">
                                 <button onClick={() => filterItem('web')} className={`btn btn-outline-primary ${activeCategory === 'web' ? 'active' : ''}`}>
                                     Web Development
+                                </button>
+                            </div>
+                        </div>
+                    )}
+
+                    {isMobilePage && (
+                        <div className='col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6 mt-md-0 mt-sm-0 mt-2'>
+                            <div className="d-grid">
+                                <button onClick={() => filterItem('mobile')} className={`btn btn-outline-primary ${activeCategory === 'mobile' ? 'active' : ''}`}>
+                                    Mobile Apps
                                 </button>
                             </div>
                         </div>

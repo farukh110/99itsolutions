@@ -10,10 +10,11 @@ import mobile from '../../../../assets/images/mobile-dev/mobile.jpeg';
 
 import AboutDetails from '../web-development/AboutDetails/AboutDetails';
 import Skills from '../../../Home/components/Skills/Skills';
-import newTech from '../../../../assets/images/services/new-technology.jpg';
+// import newTech from '../../../../assets/images/services/new-technology.jpg';
 // import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
+import OurWork from '../../../Home/components/OurWork';
 
 
 const AppDevelopment = () => {
@@ -128,6 +129,7 @@ const AppDevelopment = () => {
                 belowText="Ready to enhance your digital footprint? Let's build something extraordinary together."
             />
 
+            <OurWork isMobilePage={true} />
 
             <br />
             <ContactForm customPadding="ps-0 pe-0" />

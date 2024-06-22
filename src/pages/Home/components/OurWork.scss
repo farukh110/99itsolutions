@@ -26,6 +26,16 @@
     }
 }
 
+.gallery-item.style-four {
+    margin-bottom: 30px;
+    height: 270px;
+}
+
+.gallery-item img {
+    height: 270px;
+    object-fit: cover;
+}
+
 @media(max-width: 480px) {
 
     .portfolio-home-section {
