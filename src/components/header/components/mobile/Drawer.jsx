@@ -67,11 +67,27 @@ const Drawer = ({ drawer, action }) => {
                                                 }}
                                             >
                                                 <li>
-                                                    <a href="/software"> Software Development </a>
+                                                    <Link to="/services/web-development">Web Development</Link>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/web"> Web Development </a>
+                                                    <Link to="/services/logo-design">Logo Design</Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="/services/branding">Branding</Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="/services/app-design-and-development">App Design & Development</Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="/services/video-animation">Video Animation</Link>
+                                                </li>
+                                                <li>
+                                                    <Link to="/services/content-writing">Content Writing</Link>
+                                                </li>
+
+                                                <li>
+                                                    <Link to="/services/seo">Seo</Link>
                                                 </li>
 
                                             </ul>

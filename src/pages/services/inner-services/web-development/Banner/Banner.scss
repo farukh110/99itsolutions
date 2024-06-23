@@ -22,3 +22,10 @@ $color: #1a3059;
         }
     }
 }
+
+@media (max-width: 480px) {
+
+    .banner h1 {
+        font-size: 44px;
+    }
+}
