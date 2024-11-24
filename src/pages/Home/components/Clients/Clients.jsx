@@ -6,7 +6,7 @@ import client3 from "../../../../assets/images/logos/3.png";
 import client4 from "../../../../assets/images/logos/4.png";
 import client5 from "../../../../assets/images/logos/5.png";
 import client6 from "../../../../assets/images/logos/7.png";
-import client7 from "../../../../assets/images/logos/8.png";
+// import client7 from "../../../../assets/images/logos/8.png";
 import client8 from "../../../../assets/images/logos/9.png";
 import client9 from "../../../../assets/images/logos/11.png";
 import client10 from "../../../../assets/images/logos/12.png";
@@ -114,14 +114,14 @@ const Clients = () => {
                                         />
                                     </a>
                                 </div>
-                                <div className="logo-item">
+                                {/* <div className="logo-item">
                                     <a href="!#">
                                         <img
                                             src={client7}
                                             alt="Client Logo"
                                         />
                                     </a>
-                                </div>
+                                </div> */}
                                 <div className="logo-item">
                                     <a href="!#">
                                         <img
