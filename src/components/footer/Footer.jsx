@@ -7,9 +7,9 @@ const Footer = () => {
     return (
         <>
             <footer className="main-footer footer-one text-white">
-                <div className="footer-widget-area bgs-cover pt-md-5 pt-4 pb-md-0">
+                <div className="footer-widget-area bgs-cover pt-md-4 pt-4 pb-md-0">
                     <div className="container">
-                        <div className='row'>
+                        {/* <div className='row'>
                             <div className='col-md-4'>
                                 <div className="d-flex align-items-center">
                                     <div className="ft2-icon">
@@ -41,7 +41,7 @@ const Footer = () => {
                                         <span>Likes</span></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="row mt-md-5 mb-md-0">
                             <div className="col-lg-4 col-md-3 col-sm-6">
                                 <div className="footer-widget about-widget">
