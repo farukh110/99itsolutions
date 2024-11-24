@@ -105,17 +105,17 @@ const ContactForm = (props) => {
                                     <div className='row'>
                                         <div className='col-md-12 my-md-2 my-2'>
                                             <Field type='text' name='name' placeholder='Name' className='form-control' />
-                                            <ErrorMessage name='name' component='div' className='error text-white' />
+                                            <ErrorMessage name='name' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
                                         <div className='col-md-12 my-md-2 my-2'>
                                             <Field type='email' name='email' placeholder='enter your email' className='form-control' />
-                                            <ErrorMessage name='email' component='div' className='error text-white' />
+                                            <ErrorMessage name='email' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
                                         <div className='col-md-12 my-md-2 my-2'>
                                             <Field type='text' name='phone' placeholder='enter your phone number' className='form-control' />
-                                            <ErrorMessage name='phone' component='div' className='error text-white' />
+                                            <ErrorMessage name='phone' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
                                         <div className='col-md-12 my-md-2 my-2'>
@@ -126,7 +126,7 @@ const ContactForm = (props) => {
                                                 <option value='Evening'>Evening</option>
                                                 <option value='Anytime'>Anytime</option>
                                             </Field>
-                                            <ErrorMessage name='timings' component='div' className='error text-white' />
+                                            <ErrorMessage name='timings' component='div' className='error text-danger mt-md-2' />
                                         </div>
                                     </div>
                                 </div>
@@ -163,7 +163,7 @@ const ContactForm = (props) => {
                                                 <option value='Product Development'>Product Development</option>
                                             </Field>
 
-                                            <ErrorMessage name='services' component='div' className='error text-white' />
+                                            <ErrorMessage name='services' component='div' className='error text-danger mt-md-2' />
                                         </div>
                                         )}
 
@@ -193,7 +193,7 @@ const ContactForm = (props) => {
 
                                                 </Field>
 
-                                                <ErrorMessage name='products' component='div' className='error text-white' />
+                                                <ErrorMessage name='products' component='div' className='error text-danger mt-md-2' />
                                             </div>
                                         )}
 
@@ -205,7 +205,7 @@ const ContactForm = (props) => {
                                                 <option value='$5000 - $10000'>$5000 - $10000</option>
                                                 <option value='$10000 & up'>$10000 & up</option>
                                             </Field>
-                                            <ErrorMessage name='budget' component='div' className='error text-white' />
+                                            <ErrorMessage name='budget' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
                                         <div className='col-md-3 my-md-2 my-2'>
@@ -217,12 +217,12 @@ const ContactForm = (props) => {
                                                 <option value='From another website'>From another website</option>
                                                 <option value='Others'>Others</option>
                                             </Field>
-                                            <ErrorMessage name='social' component='div' className='error text-white' />
+                                            <ErrorMessage name='social' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
                                         <div className='col-md-12 my-md-2 my-2'>
                                             <Field as='textarea' name='message' className='form-control custom-text-area' placeholder='Message' />
-                                            <ErrorMessage name='message' component='div' className='error text-white' />
+                                            <ErrorMessage name='message' component='div' className='error text-danger mt-md-2' />
                                         </div>
                                     </div>
                                 </div>
