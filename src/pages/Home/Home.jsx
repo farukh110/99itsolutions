@@ -51,7 +51,7 @@ const Home = () => {
     return (
         <>
             {/* <MainBanner /> */}
-            <FibonacciSphere />
+            {/* <FibonacciSphere /> */}
             {/* <MainSlider /> */}
             <TextSlider />
             <OurServices />
