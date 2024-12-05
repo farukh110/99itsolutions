@@ -5,7 +5,7 @@
 "99itsolutions@file:.":
   version "0.1.0"
   dependencies:
-    "99itsolutions" "file:C:/Users/92341/AppData/Local/Yarn/Cache/v6/npm-99itsolutions-0.1.0-213b2b14-17bb-4e08-b56e-c4c52423073c-1733422287706/node_modules/99itsolutions"
+    "99itsolutions" "file:C:/Users/92341/AppData/Local/Yarn/Cache/v6/npm-99itsolutions-0.1.0-f3c258ba-5e1d-49f5-8bc6-8426ee2ecd91-1733423249163/node_modules/99itsolutions"
     "@emailjs/browser" "^3.11.0"
     "@testing-library/jest-dom" "^5.14.1"
     "@testing-library/react" "^13.0.0"
@@ -25,7 +25,6 @@
     react-router-dom "^6.6.1"
     react-scripts "5.0.1"
     react-slick "^0.29.0"
-    react-type-animation "^2.1.2"
     slick-carousel "^1.8.1"
     web-vitals "^2.1.0"
     yup "^1.2.0"
@@ -9449,11 +9448,6 @@ react-transition-group@^4.4.5:
     dom-helpers "^5.0.1"
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
-
-react-type-animation@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/react-type-animation/-/react-type-animation-2.1.2.tgz"
-  integrity sha512-6/t4Whl87sLR0c8kzvJngTrCV6OVy3jEeUZoe2svVu9VaYr951VD7OeUie1rIyeD8JfpBIqZGYrPFHZQ04XHrw==
 
 react@^18.2.0:
   version "18.3.1"
