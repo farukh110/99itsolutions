@@ -11,6 +11,7 @@ import Features from './components/Features/Features';
 import Clients from './components/Clients/Clients';
 import TextSlider from './components/TextSlider/TextSlider';
 import ContactForm from './components/ContactForm/ContactForm';
+import HomeBanner from './components/HomeBanner/HomeBanner';
 
 const Home = () => {
 
@@ -38,6 +39,7 @@ const Home = () => {
 
     return (
         <>
+            <HomeBanner />
             <TextSlider />
             <OurServices />
             <Skills
