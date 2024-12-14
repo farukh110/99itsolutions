@@ -35,7 +35,7 @@
 
 .mplp {
 
-    padding: 0px 20px 0px 0px;
+    // padding: 0px 20px 0px 0px;
 
     h1 {
         font-weight: 600;
@@ -93,6 +93,71 @@
     padding: 10px 25px 10px 25px;
     font-size: 16px;
     line-height: 1.5;
+    margin: 0 auto;
     border-radius: 100px;
     border-color: #E30400 !important;
+}
+
+@media(max-width: 480px) {
+
+    .sw-development-banner {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    .mplp {
+
+        margin: 0px 0px 0px 0px !important;
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .clor {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        p {
+            margin-bottom: 0px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    .banner-ratings {
+
+        display: flex;
+        text-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+
+        .ratings-box {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            width: 40%;
+            height: 70px;
+            display: flex;
+            /* flex-direction: row; */
+            border-radius: 8px;
+        }
+    }
+
+    .getQuoteBtn {
+
+        display: block !important;
+    }
+}
+
+@media(max-width: 767px) {
+
+    .sw-development-banner {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
 }
