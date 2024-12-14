@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { Route, Routes } from "react-router-dom";
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
+import ShimmerOverlay from './components/general/ShimmerOverlay';
 
 // Lazy load the components
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -22,7 +23,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<ShimmerOverlay />}>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about-us" element={<AboutSix />} />

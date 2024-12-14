@@ -24,7 +24,7 @@ const HomeBanner = () => {
                         <div className="banner-ratings">
                             <div className="ratings-box">
                                 <a
-                                    href="https://g.co/kgs/rz9KiAy"
+                                    href="https://g.co/kgs/nTFb6tA"
                                     target="_blank"
                                     rel="noopener"
 
@@ -42,7 +42,7 @@ const HomeBanner = () => {
                             </div>
                             <div className="ratings-box">
                                 <a
-                                    href="https://clutch.co/profile/softlabs-group#highlights"
+                                    href="https://clutch.co/profile/99-it-solutions"
                                     target="_blank"
                                     rel="noopener nofollow"
                                 >
@@ -57,7 +57,7 @@ const HomeBanner = () => {
                                     />
                                 </a>
                             </div>
-                            <div className="ratings-box">
+                            {/* <div className="ratings-box">
                                 <a
                                     href="https://www.goodfirms.co/company/softlabs-group"
                                     target="_blank"
@@ -74,7 +74,7 @@ const HomeBanner = () => {
                                         className="entered litespeed-loaded"
                                     />
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                         <button
                             type="button"
