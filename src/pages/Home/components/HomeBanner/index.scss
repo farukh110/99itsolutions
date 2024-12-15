@@ -87,15 +87,22 @@
 .getQuoteBtn {
     display: inline-block;
     font-weight: 600;
-    color: #fff;
+    color: #1A3059;
     text-align: center;
-    background-color: #E30400 !important;
+    background-color: #F9AD2F !important;
     padding: 10px 25px 10px 25px;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
     border-radius: 100px;
-    border-color: #E30400 !important;
+    border-color: #F9AD2F !important;
+
+    &:hover {
+
+        background-color: transparent !important;
+        border-color: #ffffff !important;
+        color: #ffffff;
+    }
 }
 
 @media(max-width: 480px) {

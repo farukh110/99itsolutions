@@ -15,15 +15,8 @@ const HomeBanner = () => {
                         <h1 className="clor pt-3 pb-2">
                             Leading Custom Software Development Company.
                         </h1>
-                        <p className="pb-2 subHeading" style={{ color: "#fff" }}>
-                            Delivering innovative and scalable solutions for over 20+ years.
-                        </p>
                         <p className="clor">
-                            We provide end-to-end custom software development services tailored to
-                            meet your unique business challenges, ensuring solutions that are
-                            high-performing, future-ready, and designed to give you a competitive
-                            edge. Our expertise empowers you to streamline operations, reduce
-                            costs, and adapt seamlessly to evolving market demands.
+                            We are a globally recognized IT software company that was established in 2015. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
                         </p>
                         <div className="banner-ratings">
                             <div className="ratings-box">
@@ -52,7 +45,7 @@ const HomeBanner = () => {
                                 >
                                     <img
                                         data-lazyloaded={1}
-                                        src="https://www.softlabsgroup.com/img/google-rating-svg.webp"
+                                        src="https://www.softlabsgroup.com/img/clutch-rating-svg.webp"
                                         alt="Clutch"
                                         width={99}
                                         height={56}
