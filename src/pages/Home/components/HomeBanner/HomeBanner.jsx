@@ -1,8 +1,12 @@
 /* eslint-disable */
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './index.scss';
 
 const HomeBanner = () => {
+
+    const navigate = useNavigate();
+
     return (
         <section className="d-flex align-items-center position-relative vh-90hirepag cover  custom-sft-banner sw-development-banner">
             <div className="container">
@@ -79,10 +83,9 @@ const HomeBanner = () => {
                         <button
                             type="button"
                             className="btn button getQuoteBtn"
-                            data-toggle="modal"
-                            data-target="#getQuote"
+                            onClick={() => navigate('/contact')}
                         >
-                            Get a Quote
+                            Contact Us
                         </button>
                     </div>
                     <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
