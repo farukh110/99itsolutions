@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import googleRating from '../../../../assets/images/home-banner/google-rating-svg.webp';
 import './index.scss';
 
 const HomeBanner = () => {
@@ -28,7 +29,7 @@ const HomeBanner = () => {
                                 >
                                     <img
                                         data-lazyloaded={1}
-                                        src="https://www.softlabsgroup.com/img/google-rating-svg.webp"
+                                        src={googleRating}
                                         alt="Google"
                                         width={97}
                                         height={56}
