@@ -25,29 +25,32 @@ const Focused = () => {
     const [dataItems, setDataItems] = useState(items);
 
     return (
-        <div className='container focused-container mt-md-5'>
 
-            <h2 className='text-center'> Focused Verticles </h2>
+        <div className='focused-section pb-md-1'>
+            <div className='container focused-container pt-md-5'>
 
-            <div className='row my-md-5 my-0'>
+                <h2 className='text-center text-white'> Focused Verticles </h2>
 
-                {dataItems.map((item, index) => <div key={index} className='col-md-3 col-6 my-md-4 my-2 p-0'>
+                <div className='row my-md-5 my-0'>
 
-                    <div className='row justify-content-center'>
+                    {dataItems.map((item, index) => <div key={index} className='col-md-3 col-6 my-md-4 my-2 p-0'>
 
-                        <div className='col-md-3 p-0'>
-                            <img className='img-fluid' src={item.img} alt={item.name} />
+                        <div className='row justify-content-center'>
+
+                            <div className='col-md-3 p-0'>
+                                <img className='img-fluid' src={item.img} alt={item.name} />
+                            </div>
+                            <div className='col-md-7 p-0'>
+                                <h5 className='mt-md-1 text-white'> {item.name} </h5>
+                            </div>
+
                         </div>
-                        <div className='col-md-7 p-0'>
-                            <h5 className='mt-md-1'> {item.name} </h5>
-                        </div>
 
-                    </div>
+                    </div>)}
 
-                </div>)}
+                </div>
 
             </div>
-
         </div>
     )
 }
