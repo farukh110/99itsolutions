@@ -436,7 +436,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
 
                 </div>
 
-                <div className="row text-white justify-content-center mt-md-5 mt-4">
+                <div className="row text-white justify-content-center mt-md-5 mt-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
 
                     {isLoading ? (
                         <div className='col-md-12 text-center'>
@@ -450,7 +450,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
                             const { id, name, image, link } = item;
 
                             return (
-                                <div key={id} className="col-xl-3 col-lg-4 col-sm-6">
+                                <div key={id} className="col">
                                     <div
                                         className="gallery-item style-four wow fadeInUp delay-0-8s"
                                         style={{ visibility: "visible", animationName: "fadeInUp" }}

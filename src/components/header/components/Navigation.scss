@@ -1,13 +1,24 @@
 .main-navigation {
 
     li {
-        &:hover {
-            a {
-                &::before {
 
-                    opacity: 1;
-                    transform: scaleX(1);
-                }
+        a {
+            padding-left: 6px;
+            padding-right: 6px;
+            font-size: 14px;
+
+            &:hover {
+
+                background-color: #F9AD2F;
+                font-size: 14px;
+                font-weight: bold !important;
+                border-radius: 10px;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-color: #F9AD2F;
+                color: #040025 !important;
             }
         }
     }
