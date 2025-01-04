@@ -40,7 +40,7 @@ const Home = () => {
     return (
         <>
             <HomeBanner />
-            <TextSlider />
+            {/* <TextSlider /> */}
             <OurServices />
             <Skills
                 ImgStyle={imgStyle}
