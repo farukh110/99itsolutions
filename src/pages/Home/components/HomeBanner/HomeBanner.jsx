@@ -2,6 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import googleRating from '../../../../assets/images/home-banner/google-rating-svg.webp';
+import clutch from '../../../../assets/images/home-banner/clutch-rating-svg.webp';
 import './index.scss';
 
 const HomeBanner = () => {
@@ -40,7 +41,7 @@ const HomeBanner = () => {
                             </div>
                             <div className="ratings-box">
                                 <a
-                                    href="https://clutch.co/profile/99-it-solutions"
+                                    href={clutch}
                                     target="_blank"
                                     rel="noopener nofollow"
                                 >
