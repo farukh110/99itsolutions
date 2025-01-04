@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import googleRating from '../../../../assets/images/home-banner/google-rating-svg.webp';
 import clutch from '../../../../assets/images/home-banner/clutch-rating-svg.webp';
+import sw from '../../../../assets//images/home-banner/sw-dev-banner.webp';
 import './index.scss';
 
 const HomeBanner = () => {
@@ -85,7 +86,7 @@ const HomeBanner = () => {
                     </div>
                     <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
                         <img
-                            src="https://www.softlabsgroup.com/img/sw-dev-banner.webp"
+                            src={sw}
                             className="banner-img"
                             alt="Custom Software Development"
                         />
