@@ -13,6 +13,7 @@ import Clients from './components/Clients/Clients';
 import ContactForm from './components/ContactForm/ContactForm';
 import HomeBanner from './components/HomeBanner/HomeBanner';
 import Benefits from './components/benefits/Benefits';
+import Outsourcing from './components/Outsourcing/Outsourcing';
 
 const Home = () => {
 
@@ -51,6 +52,7 @@ const Home = () => {
                 rightPoints={rightPoints} /> */}
             <Benefits />
             <Focused />
+            <Outsourcing />
             {/* <Features /> */}
             <Process />
             <Counters />
