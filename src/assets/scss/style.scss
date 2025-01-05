@@ -10860,13 +10860,14 @@ h6,
 
 .gallery-carousel-arrow .slick-arrow {
   margin-right: 20px;
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   background: white;
-  line-height: 55px;
+  line-height: 45px;
   border-radius: 50%;
   text-align: center;
-  color: #104cba;
+  color: #1A3059;
+  border: 2px solid #1A3059;
 }
 
 .gallery-item.style-three {
@@ -10878,7 +10879,7 @@ h6,
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   transform: translateY(-5px);
-  background: #104cba;
+  background: #162E55;
 }
 
 .gallery-item.style-three:hover .gallery-content a {

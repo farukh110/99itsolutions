@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import SliderCom from "../../../helpers/SliderCom";
 
 import erp from "../../../assets/images/products/erp.jpg";
-import pos from "../../../assets/images/products/pos-system.jpg";
+import pos from "../../../assets/images/products/pos.jpg";
 import school from "../../../assets/images/products/school.jpg";
 import lms from "../../../assets/images/products/lms.jpg";
 import rms from "../../../assets/images/products/rms.jpg";
@@ -43,7 +43,7 @@ const OurGalleries = () => {
         <section className="gallery-section-three overlay pt-120 rpt-50 pb-105 rpb-40">
             <div className="container">
                 <div className="section-title gellery-section-title mb-55 wow fadeInUp delay-0-2s">
-                    <span className="sub-title">Our Products</span>
+                    <h3 className="sub-title our-products">Our Products</h3>
                     <h2>Explore our recent products</h2>
                     <div className="gallery-carousel-arrow mt-25">
                         <button
