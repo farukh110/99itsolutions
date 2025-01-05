@@ -6,23 +6,56 @@
 
     button {
         border-radius: 5px;
-        background: #162E55;
-        color: #fff;
+        border: 1px solid #DDDDDD;
+        background: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #000000;
+
+        img {
+
+            width: 45px;
+        }
 
         &:hover {
-            background: #F9AD2F;
-            border-color: #F9AD2F;
+            background: #162E55;
+            border-color: #162E55;
+            box-shadow: 0 5px 15px 0 #172258b3;
+            color: #fff;
+
+            img {
+
+                filter: invert(99%) sepia(0%) saturate(7494%) hue-rotate(194deg) brightness(101%) contrast(103%);
+            }
         }
 
         &:active {
-            background: #F9AD2F !important;
-            border-color: #F9AD2F !important;
+            background: #162E55 !important;
+            border-color: #162E55 !important;
+            box-shadow: 0 5px 15px 0 #172258b3;
+            color: #fff;
+
+            img {
+
+                filter: invert(99%) sepia(0%) saturate(7494%) hue-rotate(194deg) brightness(101%) contrast(103%);
+
+            }
         }
     }
 
     .btn-primary {
-        background: #F9AD2F !important;
-        border-color: #F9AD2F !important;
+        background: #162E55 !important;
+        border-color: #162E55 !important;
+        box-shadow: 0 5px 15px 0 #172258b3;
+        color: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        img {
+
+            filter: invert(99%) sepia(0%) saturate(7494%) hue-rotate(194deg) brightness(101%) contrast(103%);
+            width: 45px;
+        }
     }
 }
 
