@@ -5,6 +5,14 @@ import develop from '../../../../assets/images/process/develop.jpg';
 import testing from '../../../../assets/images/process/testing.png';
 import delivery from '../../../../assets/images/process/delivery.jpg';
 import support from '../../../../assets/images/process/support.jpg';
+
+import planningIcon from '../../../../assets/images/icons/Conceptualisation-icon.webp';
+import designIcon from '../../../../assets/images/icons/prototype-icon.webp';
+import developIcon from '../../../../assets/images/icons/system-design-development.webp';
+import testIcon from '../../../../assets/images/icons/agile-process-support.webp';
+import deliveryIcon from '../../../../assets/images/icons/deployment-icon.webp';
+import supportIcon from '../../../../assets/images/icons/agile-process-support.webp';
+
 import './Process.scss';
 
 const Process = () => {
@@ -30,6 +38,8 @@ const Process = () => {
                                     }`}
                                 onClick={() => handleClick('planning')}
                             >
+                                <img src={planningIcon} alt="Planning" />
+                                <br />
                                 Planning
                             </button>
 
@@ -45,6 +55,9 @@ const Process = () => {
                                     }`}
                                 onClick={() => handleClick('design')}
                             >
+                                <img src={designIcon} alt="Design" />
+                                <br />
+
                                 Design
                             </button>
 
@@ -60,6 +73,8 @@ const Process = () => {
                                     }`}
                                 onClick={() => handleClick('develop')}
                             >
+                                <img src={developIcon} alt="Planning" />
+                                <br />
                                 Develop
                             </button>
 
@@ -75,6 +90,8 @@ const Process = () => {
                                     }`}
                                 onClick={() => handleClick('test')}
                             >
+                                <img src={testIcon} alt="Planning" />
+                                <br />
                                 Test
                             </button>
                         </div>
@@ -89,6 +106,8 @@ const Process = () => {
                                     }`}
                                 onClick={() => handleClick('deliver')}
                             >
+                                <img src={deliveryIcon} alt="Planning" />
+                                <br />
                                 Deliver
                             </button>
 
@@ -104,6 +123,8 @@ const Process = () => {
                                     }`}
                                 onClick={() => handleClick('maintenance')}
                             >
+                                <img src={supportIcon} alt="Planning" />
+                                <br />
                                 Maintenance
                             </button>
 
