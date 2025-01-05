@@ -20,8 +20,8 @@ const HomeBanner = () => {
                             Convert your idea into
                         </h1>
                         <TextSlider />
-                        <p className="clor">
-                            Over a Decade of Innovation: Designing Custom Software and Digital Marketing Solutions that Drive Real Results.
+                        <p className="clor fw-bold">
+                            Over a Decade of Innovation: Designing Custom Software and Digital Marketing Solutions that Drive Real Results!
                         </p>
                         <button
                             type="button"
