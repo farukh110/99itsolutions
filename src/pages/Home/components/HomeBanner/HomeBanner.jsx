@@ -5,6 +5,7 @@ import googleRating from '../../../../assets/images/home-banner/google-rating-sv
 import clutch from '../../../../assets/images/home-banner/clutch-rating-svg.webp';
 import sw from '../../../../assets//images/home-banner/sw-dev-banner.webp';
 import './index.scss';
+import TextSlider from '../TextSlider/TextSlider';
 
 const HomeBanner = () => {
 
@@ -16,11 +17,19 @@ const HomeBanner = () => {
                 <div className="row align-items-center">
                     <div className="col-12 col-md-7  mplp">
                         <h1 className="clor pt-3 pb-2">
-                            Leading Custom Software Development Company.
+                            Convert your idea into
                         </h1>
+                        <TextSlider />
                         <p className="clor">
                             We are a globally recognized IT software company that was established in 2015. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
                         </p>
+                        <button
+                            type="button"
+                            className="btn button getQuoteBtn"
+                            onClick={() => navigate('/contact')}
+                        >
+                            Let’s work together!
+                        </button>
                         <div className="banner-ratings">
                             <div className="ratings-box">
                                 <a
@@ -76,13 +85,6 @@ const HomeBanner = () => {
                                 </a>
                             </div> */}
                         </div>
-                        <button
-                            type="button"
-                            className="btn button getQuoteBtn"
-                            onClick={() => navigate('/contact')}
-                        >
-                            Contact Us
-                        </button>
                     </div>
                     <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
                         <img
