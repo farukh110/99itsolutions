@@ -17,8 +17,7 @@ const Benefits = () => {
                 <div className='col-md-6'>
 
                     <h1>
-                        Benefits of Software
-                        Development Outsourcing
+                        Benefits of Outsourcing with us
                     </h1>
 
                 </div>
