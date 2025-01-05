@@ -14,6 +14,7 @@ import ContactForm from './components/ContactForm/ContactForm';
 import HomeBanner from './components/HomeBanner/HomeBanner';
 import Benefits from './components/benefits/Benefits';
 import Outsourcing from './components/Outsourcing/Outsourcing';
+import OutsourcingServices from './components/OutsourcingServices/OutsourcingServices';
 
 const Home = () => {
 
@@ -53,6 +54,7 @@ const Home = () => {
             <Benefits />
             <Focused />
             <Outsourcing />
+            <OutsourcingServices />
             {/* <Features /> */}
             <Process />
             <Counters />
