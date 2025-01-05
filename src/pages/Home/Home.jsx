@@ -7,7 +7,7 @@ import Counters from './components/Counters';
 import Focused from './components/Focused/Focused';
 import Process from './components/Process/Process';
 // import Skills from './components/Skills/Skills';
-import Features from './components/Features/Features';
+// import Features from './components/Features/Features';
 import Clients from './components/Clients/Clients';
 // import TextSlider from './components/TextSlider/TextSlider';
 import ContactForm from './components/ContactForm/ContactForm';
@@ -51,7 +51,7 @@ const Home = () => {
                 rightPoints={rightPoints} /> */}
             <Benefits />
             <Focused />
-            <Features />
+            {/* <Features /> */}
             <Process />
             <Counters />
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />
