@@ -12,6 +12,7 @@ import Clients from './components/Clients/Clients';
 // import TextSlider from './components/TextSlider/TextSlider';
 import ContactForm from './components/ContactForm/ContactForm';
 import HomeBanner from './components/HomeBanner/HomeBanner';
+import Benefits from './components/benefits/Benefits';
 
 const Home = () => {
 
@@ -48,6 +49,7 @@ const Home = () => {
                 smallContent='At 99iTsolutions, we serve as a focal point for representing your ideas and concepts, ensuring they are transformed into visually meaningful results. Our teams solve complex and sophisticated problems with highly advanced digital solutions and a streamlined production process. Here are some key features we offer:'
                 leftPoints={leftPoints}
                 rightPoints={rightPoints} /> */}
+            <Benefits />
             <Focused />
             <Features />
             <Process />
