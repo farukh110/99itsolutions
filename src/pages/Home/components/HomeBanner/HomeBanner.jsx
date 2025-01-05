@@ -23,6 +23,13 @@ const HomeBanner = () => {
                         <p className="clor">
                             We are a globally recognized IT software company that was established in 2015. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
                         </p>
+                        <button
+                            type="button"
+                            className="btn button getQuoteBtn"
+                            onClick={() => navigate('/contact')}
+                        >
+                            Let’s work together!
+                        </button>
                         <div className="banner-ratings">
                             <div className="ratings-box">
                                 <a
@@ -78,13 +85,6 @@ const HomeBanner = () => {
                                 </a>
                             </div> */}
                         </div>
-                        <button
-                            type="button"
-                            className="btn button getQuoteBtn"
-                            onClick={() => navigate('/contact')}
-                        >
-                            Let’s work together!
-                        </button>
                     </div>
                     <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
                         <img
