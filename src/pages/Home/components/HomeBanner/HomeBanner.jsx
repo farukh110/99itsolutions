@@ -3,7 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import googleRating from '../../../../assets/images/home-banner/google-rating-svg.webp';
 import clutch from '../../../../assets/images/home-banner/clutch-rating-svg.webp';
-import sw from '../../../../assets//images/home-banner/sw-dev-banner.webp';
+// import sw from '../../../../assets//images/home-banner/sw-dev-banner.webp';
 import './index.scss';
 import TextSlider from '../TextSlider/TextSlider';
 
@@ -21,7 +21,7 @@ const HomeBanner = () => {
                         </h1>
                         <TextSlider />
                         <p className="clor">
-                            We are a globally recognized IT software company that was established in 2015. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
+                            Over a Decade of Innovation: Designing Custom Software and Digital Marketing Solutions that Drive Real Results. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
                         </p>
                         <button
                             type="button"
@@ -30,7 +30,7 @@ const HomeBanner = () => {
                         >
                             Let’s work together!
                         </button>
-                        <div className="banner-ratings">
+                        <div className="banner-ratings mt-md-4">
                             <div className="ratings-box">
                                 <a
                                     href="https://g.co/kgs/nTFb6tA"
@@ -87,11 +87,11 @@ const HomeBanner = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
-                        <img
+                        {/* <img
                             src={sw}
                             className="banner-img"
                             alt="Custom Software Development"
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>
