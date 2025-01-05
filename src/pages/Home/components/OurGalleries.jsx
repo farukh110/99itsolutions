@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import SliderCom from "../../../helpers/SliderCom";
 
 import erp from "../../../assets/images/products/erp.jpg";
-import pos from "../../../assets/images/products/pos-system.jpg";
+import pos from "../../../assets/images/products/pos.jpg";
 import school from "../../../assets/images/products/school.jpg";
 import lms from "../../../assets/images/products/lms.jpg";
 import rms from "../../../assets/images/products/rms.jpg";
