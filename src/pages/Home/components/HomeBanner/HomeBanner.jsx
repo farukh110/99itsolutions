@@ -21,7 +21,7 @@ const HomeBanner = () => {
                         </h1>
                         <TextSlider />
                         <p className="clor">
-                            Over a Decade of Innovation: Designing Custom Software and Digital Marketing Solutions that Drive Real Results. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
+                            Over a Decade of Innovation: Designing Custom Software and Digital Marketing Solutions that Drive Real Results.
                         </p>
                         <button
                             type="button"
