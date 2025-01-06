@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import './index.scss';
 
 const Footer = () => {
+
+    const customDate = new Date();
+
+    // console.log('customDate: ', customDate.getFullYear());
+
     return (
         <>
             <footer className="main-footer footer-one text-white">
@@ -141,7 +146,7 @@ const Footer = () => {
                                     <i className="fab fa-behance"></i>
                                 </a>
                             </div>
-                            <p>Copyright @ 2015-2022 99 iT Solutions | All Rights Reserved. Powered by 99 iT Solutions</p>
+                            <p>Copyright @ 2015-{customDate.getFullYear()} 99 iT Solutions | All Rights Reserved. Powered by 99 iT Solutions</p>
                         </div>
                     </div>
                 </div>
