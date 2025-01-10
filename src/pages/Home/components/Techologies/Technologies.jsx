@@ -1,41 +1,66 @@
 import React from 'react';
-import frontend from '../../../../assets/images/technologies/front-end.svg';
-import fullstack from '../../../../assets/images/technologies/full-stack.svg';
-import angular from '../../../../assets/images/technologies/angular.svg';
-import node from '../../../../assets/images/technologies/node.svg';
-import javascript from '../../../../assets/images/technologies/javascript.svg';
-import reactjs from '../../../../assets/images/technologies/react.svg';
-import dotnet from '../../../../assets/images/technologies/dotnet.svg';
-import java from '../../../../assets/images/technologies/java.svg';
-import scala from '../../../../assets/images/technologies/scala.svg';
-import php from '../../../../assets/images/technologies/php.svg';
-import c from '../../../../assets/images/technologies/c.svg';
 import './techologies.scss';
+import { SiJavascript } from "react-icons/si";
+import { Tabs } from 'antd';
 
 const Technologies = () => {
 
-    const technologies = [
-        { img: frontend, name: 'Front-End' },
-        { img: fullstack, name: 'Full-Stack' },
-        { img: angular, name: 'Angular' },
-        { img: node, name: 'Node.js' },
-        { img: javascript, name: 'JavaScript' },
-        { img: reactjs, name: 'React' },
-        { img: dotnet, name: '.Net' },
-        { img: java, name: 'Java' },
-        { img: scala, name: 'Scala' },
-        { img: php, name: 'PHP' },
-        { img: c, name: 'C/C++' },
-    ]
+    const FrontendTemplate = () => {
+
+        return (
+            <div className='row'>
+
+                <div className='col-md-2'>
+
+                    <SiJavascript />
+
+                </div>
+
+            </div>
+        );
+    };
+
+    const items = [
+        {
+            key: '1',
+            label: 'Frontend',
+            children: <FrontendTemplate />,
+        },
+        {
+            key: '2',
+            label: 'Backend',
+            children: 'Content of Tab Pane 2',
+        },
+        {
+            key: '3',
+            label: 'Mobility Stack',
+            children: 'Content of Tab Pane 3',
+        },
+        {
+            key: '4',
+            label: 'Artificial Intelligence',
+            children: 'Content of Tab Pane 4',
+        },
+
+        // {
+        //     key: '5',
+        //     label: 'Cloud Computing',
+        //     children: 'Content of Tab Pane 5',
+        // },
+    ];
+
+    const onChange = (key) => {
+        console.log(key);
+    };
 
     return (
         <>
             <section className='technologies'>
                 <div className='container'>
 
-                    <h2 className='text-center'> Technologies </h2>
+                    <h2 className='text-center'> Our Software Development Tech Stack </h2>
 
-                    <div className='row justify-content-center'>
+                    {/* <div className='row justify-content-center'>
 
                         {
                             technologies.map((item, key) => <div key={key} className='col-lg-2 col-md-3 col-sm-6 col-6 my-md-3 my-3'>
@@ -44,6 +69,15 @@ const Technologies = () => {
                                 </div>
                             </div>)}
 
+                    </div> */}
+
+                    <div className='row justify-content-center'>
+                        <Tabs
+                            cardGutter={4}
+                            className='custom-tabs'
+                            defaultActiveKey="1"
+                            items={items} onChange={onChange}
+                        />
                     </div>
 
                 </div>

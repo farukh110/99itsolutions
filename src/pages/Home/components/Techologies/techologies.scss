@@ -1,7 +1,14 @@
 .technologies {
-    background: #F5F5F5;
+    background: #EDEDED;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #162E55;
+    }
+
 
     .tech-column {
         transition: all 0.3s;
@@ -15,6 +22,47 @@
         height: 130px;
     }
 
+}
+
+.custom-tabs {
+
+    .ant-tabs-tab-btn {
+
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+
+        &:active {
+
+            color: #162E55 !important;
+        }
+    }
+
+    .ant-tabs-tab-active {
+
+        .ant-tabs-tab-btn {
+            color: #162E55 !important;
+            text-shadow: 0 0 0.25px #162E55;
+        }
+
+    }
+
+    .ant-tabs-ink-bar {
+        background: #162E55 !important;
+    }
+
+    .ant-tabs-tab {
+
+        &:hover {
+
+            color: #162E55 !important;
+        }
+
+        &:active {
+
+            color: #162E55 !important;
+        }
+    }
 }
 
 @media (max-width: 480px) {
