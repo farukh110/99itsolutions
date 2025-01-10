@@ -15,6 +15,7 @@ import HomeBanner from './components/HomeBanner/HomeBanner';
 import Benefits from './components/benefits/Benefits';
 import Outsourcing from './components/Outsourcing/Outsourcing';
 import OutsourcingServices from './components/OutsourcingServices/OutsourcingServices';
+import Technologies from './components/Techologies/Technologies';
 
 const Home = () => {
 
@@ -60,6 +61,7 @@ const Home = () => {
             {/* <Counters /> */}
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />
             <OurGalleries />
+            <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
         </>
