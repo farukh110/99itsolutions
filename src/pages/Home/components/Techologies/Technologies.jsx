@@ -1,16 +1,33 @@
 import React from 'react';
 import javascript from '../../../../assets/images/techstack/JavaScript.png';
+import typescript from '../../../../assets/images/techstack/typescript.png';
 import react from '../../../../assets/images/techstack/ReactJS.png';
+import reduxToolkit from '../../../../assets/images/techstack/redux.png';
+import next from '../../../../assets/images/techstack/next.png';
 import vue from '../../../../assets/images/techstack/vu.png';
+import nuxt from '../../../../assets/images/techstack/nuxt.png';
 import angular from '../../../../assets/images/techstack/Angular.png';
 import html5 from '../../../../assets/images/techstack/html.png';
 import css3 from '../../../../assets/images/techstack/css.png';
+import bootstrap from '../../../../assets/images/techstack/bootstrap.png';
+import tailwindCSS from '../../../../assets/images/techstack/tailwind.png';
+import antDesign from '../../../../assets/images/techstack/ant-design.png';
+import materialUI from '../../../../assets/images/techstack/material-ui.png';
+import vite from '../../../../assets/images/techstack/vite.png';
+import npm from '../../../../assets/images/techstack/npm.png';
+import yarn from '../../../../assets/images/techstack/yarn.png';
+import scss from '../../../../assets/images/techstack/scss.png';
 import dotnet from '../../../../assets/images/techstack/dotnet.webp';
 import php from '../../../../assets/images/techstack/php.webp';
 import node from '../../../../assets/images/techstack/Node.webp';
+import express from '../../../../assets/images/techstack/express.png';
+import nestJS from '../../../../assets/images/techstack/nestjs.png';
 import java from '../../../../assets/images/techstack/jsp.webp';
 import python from '../../../../assets/images/techstack/Python.webp';
+import django from '../../../../assets/images/techstack/django.png';
 import laravel from '../../../../assets/images/techstack/laravel.png';
+import ruby from '../../../../assets/images/techstack/ruby.png';
+import flask from '../../../../assets/images/techstack/flask.png';
 import android from '../../../../assets/images/techstack/android.webp';
 import ios from '../../../../assets/images/techstack/IOS.webp';
 import swift from '../../../../assets/images/techstack/swift.png';
@@ -42,6 +59,14 @@ const Technologies = () => {
 
                 <div className='col-md-2 icon-column'>
 
+                    <img src={typescript} className='custom-icon' alt='TypeScript' />
+
+                    <p className="techstack-p mt-md-3 text-center">TypeScript</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
                     <img src={react} className='custom-icon' alt='React' />
 
                     <p className="techstack-p mt-md-3 text-center">ReactJS</p>
@@ -50,9 +75,33 @@ const Technologies = () => {
 
                 <div className='col-md-2 icon-column'>
 
+                    <img src={reduxToolkit} className='custom-icon' alt='Redux Toolkit' />
+
+                    <p className="techstack-p mt-md-3 text-center">Redux Toolkit</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={next} className='custom-icon' alt='NextJS' />
+
+                    <p className="techstack-p mt-md-3 text-center">NextJS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
                     <img src={vue} className='custom-icon' alt='Vue' />
 
                     <p className="techstack-p mt-md-3 text-center">Vue JS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={nuxt} className='custom-icon' alt='NuxtJS' />
+
+                    <p className="techstack-p mt-md-3 text-center">NuxtJS</p>
 
                 </div>
 
@@ -77,6 +126,70 @@ const Technologies = () => {
                     <img src={css3} className='custom-icon' alt='Css3' />
 
                     <p className="techstack-p mt-md-3 text-center">Css3</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={scss} className='custom-icon' alt='Scss' />
+
+                    <p className="techstack-p mt-md-3 text-center">Scss</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={bootstrap} className='custom-icon' alt='Bootstrap' />
+
+                    <p className="techstack-p mt-md-3 text-center">Bootstrap</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={tailwindCSS} className='custom-icon' alt='Tailwind CSS' />
+
+                    <p className="techstack-p mt-md-3 text-center">Tailwind CSS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={antDesign} className='custom-icon' alt='Ant Design' />
+
+                    <p className="techstack-p mt-md-3 text-center">Ant Design</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={materialUI} className='custom-icon' alt='Material UI' />
+
+                    <p className="techstack-p mt-md-3 text-center">Material UI</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={vite} className='custom-icon' alt='Vite' />
+
+                    <p className="techstack-p mt-md-3 text-center">Vite</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={npm} className='custom-icon' alt='Npm' />
+
+                    <p className="techstack-p mt-md-3 text-center">Npm</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={yarn} className='custom-icon' alt='Yarn' />
+
+                    <p className="techstack-p mt-md-3 text-center">Yarn</p>
 
                 </div>
 
@@ -115,6 +228,30 @@ const Technologies = () => {
 
                 <div className='col-md-2 icon-column'>
 
+                    <img src={express} className='custom-icon' alt='ExpressJS' />
+
+                    <p className="techstack-p mt-md-3 text-center">ExpressJS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={nestJS} className='custom-icon' alt='NestJS' />
+
+                    <p className="techstack-p mt-md-3 text-center">NestJS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={next} className='custom-icon' alt='NextJS' />
+
+                    <p className="techstack-p mt-md-3 text-center">NextJS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
                     <img src={java} className='custom-icon' alt='Java Spring Boot' />
 
                     <p className="techstack-p mt-md-3 text-center">Java Spring Boot</p>
@@ -131,9 +268,33 @@ const Technologies = () => {
 
                 <div className='col-md-2 icon-column'>
 
+                    <img src={django} className='custom-icon' alt='Django' />
+
+                    <p className="techstack-p mt-md-3 text-center">Django</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
                     <img src={laravel} className='custom-icon' alt='Laravel' />
 
                     <p className="techstack-p mt-md-3 text-center">Laravel</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={ruby} className='custom-icon' alt='Laravel' />
+
+                    <p className="techstack-p mt-md-3 text-center">Ruby on Rails</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={flask} className='custom-icon' alt='Flask' />
+
+                    <p className="techstack-p mt-md-3 text-center">Flask</p>
 
                 </div>
 
