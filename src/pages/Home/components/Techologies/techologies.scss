@@ -65,6 +65,23 @@
     }
 }
 
+.icon-column {
+
+    .custom-icon {
+
+        height: 70px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .techstack-p {
+
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
 @media (max-width: 480px) {
 
     .technologies {
