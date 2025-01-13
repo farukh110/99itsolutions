@@ -1,0 +1,74 @@
+.vertical-slider-section {
+
+    background: #F9AD2F;
+    padding-top: 20px;
+
+    .slider-wrapper {
+        font-size: 20px;
+        color: #ffffff;
+        text-transform: capitalize;
+        display: flex;
+
+        .slider {
+            height: 50px;
+            overflow: hidden;
+
+            div {
+                height: 50px;
+                color: #ffffff;
+                margin-bottom: 50px;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .slider-text-1 {
+        animation: slide 5s linear infinite;
+    }
+
+    button {
+        border-radius: 5px;
+        background: #162E55;
+        border-color: #162E55;
+        color: #fff;
+
+        &:hover {
+
+            background: #000;
+            border-color: #000;
+        }
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-top: -300px;
+    }
+
+    5% {
+        /* For stopping effect */
+        margin-top: -200px;
+    }
+
+    33% {
+        margin-top: -200px;
+    }
+
+    38% {
+        /* For stopping effect */
+        margin-top: -100px;
+    }
+
+    66% {
+        margin-top: -100px;
+    }
+
+    71% {
+        /* For stopping effect */
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
