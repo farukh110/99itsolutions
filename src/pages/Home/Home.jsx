@@ -16,6 +16,7 @@ import Benefits from './components/benefits/Benefits';
 import Outsourcing from './components/Outsourcing/Outsourcing';
 import OutsourcingServices from './components/OutsourcingServices/OutsourcingServices';
 import Technologies from './components/Techologies/Technologies';
+import VerticalSlider from './components/vertical-slider/VerticalSlider';
 
 const Home = () => {
 
@@ -64,6 +65,7 @@ const Home = () => {
             <OurGalleries />
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
+            <VerticalSlider />
         </>
     )
 }
