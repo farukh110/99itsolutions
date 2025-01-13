@@ -52,16 +52,16 @@ const Home = () => {
                 smallContent='At 99iTsolutions, we serve as a focal point for representing your ideas and concepts, ensuring they are transformed into visually meaningful results. Our teams solve complex and sophisticated problems with highly advanced digital solutions and a streamlined production process. Here are some key features we offer:'
                 leftPoints={leftPoints}
                 rightPoints={rightPoints} /> */}
-            <Benefits />
-            <Focused />
             <Outsourcing />
             <OutsourcingServices />
-            {/* <Features /> */}
             <Process />
+            <Technologies />
+            <Benefits />
+            <Focused />
+            {/* <Features /> */}
             {/* <Counters /> */}
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />
             <OurGalleries />
-            <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
         </>
