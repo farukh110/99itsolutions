@@ -38,6 +38,12 @@ import generative from '../../../../assets/images/techstack/generative_blob.webp
 import nlp from '../../../../assets/images/techstack/natural-language-processing.webp';
 import speech from '../../../../assets/images/techstack/voice-recognition.webp';
 import computerVision from '../../../../assets/images/techstack/computer-vision.webp';
+import mysql from '../../../../assets/images/techstack/mysql.png';
+import sql from '../../../../assets/images/techstack/microsoft-sql.png';
+import mongoDB from '../../../../assets/images/techstack/mongodb.png';
+import postgrsql from '../../../../assets/images/techstack/postgresql.png';
+import firebase from '../../../../assets/images/techstack/firebase.png';
+import redis from '../../../../assets/images/techstack/redis.png';
 
 import './techologies.scss';
 import { Tabs } from 'antd';
@@ -416,6 +422,63 @@ const Technologies = () => {
         );
     };
 
+    const Databases = () => {
+
+        return (
+            <div className='row'>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={mysql} className='custom-icon' alt='MySQL' />
+
+                    <p className="techstack-p mt-md-3 text-center">MySQL</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={sql} className='custom-icon' alt='SQL Server' />
+
+                    <p className="techstack-p mt-md-3 text-center">SQL Server</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={mongoDB} className='custom-icon' alt='MongoDB' />
+
+                    <p className="techstack-p mt-md-3 text-center">MongoDB</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={postgrsql} className='custom-icon' alt='postgreSQL' />
+
+                    <p className="techstack-p mt-md-3 text-center">postgreSQL</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={firebase} className='custom-icon' alt='Firebase' />
+
+                    <p className="techstack-p mt-md-3 text-center">Firebase</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={redis} className='custom-icon' alt='Redis' />
+
+                    <p className="techstack-p mt-md-3 text-center">Redis</p>
+
+                </div>
+
+            </div>
+        );
+    };
+
     const items = [
         {
             key: '1',
@@ -434,15 +497,19 @@ const Technologies = () => {
         },
         {
             key: '4',
+            label: 'Databases',
+            children: <Databases />,
+        },
+        {
+            key: '5',
             label: 'Artificial Intelligence',
             children: <AI />,
         },
-
-        // {
-        //     key: '5',
-        //     label: 'Cloud Computing',
-        //     children: 'Content of Tab Pane 5',
-        // },
+        {
+            key: '6',
+            label: 'Cloud & DevOps',
+            children: 'Content of Tab Pane 5',
+        },
     ];
 
     const onChange = (key) => {
