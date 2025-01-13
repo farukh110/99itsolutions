@@ -12,24 +12,26 @@ const VerticalSlider = () => {
                     <div className='col-md-8'>
 
                         <div class="slider-wrapper">
+                            Are you looking for professional
                             <div class="slider">
                                 <div class="slider-text-1">
-                                    Are you looking for professional web Developers team?
+                                    web Developers
                                 </div>
                                 <div class="slider-text-2">
-                                    Are you looking for professional DevOps Engineers team?
+                                    DevOps Engineers
                                 </div>
                                 <div class="slider-text-3">
-                                    Are you looking for professional Design team?
+                                    Graphic Designs
                                 </div>
                             </div>
+                            team?
                         </div>
 
                     </div>
 
                     <div className='col-md-4'>
 
-                        <button class="btn btn-primary mx-auto d-block">Hire Us</button>
+                        <button class="btn btn-primary mx-auto d-block">Hire Us <i class="fa-regular fa-paper-plane"></i> </button>
 
                     </div>
 

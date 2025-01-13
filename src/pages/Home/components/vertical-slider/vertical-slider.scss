@@ -1,11 +1,14 @@
 .vertical-slider-section {
 
-    background: #F9AD2F;
+    background: url(../../../../assets/images/vertical-slider/vertical.jpg);
     padding-top: 20px;
+    background-size: cover;
 
     .slider-wrapper {
         font-size: 20px;
         color: #ffffff;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
         text-transform: capitalize;
         display: flex;
 
@@ -15,7 +18,11 @@
 
             div {
                 height: 50px;
-                color: #ffffff;
+                color: #162E55;
+                font-weight: 600;
+                font-family: 'Montserrat', sans-serif;
+                padding-left: 10px;
+                padding-right: 10px;
                 margin-bottom: 50px;
                 box-sizing: border-box;
             }
@@ -30,6 +37,8 @@
         border-radius: 5px;
         background: #162E55;
         border-color: #162E55;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
         color: #fff;
 
         &:hover {
