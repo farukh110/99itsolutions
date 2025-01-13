@@ -44,6 +44,18 @@ import mongoDB from '../../../../assets/images/techstack/mongodb.png';
 import postgrsql from '../../../../assets/images/techstack/postgresql.png';
 import firebase from '../../../../assets/images/techstack/firebase.png';
 import redis from '../../../../assets/images/techstack/redis.png';
+import aws from '../../../../assets/images/techstack/aws.webp';
+import azure from '../../../../assets/images/techstack/Azure.png';
+import vercel from '../../../../assets/images/techstack/vercel.png';
+import git from '../../../../assets/images/techstack/git.png';
+import microServices from '../../../../assets/images/techstack/microservices.webp';
+import devOps from '../../../../assets/images/techstack/DevOps.webp';
+import docker from '../../../../assets/images/techstack/Docker.webp';
+import kubernetes from '../../../../assets/images/techstack/Kubernetes.webp';
+import jenkins from '../../../../assets/images/techstack/cicd.webp';
+import bitbucket from '../../../../assets/images/techstack/bitbucket.png';
+import terraform from '../../../../assets/images/techstack/terraform.png';
+import bamboo from '../../../../assets/images/techstack/bamboo.png';
 
 import './techologies.scss';
 import { Tabs } from 'antd';
@@ -479,6 +491,111 @@ const Technologies = () => {
         );
     };
 
+    const Cloud = () => {
+
+        return (
+            <div className='row'>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={aws} className='custom-icon' alt='AWS' />
+
+                    <p className="techstack-p mt-md-3 text-center">AWS</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={azure} className='custom-icon' alt='Microsoft Azure' />
+
+                    <p className="techstack-p mt-md-3 text-center">Microsoft Azure</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={vercel} className='custom-icon' alt='Vercel' />
+
+                    <p className="techstack-p mt-md-3 text-center">Vercel</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={git} className='custom-icon' alt='Git' />
+
+                    <p className="techstack-p mt-md-3 text-center">Git</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={microServices} className='custom-icon' alt='Microservices' />
+
+                    <p className="techstack-p mt-md-3 text-center">Microservices</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={devOps} className='custom-icon' alt='DevOps' />
+
+                    <p className="techstack-p mt-md-3 text-center">DevOps</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={docker} className='custom-icon' alt='Docker' />
+
+                    <p className="techstack-p mt-md-3 text-center">Docker</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={kubernetes} className='custom-icon' alt='Kubernetes' />
+
+                    <p className="techstack-p mt-md-3 text-center">Kubernetes</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={jenkins} className='custom-icon' alt='Jenkins' />
+
+                    <p className="techstack-p mt-md-3 text-center">Jenkins</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={bitbucket} className='custom-icon' alt='Bitbucket' />
+
+                    <p className="techstack-p mt-md-3 text-center">Bitbucket</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={terraform} className='custom-icon' alt='Terraform' />
+
+                    <p className="techstack-p mt-md-3 text-center">Terraform</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={bamboo} className='custom-icon' alt='Bamboo' />
+
+                    <p className="techstack-p mt-md-3 text-center">Bamboo</p>
+
+                </div>
+
+            </div>
+        );
+    };
+
     const items = [
         {
             key: '1',
@@ -508,7 +625,7 @@ const Technologies = () => {
         {
             key: '6',
             label: 'Cloud & DevOps',
-            children: 'Content of Tab Pane 5',
+            children: <Cloud />,
         },
     ];
 
