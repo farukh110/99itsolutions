@@ -56,6 +56,17 @@ import jenkins from '../../../../assets/images/techstack/cicd.webp';
 import bitbucket from '../../../../assets/images/techstack/bitbucket.png';
 import terraform from '../../../../assets/images/techstack/terraform.png';
 import bamboo from '../../../../assets/images/techstack/bamboo.png';
+import photoshop from '../../../../assets/images/techstack/photoshop.png';
+import illustrator from '../../../../assets/images/techstack/illustrator.png';
+import afterEffects from '../../../../assets/images/techstack/after-effects.png';
+import corelDraw from '../../../../assets/images/techstack/coreldraw.png';
+import figma from '../../../../assets/images/techstack/figma.png';
+import indesign from '../../../../assets/images/techstack/indesign.png';
+import xd from '../../../../assets/images/techstack/xd.png';
+import invision from '../../../../assets/images/techstack/invision.png';
+import premiere from '../../../../assets/images/techstack/premiere.png';
+import sketch from '../../../../assets/images/techstack/sketch.png';
+import canva from '../../../../assets/images/techstack/canva.png';
 
 import './techologies.scss';
 import { Tabs } from 'antd';
@@ -491,6 +502,103 @@ const Technologies = () => {
         );
     };
 
+    const Design = () => {
+
+        return (
+            <div className='row'>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={photoshop} className='custom-icon' alt='Photoshop' />
+
+                    <p className="techstack-p mt-md-3 text-center">Photoshop</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={illustrator} className='custom-icon' alt='Illustrator' />
+
+                    <p className="techstack-p mt-md-3 text-center">Illustrator</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={afterEffects} className='custom-icon' alt='After Effects' />
+
+                    <p className="techstack-p mt-md-3 text-center">After Effects</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={indesign} className='custom-icon' alt='Indesign' />
+
+                    <p className="techstack-p mt-md-3 text-center">Indesign</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={premiere} className='custom-icon' alt='Premiere' />
+
+                    <p className="techstack-p mt-md-3 text-center">Premiere</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={xd} className='custom-icon' alt='Xd' />
+
+                    <p className="techstack-p mt-md-3 text-center">Xd</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={corelDraw} className='custom-icon' alt='Corel Draw' />
+
+                    <p className="techstack-p mt-md-3 text-center">Corel Draw</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={figma} className='custom-icon' alt='Figma' />
+
+                    <p className="techstack-p mt-md-3 text-center">Figma</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={invision} className='custom-icon' alt='Invision' />
+
+                    <p className="techstack-p mt-md-3 text-center">Invision</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={sketch} className='custom-icon' alt='Sketch' />
+
+                    <p className="techstack-p mt-md-3 text-center">Sketch</p>
+
+                </div>
+
+                <div className='col-md-2 icon-column'>
+
+                    <img src={canva} className='custom-icon' alt='Canva' />
+
+                    <p className="techstack-p mt-md-3 text-center">Canva</p>
+
+                </div>
+
+            </div>
+        );
+    };
+
     const Cloud = () => {
 
         return (
@@ -619,11 +727,16 @@ const Technologies = () => {
         },
         {
             key: '5',
+            label: 'Graphic & UI/UX Design | Media',
+            children: <Design />,
+        },
+        {
+            key: '6',
             label: 'Artificial Intelligence',
             children: <AI />,
         },
         {
-            key: '6',
+            key: '7',
             label: 'Cloud & DevOps',
             children: <Cloud />,
         },
