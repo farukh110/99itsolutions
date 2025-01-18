@@ -2,7 +2,7 @@ import React from "react";
 // import { Formik, Field, Form, ErrorMessage } from "formik";
 // import * as Yup from "yup";
 import background from "../../assets/images/contact/contact.jpg";
-import banner from "../../assets/images/contact/contact-us-Banner.png";
+import banner from "../../assets/images/contact/contact-bg1.jpg";
 import CustomBanner from "../../components/layout/CustomBanner/CustomBanner";
 // import emailjs from '@emailjs/browser';
 // import { message } from 'antd';
