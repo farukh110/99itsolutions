@@ -12,7 +12,7 @@ const Outsourcing = () => {
     return (
         <div className='container outsourcing mt-md-5 mb-md-5'>
 
-            <h2 class="text-center"> Why choose us for Software Development Outsourcing?</h2>
+            <h2 class="text-center"> Why Choose Us? </h2>
 
             <div className="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center">
                 <div className="col">
@@ -25,7 +25,7 @@ const Outsourcing = () => {
                             className="pb-2"
                             loading="lazy"
                         />
-                        <p className="p-18px">20 Years of Experience</p>
+                        <p className="p-18px">10 Years of Experience</p>
                     </div>
                 </div>
                 <div className="col">
@@ -38,20 +38,7 @@ const Outsourcing = () => {
                             className="pb-2"
                             loading="lazy"
                         />
-                        <p className="p-18px">2000+ Clients</p>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="p-3 text-center">
-                        <img
-                            src={earthIcon}
-                            alt="Software outsourcing connecting businesses across the globe."
-                            width="64px"
-                            height="64px"
-                            className="pb-2"
-                            loading="lazy"
-                        />
-                        <p className="p-18px">25+ Global Footprints</p>
+                        <p className="p-18px">100+ Clients</p>
                     </div>
                 </div>
                 <div className="col">
@@ -70,6 +57,19 @@ const Outsourcing = () => {
                 <div className="col">
                     <div className="p-3 text-center">
                         <img
+                            src={earthIcon}
+                            alt="Software outsourcing connecting businesses across the globe."
+                            width="64px"
+                            height="64px"
+                            className="pb-2"
+                            loading="lazy"
+                        />
+                        <p className="p-18px">Outsource Partners</p>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="p-3 text-center">
+                        <img
                             src={programmerIcon}
                             alt="Programmer writing code, essential in software development."
                             width="64px"
@@ -77,7 +77,7 @@ const Outsourcing = () => {
                             className="pb-2"
                             loading="lazy"
                         />
-                        <p className="p-18px">Experienced Developers</p>
+                        <p className="p-18px">Experienced Team</p>
                     </div>
                 </div>
                 <div className="col">
@@ -90,7 +90,7 @@ const Outsourcing = () => {
                             className="pb-2"
                             loading="lazy"
                         />
-                        <p className="p-18px">Expertise in latest tech</p>
+                        <p className="p-18px">Expertise in Latest Tech</p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const OutsourcingServices = () => {
     return (
         <div className='container outsourcing-services mt-md-5 mb-md-5'>
 
-            <h2 class="text-center"> Software Development Outsourcing Services </h2>
+            <h2 class="text-center"> What We do? </h2>
 
             <div className="row pt-2">
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
