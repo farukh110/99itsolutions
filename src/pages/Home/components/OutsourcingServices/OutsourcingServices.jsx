@@ -1,11 +1,20 @@
 import React from 'react';
 import './OutsourcingServices.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const OutsourcingServices = () => {
     return (
         <div className='container outsourcing-services mt-md-5 mb-md-5'>
 
-            <h2 class="text-center"> What We do? </h2>
+            <CustomHeading
+                firstWord="What"
+                lastWord="We do?"
+                textCenter="text-center"
+            />
+
+            <p className='ps-md-4 pe-md-1'>
+                At 99 iT Solutions, we are your trusted tech partner, offering end-to-end software solutions tailored to meet a wide range of business requirements. With a focus on precision and dependability, we ensure the smooth delivery of your projects and tangible, impactful results.
+            </p>
 
             <div className="row pt-2">
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
@@ -24,8 +33,8 @@ const OutsourcingServices = () => {
                                     </div>
                                     <div className="ag-courses-item_date-box pb-3">
                                         <p>
-                                            Tailoring unique software solutions to meet your specific
-                                            business needs efficiently and effectively.
+                                            We specialize in creating customized software solutions designed to tackle your unique business challenges. Our scalable and efficient systems are crafted to streamline operations and enhance functionality.
+
                                         </p>
                                     </div>
                                 </a>
@@ -45,12 +54,12 @@ const OutsourcingServices = () => {
                                 >
                                     <div className="ag-courses-item_bg" />
                                     <div className="ag-courses-item_title ag-courses-item_title-index">
-                                        AI/ML Software Development
+                                        AI & ML Development
                                     </div>
                                     <div className="ag-courses-item_date-box pb-3">
                                         <p>
-                                            Harnessing the power of AI and ML to drive innovation and smart
-                                            solution creation.{" "}
+                                            Harness the power of Artificial Intelligence and Machine Learning with our innovative solutions. From process automation to smarter decision-making, our AI/ML expertise empowers your business to achieve new heights.
+
                                         </p>
                                     </div>
                                 </a>
@@ -73,8 +82,7 @@ const OutsourcingServices = () => {
                                     </div>
                                     <div className="ag-courses-item_date-box pb-3">
                                         <p>
-                                            Designing user-friendly mobile applications that boost
-                                            engagement and elevate your business's mobile presence.{" "}
+                                            Transform your business with user-friendly and feature-rich mobile applications. Our apps are designed to enhance user engagement and boost your digital presence, ensuring top-notch performance and scalability.
                                         </p>
                                     </div>
                                 </a>
@@ -98,8 +106,8 @@ const OutsourcingServices = () => {
                                     </div>
                                     <div className="ag-courses-item_date-box pb-3">
                                         <p>
-                                            Create robust software products that align with market demands
-                                            and elevate your business strategy.{" "}
+                                            From concept to launch, we build robust and market-ready software products that align with your business objectives. Our goal is to create long-term value with every solution.
+
                                         </p>
                                     </div>
                                 </a>
@@ -123,8 +131,8 @@ const OutsourcingServices = () => {
                                     </div>
                                     <div className="ag-courses-item_date-box pb-3">
                                         <p>
-                                            Offering skilled developers dedicated to your project, ensuring
-                                            focused expertise and high-quality results.{" "}
+                                            Gain access to highly skilled developers dedicated to your project’s success. Our professionals bring focused expertise, ensuring high-quality results that meet your specific needs.
+
                                         </p>
                                     </div>
                                 </a>
@@ -148,8 +156,8 @@ const OutsourcingServices = () => {
                                     </div>
                                     <div className="ag-courses-item_date-box pb-3">
                                         <p>
-                                            Providing comprehensive IT outsourcing services to enhance your
-                                            business efficiency and technology capabilities.
+                                            Streamline your operations and enhance scalability with our comprehensive IT outsourcing services. Acting as an extension of your team, we help you achieve operational efficiency and achieve your goals seamlessly.
+
                                         </p>
                                     </div>
                                 </a>

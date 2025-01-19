@@ -7,12 +7,17 @@ import programmerIcon from '../../../../assets/images/icons/index-programmer.png
 import lightbulbIcon from '../../../../assets/images/icons/index-lightbulb.png';
 
 import './Outsourcing.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Outsourcing = () => {
     return (
         <div className='container outsourcing mt-md-5 mb-md-5'>
 
-            <h2 class="text-center"> Why Choose Us? </h2>
+            <CustomHeading
+                firstWord="Why"
+                lastWord="Choose Us?"
+                textCenter="text-center"
+            />
 
             <div className="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center">
                 <div className="col">
@@ -64,7 +69,7 @@ const Outsourcing = () => {
                             className="pb-2"
                             loading="lazy"
                         />
-                        <p className="p-18px">Outsource Partners</p>
+                        <p className="p-18px">10+ Outsource Partners</p>
                     </div>
                 </div>
                 <div className="col">

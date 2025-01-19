@@ -14,6 +14,7 @@ import deliveryIcon from '../../../../assets/images/icons/deployment-icon.webp';
 import supportIcon from '../../../../assets/images/icons/agile-process-support.webp';
 
 import './Process.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Process = () => {
 
@@ -26,7 +27,12 @@ const Process = () => {
     return (
         <>
             <div className='process-section container my-lg-5 my-md-4 my-4'>
-                <h2 className='text-center'> How We Work (For Software Development) </h2>
+
+                <CustomHeading
+                    firstWord="How We Work"
+                    lastWord="(For Software Development)"
+                    textCenter="text-center"
+                />
 
                 <div className='row justify-content-center mt-md-4'>
 
