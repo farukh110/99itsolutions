@@ -70,6 +70,7 @@ import canva from '../../../../assets/images/techstack/canva.png';
 
 import './techologies.scss';
 import { Tabs } from 'antd';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Technologies = () => {
 
@@ -707,28 +708,28 @@ const Technologies = () => {
     const items = [
         {
             key: '1',
+            label: 'Graphic & UI/UX Design | Media',
+            children: <Design />,
+        },
+        {
+            key: '2',
             label: 'Frontend',
             children: <FrontendTemplate />,
         },
         {
-            key: '2',
+            key: '3',
             label: 'Backend',
             children: <BackendTemplate />,
         },
         {
-            key: '3',
+            key: '4',
             label: 'Mobility Stack',
             children: <MobileTemplate />,
         },
         {
-            key: '4',
+            key: '5',
             label: 'Databases',
             children: <Databases />,
-        },
-        {
-            key: '5',
-            label: 'Graphic & UI/UX Design | Media',
-            children: <Design />,
         },
         {
             key: '6',
@@ -751,7 +752,11 @@ const Technologies = () => {
             <section className='technologies'>
                 <div className='container'>
 
-                    <h2 className='text-center'> Our 360 Expertise Tools & Tech Stack </h2>
+                    <CustomHeading
+                        firstWord="Our 360 Expertise Tools &"
+                        lastWord="Tech Stack"
+                        textCenter="text-center"
+                    />
 
                     {/* <div className='row justify-content-center'>
 

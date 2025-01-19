@@ -1,11 +1,16 @@
 import React from 'react';
 import './OutsourcingServices.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const OutsourcingServices = () => {
     return (
         <div className='container outsourcing-services mt-md-5 mb-md-5'>
 
-            <h2 class="text-center"> What We do? </h2>
+            <CustomHeading
+                firstWord="What"
+                lastWord="We do?"
+                textCenter="text-center"
+            />
 
             <p className='ps-md-4 pe-md-1'>
                 At 99 iT Solutions, we are your trusted tech partner, offering end-to-end software solutions tailored to meet a wide range of business requirements. With a focus on precision and dependability, we ensure the smooth delivery of your projects and tangible, impactful results.
