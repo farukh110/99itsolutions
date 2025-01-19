@@ -64,7 +64,7 @@ const Outsourcing = () => {
                             className="pb-2"
                             loading="lazy"
                         />
-                        <p className="p-18px">Outsource Partners</p>
+                        <p className="p-18px">10+ Outsource Partners</p>
                     </div>
                 </div>
                 <div className="col">
