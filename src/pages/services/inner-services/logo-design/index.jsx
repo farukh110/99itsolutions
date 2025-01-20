@@ -10,6 +10,7 @@ import newTech from '../../../../assets/images/logo-design/logo-design1.jpg';
 import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 
 const LogoDesign = () => {
@@ -50,7 +51,11 @@ const LogoDesign = () => {
                 bannerContent={bannerContent}
                 bannerImage={logoDesignService}
             />
-            <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Elevate Your Brand with Our Logo Design Services.</h2>
+            <CustomHeading
+                firstWord="Elevate Your Brand with Our Logo"
+                lastWord="Design Services."
+                textCenter="text-center"
+            />
             <Skills
                 leftImage={newTech}
                 ImgStyle={imgStyle}

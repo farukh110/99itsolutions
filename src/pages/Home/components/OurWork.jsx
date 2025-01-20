@@ -35,6 +35,7 @@ import abadraho from "../../../assets/images/portfolio/web-development/abadraho.
 
 
 import './OurWork.scss';
+import CustomHeading from '../../../components/heading/CustomHeading';
 
 const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPage }) => {
 
@@ -362,7 +363,13 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             <div className="container-fluid">
                 <div className="section-title text-center mb-30">
                     <span className="sub-title">Our Portfolio</span>
-                    <h2>Some Of Our Work</h2>
+
+                    <CustomHeading
+                        firstWord="Some Of Our"
+                        lastWord="Work"
+                        textCenter="text-left"
+                    />
+
                 </div>
 
                 <div className='row justify-content-center'>
