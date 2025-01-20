@@ -13,6 +13,7 @@ import client10 from "../../../../assets/images/logos/12.png";
 import client11 from "../../../../assets/images/logos/14.png";
 import client12 from "../../../../assets/images/logos/15.png";
 import "./Clients.scss";
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Clients = () => {
 
@@ -57,7 +58,11 @@ const Clients = () => {
 
                         <div className="section-title text-left mb-30 mt-md-5 mt-5">
                             {/* <span className="sub-title">Our Portfolio</span> */}
-                            <h2>Our Trusted Partners and Valuable clients</h2>
+                            <CustomHeading
+                                firstWord="Our Trusted Partners and"
+                                lastWord="Valuable clients"
+                                textCenter="text-left"
+                            />
                         </div>
 
 

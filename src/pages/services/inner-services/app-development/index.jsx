@@ -15,6 +15,7 @@ import Skills from '../../../Home/components/Skills/Skills';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
 import OurWork from '../../../Home/components/OurWork';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 
 const AppDevelopment = () => {
@@ -98,7 +99,11 @@ const AppDevelopment = () => {
                 bannerContent={bannerContent}
                 bannerImage={mobileApp}
             />
-            <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>App Design Services:</h2>
+            <CustomHeading
+                firstWord="App Design"
+                lastWord="Services:"
+                textCenter="text-center"
+            />
             <Skills
                 leftImage={mobileApp1}
                 ImgStyle={imgStyle}
@@ -119,7 +124,11 @@ const AppDevelopment = () => {
                 rightPoints={[]} />
             {/* <OurWork /> */}
 
-            <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>App Development Services:</h2>
+            <CustomHeading
+                firstWord="App Development"
+                lastWord="Services:"
+                textCenter="text-center"
+            />
             <Skills
                 leftImage={mobile}
                 ImgStyle={imgStyle}

@@ -57,6 +57,11 @@
             width: 45px;
         }
     }
+
+    .progress {
+        // background: #162E55;
+        --bs-progress-bar-bg: #162E55;
+    }
 }
 
 @media (max-width: 480px) {

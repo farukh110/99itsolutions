@@ -10,6 +10,7 @@ import brand from '../../../../assets/images/branding/branding1.png';
 // import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 
 const Branding = () => {
@@ -79,7 +80,11 @@ const Branding = () => {
                 bannerContent={bannerContent}
                 bannerImage={branding}
             />
-            <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Brand Design Services:</h2>
+            <CustomHeading
+                firstWord="Brand Design"
+                lastWord="Services:"
+                textCenter="text-center"
+            />
             <Skills
                 leftImage={brand}
                 ImgStyle={imgStyle}
@@ -92,7 +97,7 @@ const Branding = () => {
             <AboutDetails
                 leftImage={webServices}
                 smallContent="
-                <h2 class='fw-bolder'> Smart Logo Designs: </h2> 
+                <h2 class='fw-bolder'> Smart Logo <span style='color: #FF9900'> Designs: </span> </h2> 
                 Whether it's a simple logo design project or an extensive app 
                 development venture, we follow a time-tested process. Our flexible 
                 roadmap adapts to your business needs and objectives.

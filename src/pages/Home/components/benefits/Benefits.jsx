@@ -10,6 +10,7 @@ import ltp from '../../../../assets/images/icons/ltp1.png';
 import boostProfit from '../../../../assets/images/icons/Profit.png';
 
 import './Benefits.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Benefits = () => {
     return (
@@ -19,9 +20,11 @@ const Benefits = () => {
 
                 <div className='col-md-4'>
 
-                    <h1>
-                        Benefits of Outsourcing with us
-                    </h1>
+                    <CustomHeading
+                        firstWord="Benefits of Outsourcing"
+                        lastWord="with us"
+                        textCenter="text-left"
+                    />
 
                 </div>
 

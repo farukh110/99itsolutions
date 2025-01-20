@@ -14,6 +14,7 @@ import webDesign from '../../../../assets/images/services/web-design.png';
 import Skills from '../../../Home/components/Skills/Skills';
 
 import webDevService from '../../../../assets/images/web-dev/web-development.webp';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const WebDevelopment = () => {
 
@@ -119,7 +120,11 @@ const WebDevelopment = () => {
                 bannerImage={webDevService}
             />
             {/* <OurServices /> */}
-            <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>Web Design Services</h2>
+            <CustomHeading
+                firstWord="Web Design"
+                lastWord="Services"
+                textCenter="text-center"
+            />
             <Skills
                 leftImage={newTech}
                 ImgStyle={imgStyle}
@@ -151,7 +156,7 @@ const WebDevelopment = () => {
                 leftImage={webDesign}
                 ImgStyle={webStyle}
                 smallContent="
-                <h1 class='fw-bolder web-service-h1 mb-md-2'> Our web development services </h1>
+                <h1 class='fw-bolder web-service-h1 mb-md-2'> Our web development <span style='color: #FF9900'>services</span> </h1>
                 99 iT Solutions deliver websites characterized by distinctive designs, features, and 
                 functionality. You can opt for a personalized website that operates as a content 
                 management system (CMS), allowing you to effortlessly add and edit content without
