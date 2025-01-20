@@ -11,6 +11,7 @@ import seoCompany from '../../../../assets/images/seo/seo-company.svg';
 // import OurWork from '../../../Home/components/OurWork';
 import ContactForm from '../../../Home/components/ContactForm/ContactForm';
 import Technologies from '../../../Home/components/Techologies/Technologies';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 
 const Seo = () => {
@@ -92,7 +93,11 @@ const Seo = () => {
                 bannerContent={bannerContent}
                 bannerImage={seo}
             />
-            <h2 className='text-center fw-bolder mt-md-5 mb-md-4'>SEO Services:</h2>
+            <CustomHeading
+                firstWord="SEO"
+                lastWord="Services:"
+                textCenter="text-center"
+            />
             <Skills
                 leftImage={newTech}
                 ImgStyle={imgStyle}
