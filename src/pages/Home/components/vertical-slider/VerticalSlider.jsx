@@ -27,7 +27,6 @@ const VerticalSlider = () => {
                                     Graphic Design
                                 </div>
                             </div>
-                            team?
                         </div>
 
                     </div>
