@@ -167,7 +167,6 @@ const OutsourcingServices = () => {
                 </div>
             </div>
 
-
         </div>
     )
 }
