@@ -13,45 +13,73 @@ const ProductsPortfolio = () => {
 
     const items = [
         {
-            id: 'AI',
-            title: 'AI',
+            id: 'Manufacturing',
+            title: 'Manufacturing',
             description:
-                'Leverage our AI expertise to enhance automation, efficiency, and smart decision-making in your software solutions.',
+                `1) ERP Systems 2) Production Management Software 3) Supply Chain Solutions`,
             image: ai,
         },
         {
-            id: 'ML',
-            title: 'ML',
+            id: 'Healthcare',
+            title: 'Healthcare',
             description:
-                'Utilize our ML services to unlock predictive insights and personalized experiences in your applications.',
+                `1) Patient Management Systems 2) Telemedicine Software 3) AI Diagnostic Tools`,
             image: ml,
         },
         {
-            id: 'ComputerVision',
-            title: 'Computer Vision',
+            id: 'Sports',
+            title: 'Sports',
             description:
-                'Employ our Computer Vision capabilities to revolutionize user interaction and data processing in apps.',
+                `1) Performance Analytics Software 2) Ticketing Platforms 3) Sports Management Systems`,
             image: cv,
         },
         {
-            id: 'GenerativeAI',
-            title: 'Generative AI',
+            id: 'Logistics',
+            title: 'Logistics',
             description:
-                'Incorporate Generative AI for creative and dynamic content generation in your software, boosting engagement.',
+                `1) Fleet Management Software 2) Warehouse Management Systems 3) Route Optimization Tools`,
             image: gi,
         },
         {
-            id: 'BigData',
-            title: 'Big Data',
+            id: 'Media',
+            title: 'Media',
             description:
-                'Harness Big Data analytics with our services for deeper insights and strategic business decisions.',
+                `1) Content Management Systems 2) Digital Rights Management Software 3) Streaming Platforms`,
             image: bigData,
         },
         {
-            id: 'ARVR',
-            title: 'AR/VR',
+            id: 'Finance',
+            title: 'Finance',
             description:
-                'Adopt our AR/VR development services to create immersive and interactive user experiences in your apps.',
+                `1) Digital Banking Platforms 2) Fraud Detection Software 3) Financial Analytics`,
+            image: ar,
+        },
+        {
+            id: 'Retail',
+            title: 'Retail',
+            description:
+                `1) Inventory Management 2) E-Commerce Platforms 3) Customer Loyalty Systems`,
+            image: ar,
+        },
+        {
+            id: 'Education',
+            title: 'Education',
+            description:
+                `1) Learning Management Systems (LMS) 2) Virtual Classroom Platforms 3) Student Portals`,
+            image: ar,
+        },
+        {
+            id: 'Energy',
+            title: 'Energy',
+            description:
+                `1) Energy Monitoring Systems 2) Smart Grid Management Software 3) Sustainability Analytics`,
+            image: ar,
+        },
+        {
+            id: 'Agriculture',
+            title: 'Agriculture',
+            description:
+                `1) Precision Farming Tools 2) AI Crop Monitoring Systems 3) Yield Forecasting Solutions`,
             image: ar,
         },
     ];
@@ -67,21 +95,16 @@ const ProductsPortfolio = () => {
                         <div className='col-md-5 pe-5'>
 
                             {/* mouse over area */}
-                            <div className='left-panel'>
+                            <div className='row left-panel'>
 
                                 {items.map((item) => (
                                     <div
                                         key={item.id}
-                                        className={`industry-item ${activeItem === item.id ? 'active' : ''
+                                        className={`col-md-6 industry-item ${activeItem === item.id ? 'active' : ''
                                             }`}
                                         onMouseEnter={() => setActiveItem(item.id)}
                                     >
                                         {item.title}
-                                        <div className="arrowDiv" style={{
-                                            display: activeItem === item.id ? 'block' : 'none',
-                                        }}>
-                                            <i className="fa fa-long-arrow-right" />
-                                        </div>
                                     </div>))}
 
                             </div>

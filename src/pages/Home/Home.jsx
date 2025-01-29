@@ -18,6 +18,7 @@ import OutsourcingServices from './components/OutsourcingServices/OutsourcingSer
 import Technologies from './components/Techologies/Technologies';
 import VerticalSlider from './components/vertical-slider/VerticalSlider';
 import ProductsCatalog from './components/ProductsCatalog/ProductsCatalog';
+import ProductsPortfolio from './components/ProductsPortfolio/ProductsPortfolio';
 
 const Home = () => {
 
@@ -65,6 +66,7 @@ const Home = () => {
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />
             {/* <OurGalleries /> */}
             <ProductsCatalog />
+            <ProductsPortfolio />
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
             <VerticalSlider />
