@@ -1,0 +1,92 @@
+.products-catalog {
+
+    .left-panel {
+
+        background-color: #162E55;
+        color: #ffffff;
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0.8rem;
+
+        .industry-item {
+            flex-direction: row;
+            width: 50%;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+        }
+
+        .industry-item.active {
+            color: #fff;
+
+            &::after {
+                content: '';
+                display: block;
+                width: 100px;
+                height: 3px;
+                background-color: #e30400;
+            }
+        }
+
+        .industry-item {
+            width: 100%;
+            position: relative;
+        }
+
+        .arrowDiv {
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: none;
+        }
+    }
+
+    .image-content-area {
+
+        display: flex; // Flexbox for alignment
+        flex-direction: column; // Stack items vertically
+        align-items: flex-end; // Align to the right
+        flex: 1; // Take equal space with left-panel
+
+        .img-outer {
+
+            text-align: right;
+
+            img {
+                height: 315px;
+                width: 450px;
+                object-fit: cover;
+                border-radius: 0.25rem;
+                box-shadow: rgba(23, 34, 88, 0.58) 0px 3px 8px;
+                margin-top: 80px;
+            }
+        }
+
+        .content-shadow {
+
+            position: relative;
+            background: #ffffffe6;
+            width: 60%;
+            padding: 20px;
+            bottom: 140px;
+            left: -160px;
+            /* right: 241px; */
+            height: auto;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+            .right-title {
+                font-size: 2rem;
+                font-weight: 700;
+                color: #e30400;
+                margin-bottom: 1rem;
+            }
+
+            .right-description {
+                color: #4a4a4a;
+                margin-bottom: 2rem;
+                font-size: 15px;
+            }
+        }
+    }
+}
