@@ -7,6 +7,7 @@ import ServicesTab from "./ServicesTab";
 import './index.scss';
 import Technologies from "../../Home/components/Techologies/Technologies";
 import Clients from "../../Home/components/Clients/Clients";
+import CustomSubHeading from "../../../components/sub-heading/CustomHeading";
 
 export default function MainSection() {
   return (
@@ -63,7 +64,11 @@ export default function MainSection() {
 
             <div className="col-md-6">
 
-              <h3 className="heading-bg text-white"> WHAT WE DO </h3>
+              <CustomSubHeading
+                firstWord="What We"
+                lastWord="Do"
+                textCenter="text-left"
+              />
 
               <p>
                 Our company is a leader in creating excellent websites, mobile apps, software, graphics, and online marketing. We have expertise in promoting and marketing businesses, helping clients develop competitive strategies that deliver measurable outcomes. Our method is designed to produce the best results in a short period of time. Our tools are our intellect, and we are dedicated to providing top-notch work, support, and maintenance at the most reasonable prices.
@@ -73,7 +78,12 @@ export default function MainSection() {
 
             <div className="col-md-6">
 
-              <h3 className="heading-bg text-white"> HOW WE DO </h3>
+              <CustomSubHeading
+                firstWord="How We"
+                lastWord="Do"
+                textCenter="text-left"
+              />
+
               <p>
                 We have a proven process that delivers outstanding results quickly. With numerous satisfied clients located in various countries, including the USA, Canada, UK, Australia, New Zealand, Saudi Arabia, Qatar, Bahrain, and UAE, we are dedicated to providing top-notch work that meets the client's needs. Our goal is to offer the ideal solution to help their business reach new heights.
               </p>
