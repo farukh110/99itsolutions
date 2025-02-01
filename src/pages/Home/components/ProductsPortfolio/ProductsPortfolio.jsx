@@ -6,6 +6,7 @@ import gi from '../../../../assets/images/products-catalog/Generative-AI.webp';
 import bigData from '../../../../assets/images/products-catalog/big-data.webp';
 import ar from '../../../../assets/images/products-catalog/arvr.webp';
 import './ProductsPortfolio.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const ProductsPortfolio = () => {
 
@@ -90,7 +91,18 @@ const ProductsPortfolio = () => {
 
                 <div className='container'>
 
-                    <div className='row'>
+                    <div className='row justify-content-center'>
+
+                        <div className='col-md-12 pe-5'>
+                            <CustomHeading
+                                firstWord="Readymade and Custom-Made"
+                                lastWord="Solutions for Diverse Industries"
+                                textCenter="text-center"
+                            />
+                            <p>
+                                99 IT Solutions delivers industry-focused ready-made & fully custom software solutions crafted to overcome unique challenges and enhance business success. Our expertise ensures each solution is tailored and quickly customizable to meet the dynamic requirements of the industries we cater to.
+                            </p>
+                        </div>
 
                         <div className='col-md-5 pe-5'>
 
