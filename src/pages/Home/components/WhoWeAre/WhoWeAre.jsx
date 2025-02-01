@@ -10,8 +10,8 @@ const WhoWeAre = () => {
             <div className="row align-items-center">
                 <div className="col-lg-6 col-md-5">
                     <CustomHeading
-                        firstWord="Who We"
-                        lastWord="Are?"
+                        firstWord="Who"
+                        lastWord="We Are?"
                         textCenter="text-left"
                     />
                     <div className="commpany-intro">
