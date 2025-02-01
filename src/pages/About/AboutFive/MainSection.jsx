@@ -1,13 +1,13 @@
 import React from "react";
-import aboutThumbTwo from "../../../assets/images/about/about-circle-dots.png";
-import aboutThumb from "../../../assets/images/about/about-two.jpg";
+// import aboutThumbTwo from "../../../assets/images/about/about-circle-dots.png";
+// import aboutThumb from "../../../assets/images/about/about-two.jpg";
 // import Clients from "../../Home/components/Clients";
 import Counters from "../../Home/components/Counters";
 import ServicesTab from "./ServicesTab";
 import './index.scss';
 import Technologies from "../../Home/components/Techologies/Technologies";
 import Clients from "../../Home/components/Clients/Clients";
-import CustomSubHeading from "../../../components/sub-heading/CustomHeading";
+import CustomSubHeading from "../../../components/sub-heading/CustomSubHeading";
 
 export default function MainSection() {
   return (
