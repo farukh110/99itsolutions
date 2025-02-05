@@ -16,7 +16,7 @@ const textArray = [
 const TextSlider = () => {
     const [currentText, setCurrentText] = useState(" "); // Holds the current text being typed
     const [textIndex, setTextIndex] = useState(0); // Tracks which text to display
-    const typingSpeed = 20; // Speed of typing each character (in ms)
+    const typingSpeed = 40; // Speed of typing each character (in ms)
     const pauseDuration = 500; // Pause after typing out a full text (in ms)
 
     useEffect(() => {

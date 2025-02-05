@@ -53,7 +53,7 @@ const Footer = () => {
                                     <div className="footer-logo mt-md-0 mt-2 mb-md-1">
                                         <a href="!index.html"><img className='img-fluid' src={logo} alt="Logo" /></a>
                                     </div>
-                                    <div className="text">
+                                    <div className="text dark_blue">
 
                                         We are a globally recognized IT software company that was established in 2015. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality  development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
 
