@@ -18,6 +18,7 @@ import img2 from "../../assets/images/contact/img-2.png";
 
 import './index.scss';
 import ContactForm from "../Home/components/ContactForm/ContactForm";
+import CustomHeading from "../../components/heading/CustomHeading";
 
 // const YOUR_SERVICE_ID = "service_tdgcnmj";
 // const YOUR_TEMPLATE_ID = "template_of24zr7";
@@ -57,14 +58,32 @@ const Contact = () => {
         imgSourceAlt="Contact Us"
       />
 
-      <section className="contact-page py-70 pb-0 rpy-100">
+      <section className="contact-page py-30 pb-5 rpy-100">
         {/* <div className="container"> */}
+
+        <CustomHeading
+          firstWord="Business Centric"
+          lastWord="Solutions"
+          textCenter="text-center"
+        />
+
+
+        <div className="row justify-content-center">
+
+          <div className="col-md-8 pb-5">
+
+            <p>
+              At 99Itsolutions, our focus is you. Our expert team comprises of professionals with varying business skillsets so we can better understand your needs, and put our money where our mouth is in offering you top-tier solutions. From the start to finish of your digital requirements, and beyond we are here to help.
+            </p>
+
+          </div>
+
+        </div>
 
         <div className="row">
           <div className="col-lg-4 p-0">
             <div
               className="contact-form-left bgs-cover h-100"
-              style={{ backgroundImage: `url(${background})` }}
             >
               <div className="get_in_toch_head pt-md-5 ps-5">
                 <h5>GET IN TOUCH</h5>

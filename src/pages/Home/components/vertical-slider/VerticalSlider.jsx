@@ -15,16 +15,22 @@ const VerticalSlider = () => {
                             Are you looking for professional
                             <div class="slider">
                                 <div class="slider-text-1">
-                                    Free Consultation
+                                    Solution Architect
                                 </div>
                                 <div class="slider-text-2">
-                                    web Developer
+                                    Free Consultation
                                 </div>
                                 <div class="slider-text-3">
-                                    DevOps Engineer
+                                    .Net Developer
                                 </div>
                                 <div class="slider-text-4">
-                                    Graphic Design
+                                    Fullstack Developer
+                                </div>
+                                <div class="slider-text-5">
+                                    Mobile Developer
+                                </div>
+                                <div class="slider-text-6">
+                                    DevOps Engineer
                                 </div>
                             </div>
                         </div>

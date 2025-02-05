@@ -21,8 +21,8 @@ const Benefits = () => {
                 <div className='col-md-4'>
 
                     <CustomHeading
-                        firstWord="Benefits of Outsourcing"
-                        lastWord="with us"
+                        firstWord="Benefits of"
+                        lastWord="Outsourcing with us"
                         textCenter="text-left"
                     />
 

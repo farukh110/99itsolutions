@@ -21,7 +21,7 @@ const HomeBanner = () => {
                         </h1>
                         <TextSlider />
                         <p className="clor fw-bold">
-                            Over a Decade of Innovation: Designing Custom Software and Digital Marketing Solutions that Drive Real Results!
+                            Empowering Innovation: Tailored Solutions in Custom Software and Digital Marketing for Over 10 Years that Drive Real Results!
                         </p>
                         <button
                             type="button"
@@ -30,6 +30,15 @@ const HomeBanner = () => {
                         >
                             Let’s work together!
                         </button>
+
+                        <button
+                            type="button"
+                            className="btn button getQuoteBtn ms-2"
+                            onClick={() => navigate('/services')}
+                        >
+                            Explore Services
+                        </button>
+
                         <div className="banner-ratings mt-md-4">
                             <div className="ratings-box">
                                 <a

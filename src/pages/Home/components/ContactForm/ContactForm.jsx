@@ -95,7 +95,7 @@ const ContactForm = (props) => {
     return (
         <div className='contact-form-section pt-md-4 pt-5 pb-md-4 pb-5'>
             <div className='container my-md-5 my-4'>
-                <h2 className='text-center text-light'> Get a Free Quote/Demo </h2>
+                <h2 className='text-center text-light'> Let's Talk Business </h2>
 
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                     {({ values }) => (
@@ -232,7 +232,7 @@ const ContactForm = (props) => {
                                 <div className='col-md-3 my-md-3'>
                                     <div className='d-grid'>
                                         <button type='submit' className='btn btn-primary p-3'>
-                                            Send Message
+                                            Get a Free Quote/Demo
                                         </button>
                                     </div>
                                 </div>

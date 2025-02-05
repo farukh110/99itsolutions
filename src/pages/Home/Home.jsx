@@ -59,6 +59,7 @@ const Home = () => {
             <WhoWeAre />
             <Outsourcing />
             <OutsourcingServices />
+            <ProductsPortfolio />
             <Process />
             <Technologies />
             <Benefits />
@@ -67,8 +68,7 @@ const Home = () => {
             {/* <Counters /> */}
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />
             {/* <OurGalleries /> */}
-            <ProductsCatalog />
-            <ProductsPortfolio />
+            {/* <ProductsCatalog /> */}
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
             <VerticalSlider />
