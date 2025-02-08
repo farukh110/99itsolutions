@@ -4,12 +4,9 @@ import g2 from "../../../assets/images/gallery/hm.jpg";
 import g3 from "../../../assets/images/gallery/sme.jpg";
 import g4 from "../../../assets/images/gallery/Bdom.jpg";
 import g5 from "../../../assets/images/gallery/ei.jpg";
-import g6 from "../../../assets/images/gallery/tlc.jpg";
 import g7 from "../../../assets/images/gallery/ready.jpg";
 import g8 from "../../../assets/images/gallery/nar.jpg";
-import bi from "../../../assets/images/portfolio/web-development/bi.jpg";
 import bill from "../../../assets/images/portfolio/web-development/bill.jpg";
-import cw from "../../../assets/images/portfolio/web-development/cw.jpg";
 import dental from "../../../assets/images/portfolio/web-development/dental.JPG";
 import jdc from "../../../assets/images/portfolio/web-development/jdc.jpg";
 import intt from "../../../assets/images/portfolio/web-development/int.jpg";
@@ -33,6 +30,11 @@ import rentatrailer from "../../../assets/images/portfolio/web-development/renta
 import azremediation from "../../../assets/images/portfolio/web-development/azremediation.jpg";
 import abadraho from "../../../assets/images/portfolio/web-development/abadraho.jpg";
 
+// import erp from "../../../assets/images/products/erp.jpg";
+import pos from "../../../assets/images/products/hero3.png";
+// import school from "../../../assets/images/products/school.jpg";
+// import lms from "../../../assets/images/products/lms.jpg";
+// import rms from "../../../assets/images/products/rms.jpg";
 
 import './OurWork.scss';
 import CustomHeading from '../../../components/heading/CustomHeading';
@@ -40,13 +42,6 @@ import CustomHeading from '../../../components/heading/CustomHeading';
 const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPage }) => {
 
     const portfolioItems = [
-        // {
-        //     id: 1,
-        //     image: bi,
-        //     name: "Building Energy Tax Savers",
-        //     category: "web",
-        //     link: "https://buildingenergytaxsavers.com/"
-        // },
         {
             id: 1,
             image: bill,
@@ -54,13 +49,6 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             category: "web",
             link: "https://billgenix.com/"
         },
-        // {
-        //     id: 3,
-        //     image: cw,
-        //     name: "Chronic Wounds",
-        //     category: "web",
-        //     link: "http://chronicwounds.co/"
-        // },
         {
             id: 2,
             image: dental,
@@ -327,6 +315,20 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             category: "mobile",
             link: "https://apps.apple.com/pk/app/qari-io-teacher/id1637227564"
         },
+        {
+            id: 40,
+            image: pos,
+            name: "Point of Sale Software Saudi Arabia",
+            category: "products",
+            link: "https://pointofsalesaudi.com/"
+        },
+        {
+            id: 41,
+            image: 'https://abadraho.com/uploads/project_images/project_141/cover_1639980413.jpg',
+            name: "Abad Raho",
+            category: "products",
+            link: "https://abadraho.com/"
+        },
     ];
 
     const [items, setItems] = useState(portfolioItems);
@@ -433,7 +435,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
                     {isGraphicDesignPage && (
                         <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mt-md-0 mt-2'>
                             <div className="d-grid">
-                                <button onClick={() => filterItem('graphic')} className={`btn btn-outline-primary ${activeCategory === 'graphic' ? 'active' : ''}`}>
+                                <button onClick={() => filterItem('products')} className={`btn btn-outline-primary ${activeCategory === 'products' ? 'active' : ''}`}>
                                     Web Products
                                 </button>
                             </div>

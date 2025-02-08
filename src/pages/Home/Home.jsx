@@ -1,6 +1,6 @@
 import React from 'react';
 // import OurServices from './components/OurServices';
-// import OurGalleries from './components/OurGalleries';
+import OurGalleries from './components/OurGalleries';
 import OurWork from './components/OurWork';
 // import Counters from './components/Counters';
 // import brain from '../../assets/images/services/brain1.jpg';
@@ -67,7 +67,7 @@ const Home = () => {
             {/* <Features /> */}
             {/* <Counters /> */}
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />
-            {/* <OurGalleries /> */}
+            <OurGalleries />
             {/* <ProductsCatalog /> */}
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
