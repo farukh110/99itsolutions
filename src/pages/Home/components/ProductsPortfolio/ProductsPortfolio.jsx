@@ -10,77 +10,117 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const ProductsPortfolio = () => {
 
-    const [activeItem, setActiveItem] = useState('AI');
+    const [activeItem, setActiveItem] = useState('Manufacturing');
 
     const items = [
         {
             id: 'Manufacturing',
             title: 'Manufacturing',
             description:
-                `1) ERP Systems 2) Production Management Software 3) Supply Chain Solutions`,
+                `<ul> 
+                    <li> 1) ERP Systems </li> 
+                    <li> 2) Production Management Software </li> 
+                    <li> 3) Supply Chain Solutions </li> 
+                </ul>`,
             image: ai,
         },
         {
             id: 'Healthcare',
             title: 'Healthcare',
             description:
-                `1) Patient Management Systems 2) Telemedicine Software 3) AI Diagnostic Tools`,
+                `<ul>
+                    <li> 1) Patient Management Systems </li>
+                    <li> 2) Telemedicine Software </li>
+                    <li> 3) AI Diagnostic Tools </li>
+                </ul>`,
             image: ml,
         },
         {
             id: 'Sports',
             title: 'Sports',
             description:
-                `1) Performance Analytics Software 2) Ticketing Platforms 3) Sports Management Systems`,
+                `<ul>
+                    <li> 1) Performance Analytics Software </li>
+                    <li> 2) Ticketing Platforms </li>
+                    <li> 3) Sports Management Systems </li>
+                </ul>`,
             image: cv,
         },
         {
             id: 'Logistics',
             title: 'Logistics',
             description:
-                `1) Fleet Management Software 2) Warehouse Management Systems 3) Route Optimization Tools`,
+                `<ul>
+                    <li> 1) Fleet Management Software </li>
+                    <li> 2) Warehouse Management Systems </li>
+                    <li> 3) Route Optimization Tools </li>
+                </ul>`,
             image: gi,
         },
         {
             id: 'Media',
             title: 'Media',
             description:
-                `1) Content Management Systems 2) Digital Rights Management Software 3) Streaming Platforms`,
+                `<ul>
+                    <li> 1) Content Management Systems </li>
+                    <li> 2) Digital Rights Management Software </li>
+                    <li> 3) Streaming Platforms </li>
+                </ul>`,
             image: bigData,
         },
         {
             id: 'Finance',
             title: 'Finance',
             description:
-                `1) Digital Banking Platforms 2) Fraud Detection Software 3) Financial Analytics`,
+                `<ul>
+                    <li> 1) Digital Banking Platforms </li>
+                    <li> 2) Fraud Detection Software </li>
+                    <li> 3) Financial Analytics </li>
+                </ul>`,
             image: ar,
         },
         {
             id: 'Retail',
             title: 'Retail',
             description:
-                `1) Inventory Management 2) E-Commerce Platforms 3) Customer Loyalty Systems`,
+                `<ul>
+                    <li> 1) Inventory Management </li>
+                    <li> 2) E-Commerce Platforms </li>
+                    <li> 3) Customer Loyalty Systems </li>
+                </ul>`,
             image: ar,
         },
         {
             id: 'Education',
             title: 'Education',
             description:
-                `1) Learning Management Systems (LMS) 2) Virtual Classroom Platforms 3) Student Portals`,
+                `<ul>
+                    <li> 1) Learning Management Systems (LMS) </li>
+                    <li> 2) Virtual Classroom Platforms </li>
+                    <li> 3) Student Portals </li>
+                </ul>`,
             image: ar,
         },
         {
             id: 'Energy',
             title: 'Energy',
             description:
-                `1) Energy Monitoring Systems 2) Smart Grid Management Software 3) Sustainability Analytics`,
+                `<ul>
+                    <li> 1) Energy Monitoring Systems </li>
+                    <li> 2) Smart Grid Management Software </li>
+                    <li> 3) Sustainability Analytics </li>
+                </ul>`,
             image: ar,
         },
         {
             id: 'Agriculture',
             title: 'Agriculture',
             description:
-                `1) Precision Farming Tools 2) AI Crop Monitoring Systems 3) Yield Forecasting Solutions`,
+                `<ul>
+                    <li> 1) Precision Farming Tools </li>
+                    <li> 2) AI Crop Monitoring Systems </li>
+                    <li> 3) Yield Forecasting Solutions </li>
+                </ul>`,
             image: ar,
         },
     ];
@@ -119,6 +159,14 @@ const ProductsPortfolio = () => {
                                         {item.title}
                                     </div>))}
 
+                                <div className='col-md-12'>
+
+                                    <button className='btn btn-primary btn-request d-block mx-auto'>
+                                        Request of a Demo
+                                    </button>
+
+                                </div>
+
                             </div>
 
                         </div>
@@ -137,9 +185,9 @@ const ProductsPortfolio = () => {
                                     <div className="content-shadow">
                                         <p className="right-title">{item.title}</p>
                                         <div className="right-description">
-                                            <p>
-                                                {item.description}
-                                            </p>
+                                            <p
+                                                dangerouslySetInnerHTML={{ __html: item.description }}
+                                            />
                                         </div>
                                     </div>
                                 </div>))}
