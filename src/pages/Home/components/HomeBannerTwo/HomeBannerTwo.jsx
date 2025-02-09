@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import googleRating from '../../../../assets/images/home-banner/google-rating-svg.webp';
 import clutch from '../../../../assets/images/home-banner/clutch-rating-svg.webp';
+import good from '../../../../assets/images/home-banner/goodfirm-rating-svg.webp';
 // import sw from '../../../../assets//images/home-banner/sw-dev-banner.webp';
 import './index.scss';
 
@@ -73,15 +74,15 @@ const HomeBannerTwo = () => {
                                     />
                                 </a>
                             </div>
-                            {/* <div className="ratings-box">
+                            <div className="ratings-box">
                                 <a
-                                    href="https://www.goodfirms.co/company/softlabs-group"
+                                    href="https://www.goodfirms.co/company/99-it-solutions"
                                     target="_blank"
                                     rel="noopener nofollow"
                                 >
                                     <img
                                         data-lazyloaded={1}
-                                        src="https://www.softlabsgroup.com/img/goodfirm-rating-svg.webp"
+                                        src={good}
                                         decoding="async"
                                         alt="GoodFirms"
                                         width={135}
@@ -90,7 +91,7 @@ const HomeBannerTwo = () => {
                                         className="entered litespeed-loaded"
                                     />
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-4 d-lg-block d-md-block d-none">

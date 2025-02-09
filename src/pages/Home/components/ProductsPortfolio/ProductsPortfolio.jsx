@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import ai from '../../../../assets/images/products-catalog/ai.webp';
 import ml from '../../../../assets/images/products-catalog/ml.jpg';
 import cv from '../../../../assets/images/products-catalog/computer-vision.webp';
@@ -10,6 +11,7 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const ProductsPortfolio = () => {
 
+    const navigate = useNavigate();
     const [activeItem, setActiveItem] = useState('Manufacturing');
 
     const items = [
@@ -18,20 +20,23 @@ const ProductsPortfolio = () => {
             title: 'Manufacturing',
             description:
                 `<ul> 
-                    <li> 1) ERP Systems </li> 
-                    <li> 2) Production Management Software </li> 
-                    <li> 3) Supply Chain Solutions </li> 
+                    <li> 1) ERP </li>
+                    <li> 2) Accounting Management </li>
+                    <li> 3) Inventory Management System </li>
+                    <li> 4) Retail/Wholesale/Inventory </li>
                 </ul>`,
             image: ai,
         },
         {
             id: 'Healthcare',
-            title: 'Healthcare',
+            title: 'Pharmacy & Healthcare',
             description:
                 `<ul>
-                    <li> 1) Patient Management Systems </li>
-                    <li> 2) Telemedicine Software </li>
-                    <li> 3) AI Diagnostic Tools </li>
+                    <li> 1) Pharmacy Management System </li>
+                    <li> 2) Hospital Management System </li>
+                    <li> 3) Clinic Management System </li>
+                    <li> 4) Doctor Appointment Booking </li>
+                    <li> 5) Patient Management </li>
                 </ul>`,
             image: ml,
         },
@@ -48,12 +53,16 @@ const ProductsPortfolio = () => {
         },
         {
             id: 'Logistics',
-            title: 'Logistics',
+            title: 'Logistics & Transportation',
             description:
                 `<ul>
-                    <li> 1) Fleet Management Software </li>
-                    <li> 2) Warehouse Management Systems </li>
-                    <li> 3) Route Optimization Tools </li>
+                    <li> 1) Courier & Logistics System </li>
+                    <li> 2) Logistics Management </li>
+                    <li> 3) Shipping Solution </li>
+                    <li> 4) Fleet Management System </li>
+                    <li> 5) Car Rental/Fleet Management System </li>
+                    <li> 6) Taxi/Uber Management System </li>
+                    <li> 7) Delivery Solution </li>
                 </ul>`,
             image: gi,
         },
@@ -73,9 +82,10 @@ const ProductsPortfolio = () => {
             title: 'Finance',
             description:
                 `<ul>
-                    <li> 1) Digital Banking Platforms </li>
-                    <li> 2) Fraud Detection Software </li>
-                    <li> 3) Financial Analytics </li>
+                    <li> 1) Accounting and Billing Software </li>
+                    <li> 2) Payroll System </li>
+                    <li> 3) Client Manager </li>
+                    <li> 4) Bank/Money Management System </li>
                 </ul>`,
             image: ar,
         },
@@ -92,12 +102,14 @@ const ProductsPortfolio = () => {
         },
         {
             id: 'Education',
-            title: 'Education',
+            title: 'Education & Learning',
             description:
                 `<ul>
-                    <li> 1) Learning Management Systems (LMS) </li>
-                    <li> 2) Virtual Classroom Platforms </li>
-                    <li> 3) Student Portals </li>
+                    <li> 1) School Management System </li>
+                    <li> 2) Learning Management System (LMS) </li>
+                    <li> 3) Institute Management System </li>
+                    <li> 4) Online Course Platform </li>
+                    <li> 5) Quiz Game </li>
                 </ul>`,
             image: ar,
         },
@@ -161,7 +173,7 @@ const ProductsPortfolio = () => {
 
                                 <div className='col-md-12'>
 
-                                    <button className='btn btn-primary btn-request d-block mx-auto'>
+                                    <button onClick={() => navigate('/get-free-quote')} className='btn btn-primary btn-request d-block mx-auto'>
                                         Request of a Demo
                                     </button>
 
