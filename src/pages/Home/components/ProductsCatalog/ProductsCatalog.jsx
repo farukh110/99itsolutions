@@ -6,6 +6,7 @@ import gi from '../../../../assets/images/products-catalog/Generative-AI.webp';
 import bigData from '../../../../assets/images/products-catalog/big-data.webp';
 import ar from '../../../../assets/images/products-catalog/arvr.webp';
 import './ProductsCatalog.scss';
+import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const ProductsCatalog = () => {
 
@@ -58,11 +59,22 @@ const ProductsCatalog = () => {
 
     return (
         <>
-            <div className='products-catalog my-md-5'>
+            <div className='products-catalog my-md-0'>
 
                 <div className='container'>
 
                     <div className='row'>
+
+                        <div className='col-md-12 pe-5'>
+                            <CustomHeading
+                                firstWord="Leveraging Emerging Tech in"
+                                lastWord="IT Outsourcing Services"
+                                textCenter="text-center"
+                            />
+                            <p>
+                                Step into the future with our IT outsourcing services, where cutting-edge solutions meet customized care. We're here to empower your business with technology that leads tomorrow. Dive into the details of our next-gen offerings listed below and envision the growth awaiting your enterprise.
+                            </p>
+                        </div>
 
                         <div className='col-md-5 pe-5'>
 
