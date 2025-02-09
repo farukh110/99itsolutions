@@ -18,6 +18,7 @@ const AppDevelopment = lazy(() => import('./pages/services/inner-services/app-de
 const VideoAnimation = lazy(() => import('./pages/services/inner-services/video-animation'));
 const ContentWriting = lazy(() => import('./pages/services/inner-services/content-writing'));
 const Seo = lazy(() => import('./pages/services/inner-services/seo'));
+const OutSourcing = lazy(() => import('./pages/OutSourcing/OutSourcing'));
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route exact path="/services/video-animation" element={<VideoAnimation />} />
           <Route exact path="/services/content-writing" element={<ContentWriting />} />
           <Route exact path="/services/seo" element={<Seo />} />
+          <Route exact path="/outsourcing" element={<OutSourcing />} />
           <Route exact path="/portfolio" element={<PortfolioPage />} />
           <Route exact path="/get-free-quote" element={<RequestDemo />} />
         </Routes>
