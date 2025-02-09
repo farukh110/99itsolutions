@@ -25,7 +25,7 @@
                 display: block;
                 width: 100px;
                 height: 3px;
-                background-color: #e30400;
+                background-color: #F9AD2F;
             }
         }
 
@@ -39,6 +39,14 @@
             right: 0;
             top: 0;
             display: none;
+        }
+
+        .btn-request {
+
+            background: #F9AD2F;
+            border: 1px solid #F9AD2F;
+            color: #162E55;
+            font-weight: 700;
         }
     }
 
@@ -78,7 +86,7 @@
             .right-title {
                 font-size: 2rem;
                 font-weight: 700;
-                color: #e30400;
+                color: #162E55;
                 margin-bottom: 1rem;
             }
 
