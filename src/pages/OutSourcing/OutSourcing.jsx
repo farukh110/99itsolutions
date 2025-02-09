@@ -7,6 +7,7 @@ import Process from '../Home/components/Process/Process';
 import ContactForm from '../Home/components/ContactForm/ContactForm';
 import VerticalSlider from '../Home/components/vertical-slider/VerticalSlider';
 import Technologies from '../Home/components/Techologies/Technologies';
+import OutSourcingService from './components/OutSourcingService/OutSourcingService';
 
 const OutSourcing = () => {
     return (
@@ -18,6 +19,7 @@ const OutSourcing = () => {
             <Process />
             <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />
+            <OutSourcingService />
             <VerticalSlider />
         </>
     )
