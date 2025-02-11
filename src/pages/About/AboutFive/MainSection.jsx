@@ -8,6 +8,7 @@ import './index.scss';
 import Technologies from "../../Home/components/Techologies/Technologies";
 import Clients from "../../Home/components/Clients/Clients";
 import CustomSubHeading from "../../../components/sub-heading/CustomSubHeading";
+import CustomHeading from "../../../components/heading/CustomHeading";
 
 export default function MainSection() {
   return (
@@ -50,7 +51,11 @@ export default function MainSection() {
                   learn about more
                 </a>
               </div> */}
-              <h2> 99 IT Solutions - Your Trusted Technology Partner </h2>
+              <CustomHeading
+                firstWord="99 IT Solutions - Your Trusted"
+                lastWord="Technology Partner"
+                textCenter="text-center"
+              />
               <p>
 
                 Since 2015, we have been running 99 IT Solutions that provides a full range of IT services, including Logo designing, domain, hosting, Animation Services, web designing and software development, digital marketing and customer support. We strive to provide the latest technology and best customer service to meet the needs of all my clients.

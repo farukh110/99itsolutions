@@ -25,7 +25,7 @@ const OutSourcingService = () => {
                                 </span>
                                 <span className="it-outsourcing-desc">
                                     <h5>Two Decades of Expertise</h5>
-                                    Over 20+ years in IT outsourcing, Softlabs Group brings extensive
+                                    Over 20+ years in IT outsourcing, 99 IT Solutions brings extensive
                                     experience and best practices to every project.
                                 </span>
                             </li>
@@ -55,7 +55,7 @@ const OutSourcingService = () => {
                                 </span>
                                 <span className="it-outsourcing-desc">
                                     <h5>Cost Efficienct</h5>
-                                    Softlabs Group offers cost-effective solutions, reducing expenses while
+                                    99 IT Solutions offers cost-effective solutions, reducing expenses while
                                     maximizing ROI.
                                 </span>
                             </li>
