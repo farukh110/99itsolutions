@@ -13,6 +13,7 @@ import CustomHeading from '../../components/heading/CustomHeading';
 import MainServicesTwo from '../services/components/MainServicesTwo/MainServicesTwo';
 import OutSourcingServiceTwo from './components/OutSourcingServiceTwo/OutSourcingServiceTwo';
 import './index.scss';
+import CustomHeadingTwo from '../../components/heading/CustomHeadingTwo';
 
 const OutSourcing = () => {
 
@@ -21,6 +22,29 @@ const OutSourcing = () => {
     return (
         <>
             <HomeBannerTwo />
+
+            <div className='container mb-md-5 mt-md-5'>
+
+                <div className='row justify-content-center mt-md-3'>
+
+                    <div className='col-md-12'>
+
+                        <CustomHeadingTwo
+                            firstWord="The Future of Business Success with us: Outsource Smarter, Grow Faster & Earn Higher"
+                            lastWord="99 IT Solutions: Your Trusted Tech Partner for Reducing Ongoing Costs & Maximizing Profitability thru Our Outsourcing Service"
+                            textCenter="text-center"
+                        />
+
+                    </div>
+
+                </div>
+
+                <p>
+                    At 99ITsolutions.com, we specialize in web design, software and product development, and digital marketing as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.
+                </p>
+
+            </div>
+
             <OutSourcingServiceTwo />
             <OutSourcingService />
 
@@ -219,24 +243,6 @@ const OutSourcing = () => {
                     </div>
 
                 </div>
-
-                <div className='row justify-content-center mt-md-3'>
-
-                    <div className='col-md-9 ps-5 pe-5'>
-
-                        <CustomHeading
-                            firstWord="Outsource Your Projects with Confidence"
-                            lastWord="Your Trusted Partner for Scalable & Cost-Effective Solutions"
-                            textCenter="text-center"
-                        />
-
-                    </div>
-
-                </div>
-
-                <p>
-                    At 99ITsolutions.com, we specialize in web design, software and product development, and digital marketing as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.
-                </p>
             </div>
 
             <MainServicesTwo />

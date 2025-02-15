@@ -6,10 +6,24 @@ import clutch from '../../../../assets/images/home-banner/clutch-rating-svg.webp
 import good from '../../../../assets/images/home-banner/goodfirm-rating-svg.webp';
 // import sw from '../../../../assets//images/home-banner/sw-dev-banner.webp';
 import './index.scss';
+import TextSlider from '../TextSlider/TextSlider';
 
 const HomeBannerTwo = () => {
 
     const navigate = useNavigate();
+
+    const textArray = [
+        "to Save on Local Hiring and Reduce Overhead costs?",
+        "Access to top talent dedicated experts working for you?",
+        "Build flexible teams that scale fast effortlessly?",
+        "Timely delivery and stay ahead?",
+        "Premium quality at budget - friendly rates?",
+        "24/7 productivity across time zones?",
+        "to Hire dedicated  team for product development",
+        "Minimize risks and Boost Profit Margins?",
+        "A trusted tech Partnership for long - term?"
+
+    ];
 
     return (
         <section className="d-flex align-items-center position-relative vh-90hirepag cover  custom-sft-banner sw-development-banner">
@@ -17,8 +31,13 @@ const HomeBannerTwo = () => {
                 <div className="row align-items-center">
                     <div className="col-12 col-md-8  mplp">
                         <h1 className="clor pt-3 pb-2">
-                            Scalable IT Outsourcing Services Tailored to Your Needs
+                            Do you want
                         </h1>
+
+                        <TextSlider textArray={textArray} />
+
+                        <br />
+
                         <p className="clor fw-bold">
                             Adapt to Market Demands Without Compromising on Excellence
                         </p>
