@@ -1,0 +1,13 @@
+.btn-connect {
+
+    background: #1A3059;
+    border: 1px solid #1A3059;
+    font-weight: bold;
+
+    &:hover {
+
+        background: #F9AD2F;
+        border: 1px solid #F9AD2F;
+        color: #1A3059;
+    }
+}

@@ -7,7 +7,7 @@ const CustomSubHeading = (props) => {
 
     return (
         <div className='custom-heading-title'>
-            <h2 className={`fist-word ${textCenter}`}> {firstWord} <span className='last-word'> {lastWord} </span> </h2>
+            <h2 className={`custom-h2 fist-word ${textCenter}`}> {firstWord} <span className='last-word'> {lastWord} </span> </h2>
         </div>
     )
 }

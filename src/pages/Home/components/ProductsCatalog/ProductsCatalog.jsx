@@ -67,12 +67,13 @@ const ProductsCatalog = () => {
 
                         <div className='col-md-12 pe-5'>
                             <CustomHeading
-                                firstWord="Leveraging Emerging Tech in"
+                                firstWord="Exploring Emerging Technologies"
                                 lastWord="IT Outsourcing Services"
                                 textCenter="text-center"
                             />
                             <p>
-                                Step into the future with our IT outsourcing services, where cutting-edge solutions meet customized care. We're here to empower your business with technology that leads tomorrow. Dive into the details of our next-gen offerings listed below and envision the growth awaiting your enterprise.
+                                Step into the future with our IT outsourcing services, where innovation meets tailored solutions. We empower your business with cutting-edge technology designed for tomorrow. Explore our next-generation offerings below and discover new growth opportunities for your enterprise.
+
                             </p>
                         </div>
 
