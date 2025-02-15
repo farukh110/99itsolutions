@@ -12,6 +12,18 @@ const HomeBanner = () => {
 
     const navigate = useNavigate();
 
+    const textArray = [
+        "Logo Design",
+        "Web Design",
+        "Video Production",
+        "Software Development",
+        "Product Development",
+        "XR (Extended Reality)",
+        "Game Development",
+        "AI & ML Solutions",
+        "Digital Marketing"
+    ];
+
     return (
         <section className="d-flex align-items-center position-relative vh-90hirepag cover  custom-sft-banner sw-development-banner">
             <div className="container">
@@ -20,7 +32,7 @@ const HomeBanner = () => {
                         <h1 className="clor pt-3 pb-2">
                             Convert your idea into
                         </h1>
-                        <TextSlider />
+                        <TextSlider textArray={textArray} />
                         <p className="clor fw-bold">
                             Empowering Innovation: Tailored Solutions in Custom Software and Digital Marketing for Over 10 Years that Drive Real Results!
                         </p>

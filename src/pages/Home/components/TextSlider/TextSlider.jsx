@@ -1,20 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './TextSlider.scss';
 
-const textArray = [
-    "Logo Design",
-    "Web Design",
-    "Video Production",
-    "Software Development",
-    "Product Development",
-    "XR (Extended Reality)",
-    "Game Development",
-    "AI & ML Solutions",
-    "Digital Marketing"
-];
+const TextSlider = (prop) => {
 
-const TextSlider = () => {
-    const [currentText, setCurrentText] = useState(" "); // Holds the current text being typed
+    const { textArray } = prop;
+
+    const [currentText, setCurrentText] = useState(textArray[0][0]);  // Holds the current text being typed
     const [textIndex, setTextIndex] = useState(0); // Tracks which text to display
     const typingSpeed = 40; // Speed of typing each character (in ms)
     const pauseDuration = 500; // Pause after typing out a full text (in ms)
@@ -34,7 +25,7 @@ const TextSlider = () => {
                 // After completing the typing, pause before transitioning to next text
                 pauseTimeout = setTimeout(() => {
                     setTextIndex((prev) => (prev + 1) % textArray.length); // Go to the next text
-                    setCurrentText(""); // Clear current text to start the next animation
+                    setCurrentText(textArray[(textIndex + 1) % textArray.length][0]) // Clear current text to start the next animation
                 }, pauseDuration);
             }
         };

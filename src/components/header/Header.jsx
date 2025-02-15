@@ -68,9 +68,14 @@ const Header = () => {
 
                             <div className="nav-outer clearfix d-flex align-items-center">
                                 <Navigation className="nav-home-one" />
+
+                                <div className="menu-btn">
+                                    <Link to='/outsourcing' className="btn btn-danger btn-get2 btn_wiggle">Explore Outsourcing</Link>
+                                </div>
                                 <div className="menu-btn">
                                     <Link to='/get-free-quote' className="btn btn-danger btn-get btn_wiggle">Book a Free Consultation</Link>
                                 </div>
+
                             </div>
                         </div>
                     </div>

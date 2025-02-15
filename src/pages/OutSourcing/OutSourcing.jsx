@@ -13,14 +13,97 @@ import CustomHeading from '../../components/heading/CustomHeading';
 import MainServicesTwo from '../services/components/MainServicesTwo/MainServicesTwo';
 import OutSourcingServiceTwo from './components/OutSourcingServiceTwo/OutSourcingServiceTwo';
 import './index.scss';
+import CustomHeadingTwo from '../../components/heading/CustomHeadingTwo';
 
 const OutSourcing = () => {
 
     const navigate = useNavigate();
 
+    const teamItems = [
+        {
+            id: 1,
+            position: "Solution Architect?"
+        },
+        {
+            id: 2,
+            position: "Full Stack Developer?"
+        },
+        {
+            id: 3,
+            position: "Mobile App Developer?"
+        },
+        {
+            id: 4,
+            position: ".Net Developer?"
+        },
+        {
+            id: 5,
+            position: "Web Designer?"
+        },
+        {
+            id: 6,
+            position: "Backend Developer?"
+        },
+        {
+            id: 7,
+            position: "Frontend Developer?"
+        },
+        {
+            id: 8,
+            position: "Unity Game Developer?"
+        },
+        {
+            id: 9,
+            position: "DevOps Engineer?"
+        },
+        {
+            id: 10,
+            position: "WordPress Developer?"
+        },
+        {
+            id: 11,
+            position: "SEO Specialist?"
+        },
+        {
+            id: 12,
+            position: "Digital Marketer?"
+        },
+        {
+            id: 13,
+            position: "Social Media Manager?"
+        },
+        {
+            id: 14,
+            position: "Graphic Designer?"
+        }
+    ];
+
     return (
         <>
             <HomeBannerTwo />
+
+            <div className='container mb-md-5 mt-md-5'>
+
+                <div className='row justify-content-center mt-md-3'>
+
+                    <div className='col-md-12'>
+
+                        <CustomHeadingTwo
+                            firstWord="The Future of Business Success with us: Outsource Smarter, Grow Faster & Earn Higher"
+                            lastWord="99 IT Solutions: Your Trusted Tech Partner for Reducing Ongoing Costs & Maximizing Profitability thru Our Outsourcing Service"
+                            textCenter="text-center"
+                        />
+
+                    </div>
+
+                </div>
+
+                <p>
+                    At 99ITsolutions.com, we specialize in web design, software and product development, and digital marketing as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.
+                </p>
+
+            </div>
+
             <OutSourcingServiceTwo />
             <OutSourcingService />
 
@@ -219,24 +302,6 @@ const OutSourcing = () => {
                     </div>
 
                 </div>
-
-                <div className='row justify-content-center mt-md-3'>
-
-                    <div className='col-md-9 ps-5 pe-5'>
-
-                        <CustomHeading
-                            firstWord="Outsource Your Projects with Confidence"
-                            lastWord="Your Trusted Partner for Scalable & Cost-Effective Solutions"
-                            textCenter="text-center"
-                        />
-
-                    </div>
-
-                </div>
-
-                <p>
-                    At 99ITsolutions.com, we specialize in web design, software and product development, and digital marketing as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.
-                </p>
             </div>
 
             <MainServicesTwo />
@@ -245,7 +310,7 @@ const OutSourcing = () => {
             <Process />
             <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />
-            <VerticalSlider />
+            <VerticalSlider title="Do you need a Full or Part-time" teamItems={teamItems} />
 
         </>
     )
