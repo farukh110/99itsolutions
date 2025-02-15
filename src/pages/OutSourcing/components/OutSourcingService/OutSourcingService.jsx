@@ -9,8 +9,8 @@ const OutSourcingService = () => {
             <div className='container'>
 
                 <CustomHeading
-                    firstWord="Why Choose us for"
-                    lastWord="IT Outsourcing Services?"
+                    firstWord="Our"
+                    lastWord="Approach"
                     textCenter="text-center"
                 />
 
@@ -24,9 +24,8 @@ const OutSourcingService = () => {
                                     <i className="fa fa-angle-double-right" />
                                 </span>
                                 <span className="it-outsourcing-desc">
-                                    <h5>Two Decades of Expertise</h5>
-                                    Over 20+ years in IT outsourcing, 99 IT Solutions brings extensive
-                                    experience and best practices to every project.
+                                    <h5>Tailored Solutions</h5>
+                                    Customized IT strategies to meet your specific business needs.
                                 </span>
                             </li>
                             <li>
@@ -34,9 +33,8 @@ const OutSourcingService = () => {
                                     <i className="fa fa-angle-double-right" />
                                 </span>
                                 <span className="it-outsourcing-desc">
-                                    <h5>Customized Solutions</h5>
-                                    We specialize in tailored IT solutions, aligning with your unique business
-                                    needs for optimal outcomes.
+                                    <h5>Technology-Driven Passion</h5>
+                                    Deep technical expertise combined with a commitment to innovation.
                                 </span>
                             </li>
                             <li>
@@ -44,9 +42,8 @@ const OutSourcingService = () => {
                                     <i className="fa fa-angle-double-right" />
                                 </span>
                                 <span className="it-outsourcing-desc">
-                                    <h5>Passion for Tech</h5>
-                                    Our passionate team blends technology expertise with a commitment to your
-                                    success, driving innovative solutions.
+                                    <h5>Agile & Adaptive</h5>
+                                    Quickly adjust to changing project requirements for optimal results.
                                 </span>
                             </li>
                             <li>
@@ -54,31 +51,11 @@ const OutSourcingService = () => {
                                     <i className="fa fa-angle-double-right" />
                                 </span>
                                 <span className="it-outsourcing-desc">
-                                    <h5>Cost Efficienct</h5>
-                                    99 IT Solutions offers cost-effective solutions, reducing expenses while
-                                    maximizing ROI.
+                                    <h5>Reliable Support</h5>
+                                    Scalable solutions that evolve seamlessly as your business grows.
                                 </span>
                             </li>
-                            <li>
-                                <span className="teamInfoIcon">
-                                    <i className="fa fa-angle-double-right" />
-                                </span>
-                                <span className="it-outsourcing-desc">
-                                    <h5>Agile Development Approach</h5>
-                                    Embracing agility, we adapt rapidly to evolving project demands, ensuring
-                                    timely results.
-                                </span>
-                            </li>
-                            <li>
-                                <span className="teamInfoIcon">
-                                    <i className="fa fa-angle-double-right" />
-                                </span>
-                                <span className="it-outsourcing-desc">
-                                    <h5>Scalable Support</h5>
-                                    We provide scalable solutions and continuous support, enabling technology
-                                    growth alongside your business.
-                                </span>
-                            </li>
+
                         </ul>
 
 
