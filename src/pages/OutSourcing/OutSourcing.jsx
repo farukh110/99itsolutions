@@ -19,6 +19,65 @@ const OutSourcing = () => {
 
     const navigate = useNavigate();
 
+    const teamItems = [
+        {
+            id: 1,
+            position: "Solution Architect?"
+        },
+        {
+            id: 2,
+            position: "Full Stack Developer?"
+        },
+        {
+            id: 3,
+            position: "Mobile App Developer?"
+        },
+        {
+            id: 4,
+            position: ".Net Developer?"
+        },
+        {
+            id: 5,
+            position: "Web Designer?"
+        },
+        {
+            id: 6,
+            position: "Backend Developer?"
+        },
+        {
+            id: 7,
+            position: "Frontend Developer?"
+        },
+        {
+            id: 8,
+            position: "Unity Game Developer?"
+        },
+        {
+            id: 9,
+            position: "DevOps Engineer?"
+        },
+        {
+            id: 10,
+            position: "WordPress Developer?"
+        },
+        {
+            id: 11,
+            position: "SEO Specialist?"
+        },
+        {
+            id: 12,
+            position: "Digital Marketer?"
+        },
+        {
+            id: 13,
+            position: "Social Media Manager?"
+        },
+        {
+            id: 14,
+            position: "Graphic Designer?"
+        }
+    ];
+
     return (
         <>
             <HomeBannerTwo />
@@ -251,7 +310,7 @@ const OutSourcing = () => {
             <Process />
             <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />
-            <VerticalSlider />
+            <VerticalSlider title="Do you need a Full or Part-time" teamItems={teamItems} />
 
         </>
     )

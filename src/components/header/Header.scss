@@ -36,12 +36,31 @@ $orange-color: #F9AD2F;
     padding-top: 10px;
     padding-bottom: 10px;
     border-color: $orange-color;
-    color: #ffffff !important;
+    color: #162E55 !important;
 
     &:hover {
         background: #1A3059;
         border-color: #fff;
-        color: #fff !important;
+        color: #F9AD2F !important;
+    }
+}
+
+.btn-get2 {
+    background-color: #1A3059;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #1A3059;
+    color: #F9AD2F !important;
+
+    &:hover {
+        background: #F9AD2F;
+        border-color: #fff;
+        color: #1A3059 !important;
     }
 }
 

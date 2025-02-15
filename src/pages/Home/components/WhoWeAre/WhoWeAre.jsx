@@ -16,11 +16,15 @@ const WhoWeAre = () => {
                     />
                     <div className="commpany-intro">
                         <p className="sub-txt">
-                            99 IT Solutions is a leading technology services company, delivering innovative digital solutions since 2015. With a strong presence across multiple countries, we specialize in web and software development, digital marketing, animation, branding, and IT consulting.
-                            We cater to diverse industries, including Government, Corporate, Ecommerce, Retail, Education, Travel & Tourism, Insurance, and Healthcare. Our expertise helps businesses across these sectors enhance their digital presence and operational efficiency through cutting-edge technology and strategic marketing.
-
+                            99 IT Solutions is a leading technology innovator with 10+ years of industry expertise, delivering innovative digital solutions and software outsourcing services to SMEs worldwide.
                             <br />
-                            Our comprehensive service offerings include game development, AI & ML solutions, XR (Extended Reality), DevOps services, IT consulting, and solution architecture. Additionally, we provide outsourcing solutions and remote staffing, enabling businesses to scale efficiently with top-tier talent in development, design, and digital marketing.
+                            We specialize in web and software development, IT outsourcing, product development, digital marketing, DevOps, solutions architecture, and IT consulting.
+                            <br />
+                            With a strong presence in the USA, Canada, New Zealand, Australia, the UK, Sweden, and the UAE, we provide scalable, next-generation technology solutions tailored to diverse business needs.
+                            <br />
+                            Our services include AI & ML development, XR, animation, branding, game development, and remote staffing, ensuring measurable success and sustainable growth.
+                            <br />
+                            At 99 IT Solutions, we stay ahead of industry trends, leveraging the latest technologies to drive innovation, efficiency, and exceptional customer experiences.
 
                         </p>
                     </div>

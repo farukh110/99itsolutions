@@ -36,11 +36,12 @@ const HomeBannerTwo = () => {
 
                         <TextSlider textArray={textArray} />
 
-                        <br />
+                        <br /><br />
 
-                        <p className="clor fw-bold">
+                        {/* <p className="clor fw-bold">
                             Adapt to Market Demands Without Compromising on Excellence
                         </p>
+                         */}
                         <button
                             type="button"
                             className="btn button getQuoteBtn"

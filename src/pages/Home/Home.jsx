@@ -45,6 +45,33 @@ const Home = () => {
     //     height: '60vh'
     // }
 
+    const teamItems = [
+        {
+            id: 1,
+            position: "Solution Architect"
+        },
+        {
+            id: 2,
+            position: "Free Consultation"
+        },
+        {
+            id: 3,
+            position: ".Net Developer"
+        },
+        {
+            id: 4,
+            position: "Fullstack Developer"
+        },
+        {
+            id: 5,
+            position: "Mobile Developer"
+        },
+        {
+            id: 6,
+            position: "DevOps Engineer"
+        }
+    ];
+
     return (
         <>
             <HomeBanner />
@@ -71,7 +98,10 @@ const Home = () => {
             {/* <ProductsCatalog /> */}
             <ContactForm customPadding="ps-0 pe-0" />
             <Clients />
-            <VerticalSlider />
+            <VerticalSlider
+                title="Are you looking for professional"
+                teamItems={teamItems}
+            />
         </>
     )
 }
