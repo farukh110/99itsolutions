@@ -79,7 +79,7 @@ const HomeBannerTwo = () => {
                             </div>
                             <div className="ratings-box">
                                 <a
-                                    href={clutch}
+                                    href="https://clutch.co/profile/99-it-solutions"
                                     target="_blank"
                                     rel="noopener nofollow"
                                 >
