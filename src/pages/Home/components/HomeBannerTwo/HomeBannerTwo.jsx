@@ -85,7 +85,7 @@ const HomeBannerTwo = () => {
                                 >
                                     <img
                                         data-lazyloaded={1}
-                                        src="https://www.softlabsgroup.com/img/clutch-rating-svg.webp"
+                                        src={clutch}
                                         alt="Clutch"
                                         width={99}
                                         height={56}
