@@ -225,7 +225,7 @@ const MainServicesTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -249,7 +249,7 @@ const MainServicesTwo = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
@@ -286,7 +286,7 @@ const MainServicesTwo = () => {
                                         >
                                             <div className="ag-courses-item_bg" />
                                             <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Development
+                                                Web Development
                                             </div>
                                             <div className="ag-courses-item_date-box pb-3">
                                                 <p>
@@ -323,7 +323,7 @@ const MainServicesTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -347,7 +347,7 @@ const MainServicesTwo = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
@@ -360,7 +360,7 @@ const MainServicesTwo = () => {
                                         >
                                             <div className="ag-courses-item_bg" />
                                             <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Application
+                                                Mobile Application
                                             </div>
                                             <div className="ag-courses-item_date-box pb-3">
                                                 <p>
@@ -373,7 +373,7 @@ const MainServicesTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -397,7 +397,7 @@ const MainServicesTwo = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">

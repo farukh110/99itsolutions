@@ -79,13 +79,13 @@ const HomeBannerTwo = () => {
                             </div>
                             <div className="ratings-box">
                                 <a
-                                    href={clutch}
+                                    href="https://clutch.co/profile/99-it-solutions"
                                     target="_blank"
                                     rel="noopener nofollow"
                                 >
                                     <img
                                         data-lazyloaded={1}
-                                        src="https://www.softlabsgroup.com/img/clutch-rating-svg.webp"
+                                        src={clutch}
                                         alt="Clutch"
                                         width={99}
                                         height={56}

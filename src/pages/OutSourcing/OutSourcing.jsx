@@ -89,8 +89,14 @@ const OutSourcing = () => {
                     <div className='col-md-12'>
 
                         <CustomHeadingTwo
-                            firstWord="The Future of Business Success with us: Outsource Smarter, Grow Faster & Earn Higher"
-                            lastWord="99 IT Solutions: Your Trusted Tech Partner for Reducing Ongoing Costs & Maximizing Profitability thru Our Outsourcing Service"
+                            firstWord="The Future of Business Success Starts Here:"
+                            lastWord="Outsource Smarter, Grow Faster & Earn Higher"
+                            textCenter="text-center"
+                        />
+
+                        <CustomHeadingTwo
+                            firstWord="99 IT Solutions: Your Trusted Tech Partner"
+                            lastWord="Reduce Costs, Maximize Profitability, and Scale Efficiently with Our Outsourcing Services"
                             textCenter="text-center"
                         />
 
@@ -99,12 +105,68 @@ const OutSourcing = () => {
                 </div>
 
                 <p>
-                    At 99ITsolutions.com, we specialize in web design, software and product development, and digital marketing as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.
+                    At 99ITsolutions.com, we specialize in web design, software and product development as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.
+
                 </p>
 
             </div>
 
             <OutSourcingServiceTwo />
+            <div className='container'>
+
+                <CustomHeading
+                    firstWord="How We Help You Scale &"
+                    lastWord="Earn More"
+                    textCenter="text-center mt-md-4"
+                />
+
+                <div className='outsourcing'>
+
+                    <ul className="why-out-sourcing">
+                        <li>
+                            <span className="teamInfoIcon">
+                                <i className="fa fa-angle-double-right" />
+                            </span>
+                            <span className="it-outsourcing-desc">
+                                <h5>Manage Small or Large Projects at Lower Costs </h5>
+                                Outsource Google Ads, Facebook marketing, web development, and content creation at a lower rate than hiring full-time staff.
+
+                            </span>
+                        </li>
+                        <li>
+                            <span className="teamInfoIcon">
+                                <i className="fa fa-angle-double-right" />
+                            </span>
+                            <span className="it-outsourcing-desc">
+                                <h5> Test Us with a Small Project  </h5>
+                                Before committing, start with a small task and experience our speed, quality, and reliability.
+
+                            </span>
+                        </li>
+                        <li>
+                            <span className="teamInfoIcon">
+                                <i className="fa fa-angle-double-right" />
+                            </span>
+                            <span className="it-outsourcing-desc">
+                                <h5>Increase Your Profit & Reduce Risk </h5>
+                                Keep your existing clients while outsourcing part of the work. Earn more without the hassle of additional hires.
+
+                            </span>
+                        </li>
+                        <li>
+                            <span className="teamInfoIcon">
+                                <i className="fa fa-angle-double-right" />
+                            </span>
+                            <span className="it-outsourcing-desc">
+                                <h5>No Need to Downsize Your Team</h5>
+                                We help manage workload overflow so you don’t have to lay off employees—just scale smarter.
+
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
             <OutSourcingService />
 
             <div className='container mb-md-5 mt-md-5'>
@@ -135,7 +197,7 @@ const OutSourcing = () => {
 
                         </p>
 
-                        <CustomHeading
+                        {/* <CustomHeading
                             firstWord="Let’s"
                             lastWord="Connect!"
                             textCenter="text-center"
@@ -144,27 +206,12 @@ const OutSourcing = () => {
                         <p className='text-center'>
                             Ready to get started? Schedule a quick video call via Zoom or Skype to discuss your outsourcing needs. <br /> We’re here to be your reliable partner in success.
 
-                        </p>
+                        </p> */}
 
-                        <button onClick={() => navigate('/get-free-quote')} className='btn btn-primary btn-connect mx-auto d-block'> Contact Us Today!  </button>
+                        {/* <button onClick={() => navigate('/get-free-quote')} className='btn btn-primary btn-connect mx-auto d-block'> Contact Us Today!  </button> */}
 
-                        <CustomHeading
-                            firstWord="Why Businesses & Agencies Should Outsource –"
-                            lastWord="Maximize Profits & Scale Efficiently"
-                            textCenter="text-center mt-md-4"
-                        />
 
-                        <p className='text-center'>
-                            Running a business, agency, or software house comes with significant operational costs—hiring, office space, salaries, and overhead expenses. Many struggle with low profit margins due to these costs and employee turnover.
-
-                        </p>
-
-                        <p className='text-center fw-bold'> Outsourcing solves these challenges by reducing costs, increasing flexibility, and enabling you to scale efficiently. </p>
-
-                        <h3 className='text-center fw-bold'> How Outsourcing Benefits Your Business or Agency:
-                        </h3>
-
-                        <div className='outsourcing'>
+                        {/* <div className='outsourcing'>
 
                             <ul className="why-out-sourcing">
                                 <li>
@@ -231,72 +278,21 @@ const OutSourcing = () => {
                                 </li>
 
                             </ul>
-                        </div>
+                        </div> */}
 
                         <CustomHeading
-                            firstWord="How We Help You Scale &"
-                            lastWord="Earn More"
+                            firstWord="Let’s Connect How"
+                            lastWord="We Can Help You!"
                             textCenter="text-center mt-md-4"
                         />
 
-                        <div className='outsourcing'>
-
-                            <ul className="why-out-sourcing">
-                                <li>
-                                    <span className="teamInfoIcon">
-                                        <i className="fa fa-angle-double-right" />
-                                    </span>
-                                    <span className="it-outsourcing-desc">
-                                        <h5>Manage Small or Large Projects at Lower Costs </h5>
-                                        Outsource Google Ads, Facebook marketing, web development, and content creation at a lower rate than hiring full-time staff.
-
-                                    </span>
-                                </li>
-                                <li>
-                                    <span className="teamInfoIcon">
-                                        <i className="fa fa-angle-double-right" />
-                                    </span>
-                                    <span className="it-outsourcing-desc">
-                                        <h5> Test Us with a Small Project  </h5>
-                                        Before committing, start with a small task and experience our speed, quality, and reliability.
-
-                                    </span>
-                                </li>
-                                <li>
-                                    <span className="teamInfoIcon">
-                                        <i className="fa fa-angle-double-right" />
-                                    </span>
-                                    <span className="it-outsourcing-desc">
-                                        <h5>Increase Your Profit & Reduce Risk </h5>
-                                        Keep your existing clients while outsourcing part of the work. Earn more without the hassle of additional hires.
-
-                                    </span>
-                                </li>
-                                <li>
-                                    <span className="teamInfoIcon">
-                                        <i className="fa fa-angle-double-right" />
-                                    </span>
-                                    <span className="it-outsourcing-desc">
-                                        <h5>No Need to Downsize Your Team</h5>
-                                        We help manage workload overflow so you don’t have to lay off employees—just scale smarter.
-
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <CustomHeading
-                            firstWord="Let’s Discuss How"
-                            lastWord="We Can Help You!"
-                            textCenter="text-center"
-                        />
-
                         <p className='text-center'>
-                            Your success starts with a conversation! Schedule a free consultation today and discover how outsourcing can help you scale and save.
+                            Your success starts with a conversation Ready to get started? Schedule a free consultation quick video call via Zoom or Google Meeting to discuss your outsourcing needs today and discover how outsourcing can help you scale and save. We’re here to be your reliable partner in success.
+                            Let’s scale your business together!
 
                         </p>
 
-                        <button onClick={() => navigate('/contact')} className='btn btn-primary btn-connect mx-auto d-block'> Contact Us Now! </button>
+                        <button onClick={() => navigate('/contact')} className='btn btn-primary btn-connect mx-auto d-block'> Contact Us Today! </button>
 
 
                     </div>
