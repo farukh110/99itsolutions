@@ -31,8 +31,8 @@ const Process = () => {
             <div className='process-section container my-lg-5 my-md-4 my-4'>
 
                 <CustomHeading
-                    firstWord="How We Work"
-                    lastWord="(For Software Development)"
+                    firstWord="How"
+                    lastWord="We Work"
                     textCenter="text-center"
                 />
 

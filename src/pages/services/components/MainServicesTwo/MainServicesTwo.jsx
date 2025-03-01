@@ -56,18 +56,17 @@ const MainServicesTwo = () => {
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
                                         <a
-                                            href="ai-ml-development"
-                                            aria-label="AI/ML Software Development"
+                                            href="mobile-app-development"
+                                            aria-label="Mobile App Development"
                                             className="ag-courses-item_link ag-courses-item_link-index"
-                                            target="_blank"
                                         >
                                             <div className="ag-courses-item_bg" />
                                             <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                AI & ML Development
+                                                Web Design
                                             </div>
                                             <div className="ag-courses-item_date-box pb-3">
                                                 <p>
-                                                    Harness the power of Artificial Intelligence and Machine Learning with our innovative solutions. From process automation to smarter decision-making, our AI/ML expertise empowers your business to achieve new heights.
+                                                    Your website is crucial for marketing success, with 75% of clients assessing credibility based on design, content, and navigation.
 
                                                 </p>
                                             </div>
@@ -174,106 +173,7 @@ const MainServicesTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
-                            <div className="ag-format-container">
-                                <div className="ag-courses_box">
-                                    <div className="ag-courses_item">
-                                        <a
-                                            href="software-development"
-                                            aria-label="Custom Software Development"
-                                            className="ag-courses-item_link ag-courses-item_link-index"
-                                            target="_blank"
-                                        >
-                                            <div className="ag-courses-item_bg" />
-                                            <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Domain and Hosting
-                                            </div>
-                                            <div className="ag-courses-item_date-box pb-3">
-                                                <p>
-                                                    99 iT Solutions is a leading domain registrar providing a wide range of domain name options and additional services.
 
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
-                            <div className="ag-format-container">
-                                <div className="ag-courses_box">
-                                    <div className="ag-courses_item">
-                                        <a
-                                            href="it-outsourcing"
-                                            aria-label="IT Outsourcing Services"
-                                            className="ag-courses-item_link ag-courses-item_link-index"
-                                            target="_blank"
-                                        >
-                                            <div className="ag-courses-item_bg" />
-                                            <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Cloud Solutions
-
-                                            </div>
-                                            <div className="ag-courses-item_date-box pb-3">
-                                                <p>
-                                                    Flexible and secure cloud solutions that drive efficiency, enabling seamless digital transformation with scalable and accessible cloud infrastructure.
-
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
-                            <div className="ag-format-container">
-                                <div className="ag-courses_box">
-                                    <div className="ag-courses_item">
-                                        <a
-                                            href="ai-ml-development"
-                                            aria-label="AI/ML Software Development"
-                                            className="ag-courses-item_link ag-courses-item_link-index"
-                                            target="_blank"
-                                        >
-                                            <div className="ag-courses-item_bg" />
-                                            <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Logo Design
-                                            </div>
-                                            <div className="ag-courses-item_date-box pb-3">
-                                                <p>
-                                                    At 99 iT Solutions Logo Designs, we create effective logos that represent your online brand identity and project what your business needs.
-
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
-                            <div className="ag-format-container">
-                                <div className="ag-courses_box">
-                                    <div className="ag-courses_item">
-                                        <a
-                                            href="mobile-app-development"
-                                            aria-label="Mobile App Development"
-                                            className="ag-courses-item_link ag-courses-item_link-index"
-                                        >
-                                            <div className="ag-courses-item_bg" />
-                                            <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Web Design
-                                            </div>
-                                            <div className="ag-courses-item_date-box pb-3">
-                                                <p>
-                                                    Your website is crucial for marketing success, with 75% of clients assessing credibility based on design, content, and navigation.
-
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
@@ -323,31 +223,6 @@ const MainServicesTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
-                            <div className="ag-format-container">
-                                <div className="ag-courses_box">
-                                    <div className="ag-courses_item">
-                                        <a
-                                            href="it-outsourcing"
-                                            aria-label="IT Outsourcing Services"
-                                            className="ag-courses-item_link ag-courses-item_link-index"
-                                            target="_blank"
-                                        >
-                                            <div className="ag-courses-item_bg" />
-                                            <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Video Animation
-                                            </div>
-                                            <div className="ag-courses-item_date-box pb-3">
-                                                <p>
-                                                    We build unique application designs to improve business and personal efficiency, helping clients feel like royalty
-
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
@@ -373,31 +248,7 @@ const MainServicesTwo = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
-                            <div className="ag-format-container">
-                                <div className="ag-courses_box">
-                                    <div className="ag-courses_item">
-                                        <a
-                                            href="it-outsourcing"
-                                            aria-label="IT Outsourcing Services"
-                                            className="ag-courses-item_link ag-courses-item_link-index"
-                                            target="_blank"
-                                        >
-                                            <div className="ag-courses-item_bg" />
-                                            <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Digital Marketing
-                                            </div>
-                                            <div className="ag-courses-item_date-box pb-3">
-                                                <p>
-                                                    Boost your business with 99 iT Solutions' digital marketing services. We've helped SMBs generate $3B+ revenue with SEO, SMM, PPC, web design, and more.
 
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
@@ -436,12 +287,12 @@ const MainServicesTwo = () => {
                                         >
                                             <div className="ag-courses-item_bg" />
                                             <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                2D/3D Game Development
-
+                                                2D/3D Games
                                             </div>
                                             <div className="ag-courses-item_date-box pb-3">
                                                 <p>
-                                                    99 iT Solutions creates stunning 2D and 3D multiplayer mobile games with immersive visuals and engaging gameplay, following the latest trends in game design.
+                                                    99 iT Solutions provides custom unity game development services that include building spectacular 2D and 3D multiplayer games for mobile devices with creative visualization & addictive gameplay considering the latest game directions and design trends
+
                                                 </p>
                                             </div>
                                         </a>
@@ -462,11 +313,12 @@ const MainServicesTwo = () => {
                                         >
                                             <div className="ag-courses-item_bg" />
                                             <div className="ag-courses-item_title ag-courses-item_title-index">
-                                                Application Development & Support
+                                                WhatsApp Business & Chatbot Solutions:
                                             </div>
                                             <div className="ag-courses-item_date-box pb-3">
                                                 <p>
-                                                    Tailored application development and ongoing support, delivering high-performance solutions with continuous maintenance and optimization.
+                                                    Connect your website/app via API for instant whatsapp OPTs/transactions and enhance
+                                                    customer engagement with Chat Bot System Static, Streamlining communication.
 
                                                 </p>
                                             </div>

@@ -1,9 +1,12 @@
 import React from 'react';
 import './vertical-slider.scss';
+import { useNavigate } from 'react-router-dom';
 
 const VerticalSlider = (props) => {
 
     const { title, teamItems } = props;
+
+    const navigate = useNavigate();
 
     return (
         <div className='vertical-slider-section'>
@@ -31,7 +34,7 @@ const VerticalSlider = (props) => {
 
                     <div className='col-md-4'>
 
-                        <button class="btn btn-primary mx-auto d-block">Hire Us <i class="fa-regular fa-paper-plane"></i> </button>
+                        <button onClick={() => navigate('/get-free-quote')} class="btn btn-primary">Hire Us <i class="fa-regular fa-paper-plane"></i> </button>
 
                     </div>
 

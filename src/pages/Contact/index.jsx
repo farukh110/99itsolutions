@@ -19,6 +19,7 @@ import img2 from "../../assets/images/contact/img-2.png";
 import './index.scss';
 import ContactForm from "../Home/components/ContactForm/ContactForm";
 import CustomHeading from "../../components/heading/CustomHeading";
+import VerticalSlider from "../Home/components/vertical-slider/VerticalSlider";
 
 // const YOUR_SERVICE_ID = "service_tdgcnmj";
 // const YOUR_TEMPLATE_ID = "template_of24zr7";
@@ -51,6 +52,33 @@ const Contact = () => {
   //     });
   // };
 
+  const teamItems = [
+    {
+      id: 1,
+      position: "Solution Architect"
+    },
+    {
+      id: 2,
+      position: "Free Consultation"
+    },
+    {
+      id: 3,
+      position: ".Net Developer"
+    },
+    {
+      id: 4,
+      position: "Fullstack Developer"
+    },
+    {
+      id: 5,
+      position: "Mobile Developer"
+    },
+    {
+      id: 6,
+      position: "DevOps Engineer"
+    }
+  ];
+
   return (
     <>
       <CustomBanner
@@ -80,7 +108,7 @@ const Contact = () => {
 
         </div>
 
-        <div className="row">
+        <div className="row mt-md-4">
           <div className="col-lg-4 p-0">
             <div
               className="contact-form-left bgs-cover h-100"
@@ -358,6 +386,11 @@ const Contact = () => {
         </div>
 
       </div>
+
+      <VerticalSlider
+        title="Are you looking for professional"
+        teamItems={teamItems}
+      />
 
     </>
   );

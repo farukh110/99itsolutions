@@ -85,11 +85,11 @@ const Home = () => {
                 rightPoints={rightPoints} /> */}
             <WhoWeAre />
             <Outsourcing />
+            <Benefits />
             <OutsourcingServices />
             <ProductsPortfolio />
             <Process />
             <Technologies />
-            <Benefits />
             {/* <Focused /> */}
             {/* <Features /> */}
             {/* <Counters /> */}
