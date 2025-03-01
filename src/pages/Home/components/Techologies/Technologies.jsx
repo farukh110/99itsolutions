@@ -503,102 +503,102 @@ const Technologies = () => {
         );
     };
 
-    const Design = () => {
+    // const Design = () => {
 
-        return (
-            <div className='row'>
+    //     return (
+    //         <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={photoshop} className='custom-icon' alt='Photoshop' />
+    //                 <img src={photoshop} className='custom-icon' alt='Photoshop' />
 
-                    <p className="techstack-p mt-md-3 text-center">Photoshop</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Photoshop</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={illustrator} className='custom-icon' alt='Illustrator' />
+    //                 <img src={illustrator} className='custom-icon' alt='Illustrator' />
 
-                    <p className="techstack-p mt-md-3 text-center">Illustrator</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Illustrator</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={afterEffects} className='custom-icon' alt='After Effects' />
+    //                 <img src={afterEffects} className='custom-icon' alt='After Effects' />
 
-                    <p className="techstack-p mt-md-3 text-center">After Effects</p>
+    //                 <p className="techstack-p mt-md-3 text-center">After Effects</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={indesign} className='custom-icon' alt='Indesign' />
+    //                 <img src={indesign} className='custom-icon' alt='Indesign' />
 
-                    <p className="techstack-p mt-md-3 text-center">Indesign</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Indesign</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={premiere} className='custom-icon' alt='Premiere' />
+    //                 <img src={premiere} className='custom-icon' alt='Premiere' />
 
-                    <p className="techstack-p mt-md-3 text-center">Premiere</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Premiere</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={xd} className='custom-icon' alt='Xd' />
+    //                 <img src={xd} className='custom-icon' alt='Xd' />
 
-                    <p className="techstack-p mt-md-3 text-center">Xd</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Xd</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={corelDraw} className='custom-icon' alt='Corel Draw' />
+    //                 <img src={corelDraw} className='custom-icon' alt='Corel Draw' />
 
-                    <p className="techstack-p mt-md-3 text-center">Corel Draw</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Corel Draw</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={figma} className='custom-icon' alt='Figma' />
+    //                 <img src={figma} className='custom-icon' alt='Figma' />
 
-                    <p className="techstack-p mt-md-3 text-center">Figma</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Figma</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={invision} className='custom-icon' alt='Invision' />
+    //                 <img src={invision} className='custom-icon' alt='Invision' />
 
-                    <p className="techstack-p mt-md-3 text-center">Invision</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Invision</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={sketch} className='custom-icon' alt='Sketch' />
+    //                 <img src={sketch} className='custom-icon' alt='Sketch' />
 
-                    <p className="techstack-p mt-md-3 text-center">Sketch</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Sketch</p>
 
-                </div>
+    //             </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+    //             <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
 
-                    <img src={canva} className='custom-icon' alt='Canva' />
+    //                 <img src={canva} className='custom-icon' alt='Canva' />
 
-                    <p className="techstack-p mt-md-3 text-center">Canva</p>
+    //                 <p className="techstack-p mt-md-3 text-center">Canva</p>
 
-                </div>
+    //             </div>
 
-            </div>
-        );
-    };
+    //         </div>
+    //     );
+    // };
 
     const Cloud = () => {
 
@@ -708,36 +708,31 @@ const Technologies = () => {
     const items = [
         {
             key: '1',
-            label: 'Graphic & UI/UX Design | Media',
-            children: <Design />,
-        },
-        {
-            key: '2',
             label: 'Frontend',
             children: <FrontendTemplate />,
         },
         {
-            key: '3',
+            key: '2',
             label: 'Backend',
             children: <BackendTemplate />,
         },
         {
-            key: '4',
+            key: '3',
             label: 'Mobility Stack',
             children: <MobileTemplate />,
         },
         {
-            key: '5',
+            key: '4',
             label: 'Databases',
             children: <Databases />,
         },
         {
-            key: '6',
+            key: '5',
             label: 'Artificial Intelligence',
             children: <AI />,
         },
         {
-            key: '7',
+            key: '6',
             label: 'Cloud & DevOps',
             children: <Cloud />,
         },
@@ -753,8 +748,8 @@ const Technologies = () => {
                 <div className='container'>
 
                     <CustomHeading
-                        firstWord="Our 360 Expertise Tools &"
-                        lastWord="Tech Stack"
+                        firstWord="Our 360 Expertise"
+                        lastWord="Tools & Tech Stack"
                         textCenter="text-center"
                     />
 
@@ -771,6 +766,7 @@ const Technologies = () => {
 
                     <div className='row justify-content-center'>
                         <Tabs
+                            centered
                             cardGutter={4}
                             className='custom-tabs'
                             defaultActiveKey="1"

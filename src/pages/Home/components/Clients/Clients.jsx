@@ -59,8 +59,8 @@ const Clients = () => {
                         <div className="section-title text-left mb-30 mt-md-5 mt-5">
                             {/* <span className="sub-title">Our Portfolio</span> */}
                             <CustomHeading
-                                firstWord="Our Trusted Partners and"
-                                lastWord="Valuable clients"
+                                firstWord="Our Trusted"
+                                lastWord="Partners and Valuable clients"
                                 textCenter="text-left"
                             />
                         </div>

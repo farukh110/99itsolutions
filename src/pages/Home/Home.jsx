@@ -90,7 +90,7 @@ const Home = () => {
             <Process />
             <Technologies />
             <Benefits />
-            <Focused />
+            {/* <Focused /> */}
             {/* <Features /> */}
             {/* <Counters /> */}
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />

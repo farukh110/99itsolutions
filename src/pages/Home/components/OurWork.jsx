@@ -91,13 +91,13 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             category: "logo",
             link: "https://www.behance.net/gallery/162683537/Pak-Magnesia-Logo"
         },
-        {
-            id: 8,
-            image: g2,
-            name: "Hma Logo",
-            category: "logo",
-            link: "https://www.behance.net/gallery/162683167/HMA-Logo"
-        },
+        // {
+        //     id: 8,
+        //     image: g2,
+        //     name: "Hma Logo",
+        //     category: "logo",
+        //     link: "https://www.behance.net/gallery/162683167/HMA-Logo"
+        // },
         {
             id: 9,
             image: fitness,
@@ -105,20 +105,20 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             category: "web",
             link: "https://www.fitness.com/en"
         },
-        {
-            id: 10,
-            image: g3,
-            name: "SME Softwares",
-            category: "logo",
-            link: "https://www.behance.net/gallery/137797843/SME-Softwares"
-        },
-        {
-            id: 11,
-            image: g4,
-            name: "Domain Dictionary",
-            category: "logo",
-            link: "https://www.behance.net/gallery/137799105/Domain-Dictionary"
-        },
+        // {
+        //     id: 10,
+        //     image: g3,
+        //     name: "SME Softwares",
+        //     category: "logo",
+        //     link: "https://www.behance.net/gallery/137797843/SME-Softwares"
+        // },
+        // {
+        //     id: 11,
+        //     image: g4,
+        //     name: "Domain Dictionary",
+        //     category: "logo",
+        //     link: "https://www.behance.net/gallery/137799105/Domain-Dictionary"
+        // },
         {
             id: 12,
             image: intt,
@@ -245,13 +245,13 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             category: "web",
             link: "https://abadraho.com/"
         },
-        {
-            id: 30,
-            image: g5,
-            name: "Express Immigration",
-            category: "logo",
-            link: "https://www.behance.net/gallery/138874337/Express-Immigration"
-        },
+        // {
+        //     id: 30,
+        //     image: g5,
+        //     name: "Express Immigration",
+        //     category: "logo",
+        //     link: "https://www.behance.net/gallery/138874337/Express-Immigration"
+        // },
         {
             id: 31,
             image: 'https://play-lh.googleusercontent.com/BwyMm9DGOE1vYctQhEpDglyypo1hbuitmVxAINfhmbukV-KeI7qKCXQpAmNuKmwdZyo=w2560-h1440-rw',
@@ -386,7 +386,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
                         </div>
                     )}
 
-                    {isLogoDesignPage && (
+                    {/* {isLogoDesignPage && (
                         <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6'>
                             <div className="d-grid">
                                 <button onClick={() => filterItem('logo')} className={`btn btn-outline-primary ${activeCategory === 'logo' ? 'active' : ''}`}>
@@ -394,7 +394,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
                                 </button>
                             </div>
                         </div>
-                    )}
+                    )} */}
 
                     {isWebPage && (
                         <div className='col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6 mt-md-0 mt-sm-0 mt-2'>

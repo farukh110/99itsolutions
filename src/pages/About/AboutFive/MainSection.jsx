@@ -9,6 +9,7 @@ import Technologies from "../../Home/components/Techologies/Technologies";
 import Clients from "../../Home/components/Clients/Clients";
 import CustomSubHeading from "../../../components/sub-heading/CustomSubHeading";
 import CustomHeading from "../../../components/heading/CustomHeading";
+import Focused from "../../Home/components/Focused/Focused";
 
 export default function MainSection() {
   return (
@@ -170,6 +171,7 @@ export default function MainSection() {
         </div>
       </section>
       <ServicesTab />
+      <Focused />
       <Counters />
       <Technologies />
       <section className="container">

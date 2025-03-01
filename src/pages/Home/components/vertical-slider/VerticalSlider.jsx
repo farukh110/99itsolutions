@@ -20,7 +20,7 @@ const VerticalSlider = (props) => {
 
                                 {teamItems?.map((item, index) =>
                                     <div className={`slider-text-${index + 1}`}>
-                                        {item?.position}
+                                        {item?.position} <span className='text-white'>?</span>
                                     </div>
                                 )}
 
