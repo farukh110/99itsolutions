@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+import consultation from '../../../../assets/images/process/consultation.jpg';
 import planning from '../../../../assets/images/process/planning.jpg';
 import design from '../../../../assets/images/process/design.jpg';
 import develop from '../../../../assets/images/process/develop.jpg';
-import testing from '../../../../assets/images/process/testing.png';
+import testing from '../../../../assets/images/process/testing.jpg';
 import delivery from '../../../../assets/images/process/delivery.jpg';
 import support from '../../../../assets/images/process/support.jpg';
 
-import planningIcon from '../../../../assets/images/icons/Conceptualisation-icon.webp';
+import consultIcon from '../../../../assets/images/icons/Conceptualisation-icon.webp';
+import planningIcon from '../../../../assets/images/icons/planning-icon.webp';
 import designIcon from '../../../../assets/images/icons/prototype-icon.webp';
 import developIcon from '../../../../assets/images/icons/system-design-development.webp';
 import testIcon from '../../../../assets/images/icons/agile-process-support.webp';
@@ -29,14 +31,31 @@ const Process = () => {
             <div className='process-section container my-lg-5 my-md-4 my-4'>
 
                 <CustomHeading
-                    firstWord="How We Work"
-                    lastWord="(For Software Development)"
+                    firstWord="How"
+                    lastWord="We Work"
                     textCenter="text-center"
                 />
 
-                <div className='row justify-content-center mt-md-4'>
+                <div className='row row-cols-lg-7 g-2 g-lg-2 justify-content-center mt-md-4'>
 
-                    <div className='col-md-2 col-6 p-1'>
+                    <div className='col p-1'>
+
+                        <div className="d-grid">
+                            <button
+                                className={`btn ${currentTab === 'consultation' ? 'btn-primary' : 'btn-info'
+                                    }`}
+                                onClick={() => handleClick('consultation')}
+                            >
+                                <img src={consultIcon} alt="Consultation" />
+                                <br />
+                                Consultation
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div className='col p-1'>
 
                         <div className="d-grid">
                             <button
@@ -46,14 +65,14 @@ const Process = () => {
                             >
                                 <img src={planningIcon} alt="Planning" />
                                 <br />
-                                Planning
+                                Gathering ideas
                             </button>
 
                         </div>
 
                     </div>
 
-                    <div className='col-md-2 col-6 p-1'>
+                    <div className='col p-1'>
 
                         <div className="d-grid">
                             <button
@@ -71,7 +90,7 @@ const Process = () => {
 
                     </div>
 
-                    <div className='col-md-2 col-6 p-1'>
+                    <div className='col p-1'>
 
                         <div className="d-grid">
                             <button
@@ -81,14 +100,15 @@ const Process = () => {
                             >
                                 <img src={developIcon} alt="Planning" />
                                 <br />
-                                Develop
+                                Development
+
                             </button>
 
                         </div>
 
                     </div>
 
-                    <div className='col-md-2 col-6 p-1'>
+                    <div className='col p-1'>
 
                         <div className="d-grid">
                             <button
@@ -98,13 +118,13 @@ const Process = () => {
                             >
                                 <img src={testIcon} alt="Planning" />
                                 <br />
-                                Test
+                                Testing
                             </button>
                         </div>
 
                     </div>
 
-                    <div className='col-md-2 col-6 p-1'>
+                    <div className='col p-1'>
 
                         <div className="d-grid">
                             <button
@@ -121,7 +141,7 @@ const Process = () => {
 
                     </div>
 
-                    <div className='col-md-2 col-6 p-1'>
+                    <div className='col p-1'>
 
                         <div className="d-grid">
                             <button
@@ -139,6 +159,45 @@ const Process = () => {
                     </div>
 
                 </div>
+
+                {/* ----------- start consultation content ------------ */}
+
+                {currentTab === 'consultation' && (
+                    <div id='consultation' className='row mt-md-5 mt-4 consultation'>
+                        <div className='col-md-5'>
+                            <img className='img-fluid' src={consultation} alt='' />
+                        </div>
+
+                        <div className='col-md-7 mb-md-0 mb-4'>
+                            {/* <h5 className='text-darkblue mt-md-0 mt-4'>
+                                The planning stage is debatable
+                            </h5> */}
+
+                            <h3>Consultation</h3>
+                            <p>
+                                Looking for a company to help you with Software Development? 99 IT Solutions is providing the best solutions beginning with asking questions. We study your business vision, analyse your users and competitors, examine problems and promote your product's commercial strengths. Then transmute that into goals.
+
+                            </p>
+
+                            <h6>Consultation 100%</h6>
+
+                            <div
+                                className='progress'
+                                role='progressbar'
+                                aria-valuenow='10'
+                                aria-valuemin='0'
+                                aria-valuemax='100'
+                            >
+                                <div
+                                    className='progress-bar progress-bar-striped progress-bar-animated planning'
+                                    style={{ width: '10%' }}
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {/* ----------- end consultation content ------------ */}
 
                 {/* ----------- start planning content ------------ */}
 

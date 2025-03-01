@@ -46,7 +46,7 @@ $orange-color: #F9AD2F;
 }
 
 .btn-get2 {
-    background-color: #fff;
+    background-color: #1A3059;
     font-size: 15px;
     font-weight: 600;
     border-radius: 100px;
@@ -55,12 +55,12 @@ $orange-color: #F9AD2F;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid #1A3059;
-    color: #1A3059 !important;
+    color: #fff !important;
 
     &:hover {
-        background: #1A3059;
+        background: #fff;
         border-color: #1A3059;
-        color: #F9AD2F !important;
+        color: #1A3059 !important;
     }
 }
 

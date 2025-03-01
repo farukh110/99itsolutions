@@ -78,12 +78,8 @@ const Footer = () => {
                                 <div className="footer-widget link-widget ml-3">
                                     <h4 className="footer-title">Services Links </h4>
                                     <ul className="list-style-two">
-                                        <li><Link to='/'> Mobile App Development </Link></li>
-                                        <li><a href="!#">Web Development </a></li>
-                                        <li><a href="!#">Digital Marketing </a></li>
-                                        <li><a href="!#">Graphic Designing</a></li>
-                                        <li><Link to='!#'> UI/UX Design </Link></li>
-                                        <li><Link to='!#'> Video Animations </Link></li>
+                                        <li><Link to='/services/app-design-and-development'> Mobile App Development </Link></li>
+                                        <li><Link to='/services/web-development'>Web Development </Link></li>
                                     </ul>
                                 </div>
                             </div>

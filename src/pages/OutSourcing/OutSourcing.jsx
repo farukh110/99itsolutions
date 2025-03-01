@@ -302,7 +302,7 @@ const OutSourcing = () => {
 
             <MainServicesTwo />
             <ProductsCatalog />
-            <Focused />
+            {/* <Focused /> */}
             <Process />
             <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />

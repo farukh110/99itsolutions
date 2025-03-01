@@ -85,12 +85,12 @@ const Home = () => {
                 rightPoints={rightPoints} /> */}
             <WhoWeAre />
             <Outsourcing />
+            <Benefits />
             <OutsourcingServices />
             <ProductsPortfolio />
             <Process />
             <Technologies />
-            <Benefits />
-            <Focused />
+            {/* <Focused /> */}
             {/* <Features /> */}
             {/* <Counters /> */}
             <OurWork isLogoDesignPage={true} isWebPage={true} isMobilePage={true} isGraphicDesignPage={true} />

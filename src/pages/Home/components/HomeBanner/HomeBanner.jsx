@@ -13,15 +13,16 @@ const HomeBanner = () => {
     const navigate = useNavigate();
 
     const textArray = [
-        "Logo Design",
-        "Web Design",
-        "Video Production",
-        "Software Development",
+        "Custom Web Design",
+        "WhatsApp Chatbot Development",
+        "Custom Software Solutions",
+        "Web Application",
+        "Mobile App Development",
+        "Enterprise Software",
+        "Desktop Applications",
         "Product Development",
-        "XR (Extended Reality)",
-        "Game Development",
-        "AI & ML Solutions",
-        "Digital Marketing"
+        "AI/ML Solutions",
+        "Cloud/DevOps Solutions"
     ];
 
     return (
@@ -30,11 +31,11 @@ const HomeBanner = () => {
                 <div className="row align-items-center">
                     <div className="col-12 col-md-7  mplp">
                         <h1 className="clor pt-3 pb-2">
-                            Convert your idea into
+                            Your Idea, Our Code
                         </h1>
                         <TextSlider textArray={textArray} />
                         <p className="clor fw-bold">
-                            Empowering Innovation: Tailored Solutions in Custom Software and Digital Marketing for Over 10 Years that Drive Real Results!
+                            Empower Innovation: We Build Scalable, Custom Web & Software Solutions. With over 10 years of expertise, we serve startups and enterprises, driving real results and business success. Let’s bring your vision to life!
                         </p>
                         <button
                             type="button"
@@ -107,6 +108,9 @@ const HomeBanner = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='text-white'>
+                            Quality Focus | Customer Centric | Insights Driven
+                        </p>
                     </div>
                     <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
                         {/* <img

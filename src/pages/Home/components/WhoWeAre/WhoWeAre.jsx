@@ -16,15 +16,9 @@ const WhoWeAre = () => {
                     />
                     <div className="commpany-intro">
                         <p className="sub-txt">
-                            99 IT Solutions is a leading technology innovator with 10+ years of industry expertise, delivering innovative digital solutions and software outsourcing services to SMEs worldwide.
+                            99 IT Solutions is a leading technology innovator with over 10 years of industry expertise, delivering cutting-edge digital solutions and software outsourcing services to SMEs worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. With a strong presence in the USA, Canada, New Zealand, Australia, the UK, Sweden, and the UAE, we provide scalable, next-generation technology solutions tailored to meet diverse business needs.
                             <br />
-                            We specialize in web and software development, IT outsourcing, product development, digital marketing, DevOps, solutions architecture, and IT consulting.
-                            <br />
-                            With a strong presence in the USA, Canada, New Zealand, Australia, the UK, Sweden, and the UAE, we provide scalable, next-generation technology solutions tailored to diverse business needs.
-                            <br />
-                            Our services include AI & ML development, XR, animation, branding, game development, and remote staffing, ensuring measurable success and sustainable growth.
-                            <br />
-                            At 99 IT Solutions, we stay ahead of industry trends, leveraging the latest technologies to drive innovation, efficiency, and exceptional customer experiences.
+                            Our additional services include AI/ML development, XR, game development, and remote staffing, all designed to ensure measurable success and sustainable growth. At 99 IT Solutions, we stay ahead of industry trends, leveraging the latest technologies to drive innovation, efficiency, and exceptional customer experiences.
 
                         </p>
                     </div>
@@ -50,7 +44,7 @@ const WhoWeAre = () => {
                                     Years
                                 </h5>
                                 <p className="position-relative">
-                                    Industry leaders for over two decades
+                                    Industry leaders for over one decade
                                 </p>
                             </div>
                             <div className="countBox" style={{ background: "#F9AD2F" }}>

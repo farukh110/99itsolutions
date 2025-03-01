@@ -70,7 +70,7 @@ const Header = () => {
                                 <Navigation className="nav-home-one" />
 
                                 <div className="menu-btn">
-                                    <Link to='/outsourcing' className="btn btn-danger btn-get2">Explore Outsourcing</Link>
+                                    <Link to='/outsourcing' className="btn btn-danger btn-get2">Profitable Outsourcing</Link>
                                 </div>
                                 <div className="menu-btn">
                                     <Link to='/get-free-quote' className="btn btn-danger btn-get btn_wiggle">Book a Free Consultation</Link>
