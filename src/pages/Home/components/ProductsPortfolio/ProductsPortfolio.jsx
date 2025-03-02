@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ai from '../../../../assets/images/products-catalog/ai.webp';
-import ml from '../../../../assets/images/products-catalog/ml.jpg';
-import cv from '../../../../assets/images/products-catalog/computer-vision.webp';
-import gi from '../../../../assets/images/products-catalog/Generative-AI.webp';
-import bigData from '../../../../assets/images/products-catalog/big-data.webp';
-import ar from '../../../../assets/images/products-catalog/arvr.webp';
+import menufacturing from '../../../../assets/images/products-catalog/menufacturing.jpg';
+import logistics from '../../../../assets/images/products-catalog/logistics.jpg';
+import healthcare from '../../../../assets/images/products-catalog/healthcare.jpeg';
+import finance from '../../../../assets/images/products-catalog/finance.webp';
+import hr from '../../../../assets/images/products-catalog/hr.jpg';
+import education from '../../../../assets/images/products-catalog/education.jpg';
+import retail from '../../../../assets/images/products-catalog/retail.jpg';
+import realEstate from '../../../../assets/images/products-catalog/real.jpg';
+import travel from '../../../../assets/images/products-catalog/travel.jpg';
+import miscellaneous from '../../../../assets/images/products-catalog/miscellaneous.jpg';
+
+
 import './ProductsPortfolio.scss';
 import CustomHeading from '../../../../components/heading/CustomHeading';
 
@@ -25,7 +31,7 @@ const ProductsPortfolio = () => {
                     <li> 3) Inventory Management System </li>
                     <li> 4) Retail/Wholesale/Inventory </li>
                 </ul>`,
-            image: ai,
+            image: menufacturing,
         },
         {
             id: 'Healthcare',
@@ -38,18 +44,7 @@ const ProductsPortfolio = () => {
                     <li> 4) Doctor Appointment Booking </li>
                     <li> 5) Patient Management </li>
                 </ul>`,
-            image: ml,
-        },
-        {
-            id: 'Sports',
-            title: 'Sports',
-            description:
-                `<ul>
-                    <li> 1) Performance Analytics Software </li>
-                    <li> 2) Ticketing Platforms </li>
-                    <li> 3) Sports Management Systems </li>
-                </ul>`,
-            image: cv,
+            image: healthcare,
         },
         {
             id: 'Logistics',
@@ -64,22 +59,11 @@ const ProductsPortfolio = () => {
                     <li> 6) Taxi/Uber Management System </li>
                     <li> 7) Delivery Solution </li>
                 </ul>`,
-            image: gi,
-        },
-        {
-            id: 'Media',
-            title: 'Media',
-            description:
-                `<ul>
-                    <li> 1) Content Management Systems </li>
-                    <li> 2) Digital Rights Management Software </li>
-                    <li> 3) Streaming Platforms </li>
-                </ul>`,
-            image: bigData,
+            image: logistics,
         },
         {
             id: 'Finance',
-            title: 'Finance',
+            title: 'Finance & Business Management',
             description:
                 `<ul>
                     <li> 1) Accounting and Billing Software </li>
@@ -87,18 +71,18 @@ const ProductsPortfolio = () => {
                     <li> 3) Client Manager </li>
                     <li> 4) Bank/Money Management System </li>
                 </ul>`,
-            image: ar,
+            image: finance,
         },
         {
-            id: 'Retail',
-            title: 'Retail',
+            id: 'hr',
+            title: 'HR & Employee Management',
             description:
                 `<ul>
-                    <li> 1) Inventory Management </li>
-                    <li> 2) E-Commerce Platforms </li>
-                    <li> 3) Customer Loyalty Systems </li>
+                    <li> 1) Human Resource Management System </li>
+                    <li> 2) Attendance System </li>
+                    <li> 3) Employee Management System </li>
                 </ul>`,
-            image: ar,
+            image: hr,
         },
         {
             id: 'Education',
@@ -111,29 +95,58 @@ const ProductsPortfolio = () => {
                     <li> 4) Online Course Platform </li>
                     <li> 5) Quiz Game </li>
                 </ul>`,
-            image: ar,
+            image: education,
         },
         {
-            id: 'Energy',
-            title: 'Energy',
+            id: 'Retail',
+            title: 'Retail & POS',
             description:
                 `<ul>
-                    <li> 1) Energy Monitoring Systems </li>
-                    <li> 2) Smart Grid Management Software </li>
-                    <li> 3) Sustainability Analytics </li>
+                    <li> 1) ERP with POS </li>
+                    <li> 2) Point of Sale (POS) System </li>
+                    <li> 3) eCommerce with POS</li>
+                    <li> 4) Restaurant Management System with POS</li>
+                    <li> 5) Mobile Shop & Repair Management</li>
+                    <li> 6) eMarket / eShop</li>
                 </ul>`,
-            image: ar,
+            image: retail,
         },
         {
-            id: 'Agriculture',
-            title: 'Agriculture',
+            id: 'real',
+            title: 'Real Estate & Construction',
             description:
                 `<ul>
-                    <li> 1) Precision Farming Tools </li>
-                    <li> 2) AI Crop Monitoring Systems </li>
-                    <li> 3) Yield Forecasting Solutions </li>
+                    <li> 1) Property Management System </li>
+                    <li> 2) Real Estate Management </li>
+                    <li> 3) Apartment Management System </li>
                 </ul>`,
-            image: ar,
+            image: realEstate,
+        },
+        {
+            id: 'travel',
+            title: 'Travel & Tourism',
+            description:
+                `<ul>
+                    <li> 1) Tour & Travel Management System </li>
+                    <li> 2) Vacation Management System </li>
+                    <li> 3) Hotel Booking Management System </li>
+                </ul>`,
+            image: travel,
+        },
+        {
+            id: 'Miscellaneous',
+            title: 'Miscellaneous',
+            description:
+                `<ul>
+                    <li> 1) CRM (Customer Relationship Management) </li>
+                    <li> 2) Job Portal </li>
+                    <li> 3) Salon  Management System </li>
+                    <li> 4) Project Management System </li>
+                    <li> 5) CRM for Insurance </li>
+                    <li> 6) Library Management System </li>
+                    <li> 7) News Management System </li>
+                </ul>`,
+            image: miscellaneous,
         },
     ];
 
@@ -174,7 +187,8 @@ const ProductsPortfolio = () => {
                                 <div className='col-md-12'>
 
                                     <button onClick={() => navigate('/get-free-quote')} className='btn btn-primary btn-request d-block mx-auto'>
-                                        Request of a Demo
+                                        Request a quote/Demo
+
                                     </button>
 
                                 </div>

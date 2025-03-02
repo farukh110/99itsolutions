@@ -19,15 +19,15 @@ const Header = () => {
             <header className="main-header header-one">
                 <div className="header-top bg-lighter py-10">
                     <div className="top-left">
-                        <ul>
+                        <ul className='mb-0'>
                             {/* <li>
                                 <Link to='/contact' className="btn btn-danger btn-get btn_wiggle">Request a Quote</Link>
                             </li> */}
                             <li>
-                                <span className='bold-text'> Email us on: </span> <a className='text-lowercase' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a>
+                                <strong> Email us on: </strong> <a className='text-lowercase' href="mailto:contact@99itsolutions.com">Contact@99itsolutions.com</a>
                             </li>
                             <li>
-                                <span className='bold-text'> Give us a call: </span> <a href="callto:+92 331 293-9594">+92 331 293-9594</a>
+                                <strong> Give us a call: </strong> <a href="callto:+92 331 293-9594">+92 331 293-9594</a>
                             </li>
                         </ul>
                     </div>

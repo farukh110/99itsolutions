@@ -78,8 +78,14 @@ const Footer = () => {
                                 <div className="footer-widget link-widget ml-3">
                                     <h4 className="footer-title">Services Links </h4>
                                     <ul className="list-style-two">
+                                        <li><Link to='/services/web-development'> Software Development </Link></li>
                                         <li><Link to='/services/app-design-and-development'> Mobile App Development </Link></li>
-                                        <li><Link to='/services/web-development'>Web Development </Link></li>
+                                        <li><Link to='/services/web-development'>Custom Web Design </Link></li>
+                                        <li><Link to='/services/web-development'>AI/ML Solutions </Link></li>
+                                        <li><Link to='/services/web-development'>Cloud/DevOps Solutions</Link></li>
+                                        <li><Link to='/services/web-development'>Whatsapp Business Solutions</Link></li>
+                                        <li><Link to='/services/web-development'>Whatsapp Chatbot Development</Link></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -89,8 +95,10 @@ const Footer = () => {
                                     <ul className="list-style-two">
                                         <li><Link to='/'> ERP </Link></li>
                                         <li><a href="!#">POS </a></li>
-                                        <li><a href="!#">Salon Management System </a></li>
-                                        <li><a href="!#">Clinic & Hospital Management System</a></li>
+                                        <li><a href="!#">Hotel Management System </a></li>
+                                        <li><a href="!#">Warehouse Management System</a></li>
+                                        <li><a href="!#">School  Management System</a></li>
+                                        <li><a href="!#">Learning Management System</a></li>
 
                                     </ul>
                                 </div>
