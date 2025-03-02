@@ -99,7 +99,7 @@ const ProductsPortfolio = () => {
         },
         {
             id: 'Retail',
-            title: 'Retail & POS Systems',
+            title: 'Retail & POS',
             description:
                 `<ul>
                     <li> 1) ERP with POS </li>
@@ -113,7 +113,7 @@ const ProductsPortfolio = () => {
         },
         {
             id: 'real',
-            title: 'Real Estate Management',
+            title: 'Real Estate & Construction',
             description:
                 `<ul>
                     <li> 1) Property Management System </li>
@@ -187,7 +187,7 @@ const ProductsPortfolio = () => {
                                 <div className='col-md-12'>
 
                                     <button onClick={() => navigate('/get-free-quote')} className='btn btn-primary btn-request d-block mx-auto'>
-                                        Request a quote/Software Demo
+                                        Request a quote/Demo
 
                                     </button>
 

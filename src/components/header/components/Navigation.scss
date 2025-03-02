@@ -9,7 +9,7 @@
 
             &:hover {
 
-                background-color: #F9AD2F;
+                background-color: #fff;
                 font-size: 14px;
                 font-weight: bold !important;
                 border-radius: 10px;
@@ -17,7 +17,7 @@
                 padding-right: 6px;
                 padding-top: 6px;
                 padding-bottom: 6px;
-                border-color: #F9AD2F;
+                border: 2px solid #040025;
                 color: #040025 !important;
             }
         }
@@ -30,14 +30,14 @@
 
 .actve-menu-top {
 
-    background-color: #F9AD2F;
+    background-color: #fff;
     font-size: 14px;
     font-weight: bold !important;
     border-radius: 10px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
     padding-top: 6px;
     padding-bottom: 6px;
-    border-color: #F9AD2F;
+    border: 2px solid #040025;
     color: #040025 !important;
 }
