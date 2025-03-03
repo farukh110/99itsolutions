@@ -11,7 +11,7 @@ import consultIcon from '../../../../assets/images/icons/Conceptualisation-icon.
 import planningIcon from '../../../../assets/images/icons/planning-icon.webp';
 import designIcon from '../../../../assets/images/icons/prototype-icon.webp';
 import developIcon from '../../../../assets/images/icons/system-design-development.webp';
-import testIcon from '../../../../assets/images/icons/agile-process-support.webp';
+import testIcon from '../../../../assets/images/icons/agile-process-testing.webp';
 import deliveryIcon from '../../../../assets/images/icons/deployment-icon.webp';
 import supportIcon from '../../../../assets/images/icons/agile-process-support.webp';
 
@@ -20,7 +20,7 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Process = () => {
 
-    const [currentTab, setCurrentTab] = useState('planning');
+    const [currentTab, setCurrentTab] = useState('consultation');
 
     const handleClick = (tab) => {
         setCurrentTab(tab);
@@ -179,7 +179,7 @@ const Process = () => {
 
                             </p>
 
-                            <h6>Consultation 100%</h6>
+                            <h6>Consultation 10%</h6>
 
                             <div
                                 className='progress'
