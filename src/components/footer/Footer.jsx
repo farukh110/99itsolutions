@@ -55,7 +55,7 @@ const Footer = () => {
                                     </div>
                                     <div className="text dark_blue">
 
-                                        We are a globally recognized IT software company that was established in 2015. Our services include innovative website designing, website development, graphic designing, as well as Mobile apps, Game, Xreality  development. We also specialize in online marketing services, utilizing cutting-edge strategies to boost your online visibility and help convert traffic into sales.
+                                        Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs.
 
                                     </div>
                                 </div>

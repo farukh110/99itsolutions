@@ -58,13 +58,7 @@ export default function MainSection() {
                 textCenter="text-center"
               />
               <p>
-
-                Since 2015, we have been running 99 IT Solutions that provides a full range of IT services, including Logo designing, domain, hosting, Animation Services, web designing and software development, digital marketing and customer support. We strive to provide the latest technology and best customer service to meet the needs of all my clients.
-                We have a team of professional developers, designers and digital marketers who have great experience and expertise in their respective fields. We have a good track record of successfully completing the projects on time and within the budget. We focus on quality work and customer satisfaction. We also provide training and support to our customers.
-                <br /><br />
-                We are continuously striving to maintain our place in the market and stay ahead of the competition by providing excellent services to our clients. We are always looking for ways to improve our services and provide the best service to our clients.
-                <br /><br />
-                To boost the business, We also provide some digital marketing services to our clients. We have expertise in SEO, PPC, Content Marketing, Social Media Marketing and Email Marketing services. We provide complete digital marketing solutions for our clients.
+                Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs.
               </p>
             </div>
 
@@ -77,7 +71,9 @@ export default function MainSection() {
               />
 
               <p>
-                Our company is a leader in creating excellent websites, mobile apps, software, graphics, and online marketing. We have expertise in promoting and marketing businesses, helping clients develop competitive strategies that deliver measurable outcomes. Our method is designed to produce the best results in a short period of time. Our tools are our intellect, and we are dedicated to providing top-notch work, support, and maintenance at the most reasonable prices.
+                Our company is a leader in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, and solutions architecture. We also specialize in IT outsourcing and consulting, helping businesses leverage technology effectively.
+                <br />
+                Additionally, we assist clients in developing competitive strategies that drive measurable outcomes. Our approach is designed to deliver the best results efficiently, ensuring high-quality solutions, ongoing maintenance, and support—all at the most reasonable prices.
 
               </p>
             </div>
@@ -91,7 +87,10 @@ export default function MainSection() {
               />
 
               <p>
-                We have a proven process that delivers outstanding results quickly. With numerous satisfied clients located in various countries, including the USA, Canada, UK, Australia, New Zealand, Saudi Arabia, Qatar, Bahrain, and UAE, we are dedicated to providing top-notch work that meets the client's needs. Our goal is to offer the ideal solution to help their business reach new heights.
+                Our proven process ensures efficiency, quality, and timely delivery. With a strong global presence across the USA, Canada, UK, Australia, New Zealand, Saudi Arabia, Qatar, Bahrain, and UAE, we focus on delivering tailored solutions that empower businesses to scale and succeed.
+                <br />
+                At 99 IT Solutions, we don’t just build technology—we build long-term partnerships by delivering excellence, innovation, and measurable results.
+
               </p>
 
             </div>
