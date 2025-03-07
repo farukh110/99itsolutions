@@ -98,3 +98,43 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+
+    .products-catalog {
+
+        .image-content-area {
+
+            .content-shadow {
+
+                width: 100%;
+                left: 0px;
+
+                .right-title {
+
+                    font-size: 25px;
+                }
+            }
+
+            .img-outer {
+
+                img {
+                    margin-top: 35px;
+                }
+            }
+        }
+
+        .left-panel {
+
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            border-radius: 0rem;
+
+            .industry-item {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

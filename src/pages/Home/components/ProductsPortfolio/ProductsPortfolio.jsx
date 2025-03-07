@@ -158,7 +158,7 @@ const ProductsPortfolio = () => {
 
                     <div className='row justify-content-center'>
 
-                        <div className='col-md-12 pe-5'>
+                        <div className='col-md-12 pe-md-5'>
                             <CustomHeading
                                 firstWord="Readymade and Custom-Made"
                                 lastWord="Solutions for Diverse Industries"
@@ -169,7 +169,7 @@ const ProductsPortfolio = () => {
                             </p>
                         </div>
 
-                        <div className='col-md-5 pe-5'>
+                        <div className='col-md-5 pe-md-5'>
 
                             {/* mouse over area */}
                             <div className='row left-panel'>
@@ -177,7 +177,7 @@ const ProductsPortfolio = () => {
                                 {items.map((item) => (
                                     <div
                                         key={item.id}
-                                        className={`col-md-6 industry-item ${activeItem === item.id ? 'active' : ''
+                                        className={`col-md-6 col-12 industry-item ${activeItem === item.id ? 'active' : ''
                                             }`}
                                         onMouseEnter={() => setActiveItem(item.id)}
                                     >
@@ -197,7 +197,7 @@ const ProductsPortfolio = () => {
 
                         </div>
 
-                        <div className='col-md-7 d-flex flex-column align-items-end pe-5'>
+                        <div className='col-md-7 d-flex flex-column align-items-end pe-md-5'>
 
                             {/* image and content will show according to mouse over */}
 

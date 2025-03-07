@@ -15,3 +15,14 @@
         color: #FF9900;
     }
 }
+
+@media (max-width: 480px) {
+
+    .custom-heading-title {
+
+        h2 {
+            font-weight: bold;
+            font-size: 30px !important;
+        }
+    }
+}

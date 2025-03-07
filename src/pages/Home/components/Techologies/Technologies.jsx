@@ -79,7 +79,7 @@ const Technologies = () => {
         return (
             <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={javascript} className='custom-icon' alt='JavaScript' />
 
@@ -87,7 +87,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={typescript} className='custom-icon' alt='TypeScript' />
 
@@ -95,7 +95,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={react} className='custom-icon' alt='React' />
 
@@ -103,7 +103,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={reduxToolkit} className='custom-icon' alt='Redux Toolkit' />
 
@@ -111,7 +111,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={next} className='custom-icon' alt='NextJS' />
 
@@ -119,7 +119,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={vue} className='custom-icon' alt='Vue' />
 
@@ -127,7 +127,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={nuxt} className='custom-icon' alt='NuxtJS' />
 
@@ -135,7 +135,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={angular} className='custom-icon' alt='Angular' />
 
@@ -143,7 +143,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={html5} className='custom-icon' alt='Html5' />
 
@@ -151,7 +151,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={css3} className='custom-icon' alt='Css3' />
 
@@ -159,7 +159,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={scss} className='custom-icon' alt='Scss' />
 
@@ -167,7 +167,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={bootstrap} className='custom-icon' alt='Bootstrap' />
 
@@ -175,7 +175,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={tailwindCSS} className='custom-icon' alt='Tailwind CSS' />
 
@@ -183,7 +183,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={antDesign} className='custom-icon' alt='Ant Design' />
 
@@ -191,7 +191,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={materialUI} className='custom-icon' alt='Material UI' />
 
@@ -199,7 +199,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={vite} className='custom-icon' alt='Vite' />
 
@@ -207,7 +207,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={npm} className='custom-icon' alt='Npm' />
 
@@ -215,7 +215,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={yarn} className='custom-icon' alt='Yarn' />
 
@@ -232,7 +232,7 @@ const Technologies = () => {
         return (
             <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={dotnet} className='custom-icon' alt='.Net' />
 
@@ -240,7 +240,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={php} className='custom-icon' alt='PHP' />
 
@@ -248,7 +248,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={node} className='custom-icon' alt='Node' />
 
@@ -256,7 +256,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={express} className='custom-icon' alt='ExpressJS' />
 
@@ -264,7 +264,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={nestJS} className='custom-icon' alt='NestJS' />
 
@@ -272,7 +272,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={next} className='custom-icon' alt='NextJS' />
 
@@ -280,7 +280,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={java} className='custom-icon' alt='Java Spring Boot' />
 
@@ -288,7 +288,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={python} className='custom-icon' alt='Python' />
 
@@ -296,7 +296,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={django} className='custom-icon' alt='Django' />
 
@@ -304,7 +304,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={laravel} className='custom-icon' alt='Laravel' />
 
@@ -312,7 +312,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={ruby} className='custom-icon' alt='Laravel' />
 
@@ -320,7 +320,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={flask} className='custom-icon' alt='Flask' />
 
@@ -337,7 +337,7 @@ const Technologies = () => {
         return (
             <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={android} className='custom-icon' alt='Android' />
 
@@ -345,7 +345,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={ios} className='custom-icon' alt='iOS' />
 
@@ -353,7 +353,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={react} className='custom-icon' alt='React Native' />
 
@@ -361,7 +361,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={flutter} className='custom-icon' alt='Flutter' />
 
@@ -369,7 +369,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={swift} className='custom-icon' alt='Swift' />
 
@@ -377,7 +377,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={kotlin} className='custom-icon' alt='Kotlin' />
 
@@ -394,7 +394,7 @@ const Technologies = () => {
         return (
             <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={python} className='custom-icon' alt='Python' />
 
@@ -402,7 +402,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={r} className='custom-icon' alt='R Programming' />
 
@@ -410,7 +410,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={generative} className='custom-icon' alt='Generative AI' />
 
@@ -418,7 +418,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={nlp} className='custom-icon' alt='NLP' />
 
@@ -426,7 +426,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={speech} className='custom-icon' alt='Speech Recognition' />
 
@@ -434,7 +434,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={computerVision} className='custom-icon' alt='Computer Vision' />
 
@@ -451,7 +451,7 @@ const Technologies = () => {
         return (
             <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={mysql} className='custom-icon' alt='MySQL' />
 
@@ -459,7 +459,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={sql} className='custom-icon' alt='SQL Server' />
 
@@ -467,7 +467,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={mongoDB} className='custom-icon' alt='MongoDB' />
 
@@ -475,7 +475,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={postgrsql} className='custom-icon' alt='postgreSQL' />
 
@@ -483,7 +483,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={firebase} className='custom-icon' alt='Firebase' />
 
@@ -491,7 +491,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={redis} className='custom-icon' alt='Redis' />
 
@@ -605,7 +605,7 @@ const Technologies = () => {
         return (
             <div className='row'>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={aws} className='custom-icon' alt='AWS' />
 
@@ -613,7 +613,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={azure} className='custom-icon' alt='Microsoft Azure' />
 
@@ -621,7 +621,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={vercel} className='custom-icon' alt='Vercel' />
 
@@ -629,7 +629,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={git} className='custom-icon' alt='Git' />
 
@@ -637,7 +637,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={microServices} className='custom-icon' alt='Microservices' />
 
@@ -645,7 +645,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={devOps} className='custom-icon' alt='DevOps' />
 
@@ -653,7 +653,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={docker} className='custom-icon' alt='Docker' />
 
@@ -661,7 +661,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={kubernetes} className='custom-icon' alt='Kubernetes' />
 
@@ -669,7 +669,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={jenkins} className='custom-icon' alt='Jenkins' />
 
@@ -677,7 +677,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={bitbucket} className='custom-icon' alt='Bitbucket' />
 
@@ -685,7 +685,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={terraform} className='custom-icon' alt='Terraform' />
 
@@ -693,7 +693,7 @@ const Technologies = () => {
 
                 </div>
 
-                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-6 icon-column'>
+                <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3 col-4 icon-column'>
 
                     <img src={bamboo} className='custom-icon' alt='Bamboo' />
 

@@ -18,17 +18,17 @@ const Benefits = () => {
 
             <div className='row'>
 
-                <div className='col-md-4'>
+                <div className='col-md-4 col-12'>
 
                     <CustomHeading
                         firstWord="Benefits of"
                         lastWord="Outsourcing with us"
-                        textCenter="text-left"
+                        textCenter="text-md-left text-center"
                     />
 
                 </div>
 
-                <div className='col-md-8'>
+                <div className='col-md-8 col-12'>
 
                     <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-2">
                         <div className="col mb-3">

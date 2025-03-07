@@ -243,3 +243,25 @@ body {
         }
     }
 }
+
+@media (max-width: 480px) {
+
+    .list-style-two {
+
+        li {
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+
+    .footer-widget {
+
+        margin-bottom: 20px !important;
+
+        .text {
+            font-size: 16px;
+        }
+    }
+}

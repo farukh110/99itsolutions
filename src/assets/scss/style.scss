@@ -16037,3 +16037,25 @@ blockquote .author {
   background: -o-linear-gradient(left, #a146e8 -21.46%, #6c63d0 36.39%, #387db8 100%);
   background: linear-gradient(90deg, #a146e8 -21.46%, #6c63d0 36.39%, #387db8 100%);
 }
+
+@media (max-width: 480px) {
+
+  .copyright-inner {
+
+    justify-content: center;
+
+    .social-style-one {
+
+      a {
+        margin-right: 20px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+}
