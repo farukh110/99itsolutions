@@ -81,3 +81,42 @@
         margin-top: 0px;
     }
 }
+
+@media (max-width: 480px) {
+
+    .vertical-slider-section {
+
+        padding-bottom: 20px;
+
+        .slider-wrapper {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: capitalize;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            .slider {
+
+                div {
+                    height: 50px;
+                    color: #162E55;
+                    font-weight: 600;
+                    font-family: 'Montserrat', sans-serif;
+                    padding-left: 0px;
+                    padding-right: 10px;
+                    margin-bottom: 50px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+
+        button {
+
+            margin: 0 auto;
+            display: table;
+        }
+    }
+}
