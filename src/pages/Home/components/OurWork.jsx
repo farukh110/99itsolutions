@@ -397,7 +397,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
                     )} */}
 
                     {isWebPage && (
-                        <div className='col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6 mt-md-0 mt-sm-0 mt-2'>
+                        <div className='col-xl-2 col-lg-3 col-md-3 col-sm-4 col-6 mt-md-0 mt-sm-0 mt-0'>
                             <div className="d-grid">
                                 <button onClick={() => filterItem('web')} className={`btn btn-outline-primary ${activeCategory === 'web' ? 'active' : ''}`}>
                                     Web Development
@@ -433,7 +433,7 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
                     </div> */}
 
                     {isGraphicDesignPage && (
-                        <div className='col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 mt-md-0 mt-2'>
+                        <div className='col-xl-2 col-lg-3 col-md-2 col-sm-4 col-6 mt-md-0 mt-2'>
                             <div className="d-grid">
                                 <button onClick={() => filterItem('products')} className={`btn btn-outline-primary ${activeCategory === 'products' ? 'active' : ''}`}>
                                     Web Products

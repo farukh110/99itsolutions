@@ -11,7 +11,7 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Outsourcing = () => {
     return (
-        <div className='container outsourcing mt-md-5 mb-md-5'>
+        <div className='container outsourcing mt-md-5 mt-4 mb-md-5'>
 
             <CustomHeading
                 firstWord="Why"

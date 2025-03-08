@@ -37,21 +37,23 @@ const HomeBanner = () => {
                         <p className="clor fw-bold">
                             Empower Innovation: We Build Scalable, Custom Web & Software Solutions. With over 10 years of expertise, we serve startups and enterprises, driving real results and business success. Let’s bring your vision to life!
                         </p>
-                        <button
-                            type="button"
-                            className="btn button getQuoteBtn"
-                            onClick={() => navigate('/contact')}
-                        >
-                            Let’s work together!
-                        </button>
+                        <div className='action-buttons-alignment'>
+                            <button
+                                type="button"
+                                className="btn button getQuoteBtn"
+                                onClick={() => navigate('/contact')}
+                            >
+                                Let’s work together!
+                            </button>
 
-                        <button
-                            type="button"
-                            className="btn button getQuoteBtn ms-2"
-                            onClick={() => navigate('/services')}
-                        >
-                            Explore Services
-                        </button>
+                            <button
+                                type="button"
+                                className="btn button getQuoteBtn ms-2"
+                                onClick={() => navigate('/services')}
+                            >
+                                Explore Services
+                            </button>
+                        </div>
 
                         <div className="banner-ratings mt-md-4">
                             <div className="ratings-box">

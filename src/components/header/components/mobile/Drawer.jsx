@@ -71,23 +71,7 @@ const Drawer = ({ drawer, action }) => {
                                                 </li>
 
                                                 <li>
-                                                    <Link to="/services/logo-design">Logo Design</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/services/branding">Branding</Link>
-                                                </li>
-                                                <li>
                                                     <Link to="/services/app-design-and-development">App Design & Development</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/services/video-animation">Video Animation</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/services/content-writing">Content Writing</Link>
-                                                </li>
-
-                                                <li>
-                                                    <Link to="/services/seo">Seo</Link>
                                                 </li>
 
                                             </ul>
@@ -99,6 +83,14 @@ const Drawer = ({ drawer, action }) => {
 
                                         <li className="menu-item-has-children active">
                                             <Link to="/contact">Contact</Link>
+                                        </li>
+
+                                        <li className="menu-item-has-children active">
+                                            <Link to="/outsourcing">Profitable Outsourcing</Link>
+                                        </li>
+
+                                        <li className="menu-item-has-children active">
+                                            <Link to="/get-free-quote">Book a Free Consultation</Link>
                                         </li>
                                     </ul>
                                 </div>

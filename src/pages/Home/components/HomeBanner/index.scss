@@ -157,6 +157,12 @@
 
     .banner-ratings {
         margin-top: 20px;
+        display: flex;
+        text-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+        margin-bottom: 2rem;
+        justify-content: center;
 
         .ratings-box {
             width: 32%;
@@ -175,12 +181,19 @@
             font-weight: 600;
             line-height: 1.1em;
             font-size: 30px;
+            text-align: center;
         }
 
         p {
             margin-bottom: 20px;
             font-size: 14px;
+            text-align: center;
         }
+    }
+
+    .action-buttons-alignment {
+        margin: 0 auto;
+        display: table;
     }
 }
 
