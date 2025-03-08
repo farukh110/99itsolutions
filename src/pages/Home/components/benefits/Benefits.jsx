@@ -14,11 +14,11 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const Benefits = () => {
     return (
-        <div className='container benefits pt-md-5 pb-md-5'>
+        <div className='container benefits pt-lg-5 pt-md-0 pb-lg-5 pb-md-0'>
 
             <div className='row'>
 
-                <div className='col-md-4 col-12'>
+                <div className='col-lg-4 col-md-12 col-12'>
 
                     <CustomHeading
                         firstWord="Benefits of"
@@ -28,9 +28,9 @@ const Benefits = () => {
 
                 </div>
 
-                <div className='col-md-8 col-12'>
+                <div className='col-lg-8 col-md-12 col-12'>
 
-                    <div className="row justify-content-center row-cols-2 row-cols-sm-3 row-cols-lg-4 g-2 g-lg-2">
+                    <div className="row justify-content-center row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 g-2 g-lg-2">
                         <div className="col mb-3">
                             <div className="sw-methods-box text-center">
                                 <img

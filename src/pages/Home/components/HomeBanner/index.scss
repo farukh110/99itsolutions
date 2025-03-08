@@ -105,6 +105,49 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .sw-development-banner {
+        height: auto !important;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .banner-ratings {
+
+        .ratings-box {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            height: 110px;
+            display: flex;
+            /* flex-direction: row; */
+            align-items: center;
+            border-radius: 8px;
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sw-development-banner {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .banner-ratings .ratings-box {
+        background-color: #ffffff;
+        padding: 10px 20px;
+        width: 25%;
+        height: 110px;
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+        border-radius: 8px;
+    }
+}
+
+
 @media(max-width: 767px) {
 
     .sw-development-banner {

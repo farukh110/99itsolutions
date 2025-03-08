@@ -64,6 +64,35 @@
     }
 }
 
+@media (max-width: 767px) {
+
+    .process-section {
+        h2 {
+            font-size: 26px;
+        }
+
+        button {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+
+            img {
+                width: 50px;
+            }
+        }
+
+        .btn-primary {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+}
+
 @media (max-width: 480px) {
 
     .process-section {
