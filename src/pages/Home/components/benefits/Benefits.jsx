@@ -30,7 +30,7 @@ const Benefits = () => {
 
                 <div className='col-md-8 col-12'>
 
-                    <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-2">
+                    <div className="row justify-content-center row-cols-2 row-cols-sm-3 row-cols-lg-4 g-2 g-lg-2">
                         <div className="col mb-3">
                             <div className="sw-methods-box text-center">
                                 <img

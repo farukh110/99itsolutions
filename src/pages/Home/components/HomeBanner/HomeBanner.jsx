@@ -108,7 +108,7 @@ const HomeBanner = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='text-white'>
+                        <p className='text-white vision'>
                             Quality Focus | Customer Centric | Insights Driven
                         </p>
                     </div>

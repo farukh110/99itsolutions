@@ -5,10 +5,10 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const WhoWeAre = () => {
     return (
-        <div className='container who-we-are-about mt-md-5 mb-md-5'>
+        <div className='container who-we-are-about mt-md-5 mt-sm-5 mb-md-5 mb-sm-5'>
 
             <div className="row align-items-center">
-                <div className="col-lg-6 col-md-5">
+                <div className="col-lg-6 col-sm-12 col-md-5">
                     <CustomHeading
                         firstWord="Who"
                         lastWord="We Are?"
@@ -23,9 +23,9 @@ const WhoWeAre = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-7 desk-countsec d-lg-block d-md-block d-sm-none d-none">
+                <div className="col-lg-6 col-md-7 col-sm-12 col-12 desk-countsec d-lg-block d-md-block">
                     <div className="row justify-content-center">
-                        <div className="col-lg-6 col-md-6 col-sm-4 col-6 desk-mt">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12 desk-mt">
                             <div className="countBox countBox1 mt-md-5" style={{ background: "#F9AD2F" }}>
                                 <div
                                     className="d-flex align-items-center position-relative"
@@ -66,7 +66,7 @@ const WhoWeAre = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-4 col-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                             <div className="countBox">
                                 <div
                                     className="d-flex align-items-center position-relative "

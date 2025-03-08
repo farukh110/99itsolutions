@@ -28,7 +28,7 @@ const Process = () => {
 
     return (
         <>
-            <div className='process-section container my-lg-5 my-md-4 my-4'>
+            <div className='process-section container my-lg-5 my-md-4 my-0'>
 
                 <CustomHeading
                     firstWord="How"
@@ -36,7 +36,7 @@ const Process = () => {
                     textCenter="text-center"
                 />
 
-                <div className='row row-cols-lg-7 g-2 g-lg-2 justify-content-center mt-md-4'>
+                <div className='row row-cols-lg-7 row-cols-sm-3 row-cols-2 g-2 g-lg-2 justify-content-center mt-md-4'>
 
                     <div className='col p-1'>
 

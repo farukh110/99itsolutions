@@ -19,7 +19,7 @@ const Outsourcing = () => {
                 textCenter="text-center"
             />
 
-            <div className="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center">
+            <div className="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 g-2 g-lg-3 d-flex justify-content-center">
                 <div className="col">
                     <div className="p-3 text-center">
                         <img

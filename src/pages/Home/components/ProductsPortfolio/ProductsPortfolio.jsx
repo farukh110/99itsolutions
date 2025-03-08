@@ -152,7 +152,7 @@ const ProductsPortfolio = () => {
 
     return (
         <>
-            <div className='products-catalog my-md-5'>
+            <div className='products-catalog my-md-5 my-2'>
 
                 <div className='container'>
 
