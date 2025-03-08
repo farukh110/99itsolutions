@@ -15,7 +15,7 @@ const VerticalSlider = (props) => {
 
                 <div className='row'>
 
-                    <div className='col-md-8 col-12'>
+                    <div className='col-lg-8 col-md-9 col-sm-12 col-12'>
 
                         <div class="slider-wrapper">
                             {title}
@@ -32,7 +32,7 @@ const VerticalSlider = (props) => {
 
                     </div>
 
-                    <div className='col-md-4 col-12'>
+                    <div className='col-lg-4 col-md-3 col-sm-12 col-12'>
 
                         <button onClick={() => navigate('/get-free-quote')} class="btn btn-primary">Hire Us <i class="fa-regular fa-paper-plane"></i> </button>
 

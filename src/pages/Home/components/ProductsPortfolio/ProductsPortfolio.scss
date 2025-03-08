@@ -99,6 +99,21 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .products-catalog {
+
+        .image-content-area {
+
+            .content-shadow {
+
+                width: 100%;
+                left: 0px;
+            }
+        }
+    }
+}
+
 @media (max-width: 480px) {
 
     .products-catalog {

@@ -47,8 +47,8 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="row mt-md-5 mb-md-0">
-                            <div className="col-lg-4 col-md-3 col-sm-6">
+                        <div className="row mt-lg-5 mt-md-4 mb-md-0">
+                            <div className="col-lg-4 col-md-12 col-sm-6">
                                 <div className="footer-widget about-widget">
                                     <div className="footer-logo mt-md-0 mt-2 mb-md-1">
                                         <a href="!index.html"><img className='img-fluid' src={logo} alt="Logo" /></a>
@@ -60,7 +60,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-2 col-sm-6">
+                            <div className="col-lg-2 col-md-4 col-sm-6">
                                 <div className="footer-widget link-widget ml-3">
                                     <h4 className="footer-title">Important Links </h4>
                                     <ul className="list-style-two">
@@ -74,7 +74,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-2 col-sm-6">
+                            <div className="col-lg-2 col-md-4 col-sm-6">
                                 <div className="footer-widget link-widget ml-3">
                                     <h4 className="footer-title">Services Links </h4>
                                     <ul className="list-style-two">
@@ -89,7 +89,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-2 col-sm-6">
+                            <div className="col-lg-2 col-md-4 col-sm-6">
                                 <div className="footer-widget link-widget ml-3">
                                     <h4 className="footer-title">Product Solutions </h4>
                                     <ul className="list-style-two">
@@ -103,7 +103,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-sm-6">
+                            <div className="col-lg-2 col-md-12 col-sm-6">
                                 <div className="footer-widget contact-widget mr-0 rmr-0">
                                     <h4 className="footer-title">Contacts</h4>
                                     <ul className="list-style-two">

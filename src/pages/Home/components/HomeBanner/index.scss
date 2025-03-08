@@ -105,11 +105,103 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .sw-development-banner {
+        height: auto !important;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .banner-ratings {
+
+        .ratings-box {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            height: 110px;
+            display: flex;
+            /* flex-direction: row; */
+            align-items: center;
+            border-radius: 8px;
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sw-development-banner {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .banner-ratings .ratings-box {
+        background-color: #ffffff;
+        padding: 10px 20px;
+        width: 25%;
+        height: 110px;
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+        border-radius: 8px;
+    }
+}
+
+
+@media(max-width: 767px) {
+
+    .sw-development-banner {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .banner-ratings {
+        margin-top: 20px;
+        display: flex;
+        text-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+        margin-bottom: 2rem;
+        justify-content: center;
+
+        .ratings-box {
+            width: 32%;
+
+            img {
+                width: 60% !important;
+                margin: 0 auto;
+                display: table;
+            }
+        }
+    }
+
+    .mplp {
+
+        h1 {
+            font-weight: 600;
+            line-height: 1.1em;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+
+    .action-buttons-alignment {
+        margin: 0 auto;
+        display: table;
+    }
+}
+
 @media(max-width: 480px) {
 
     .sw-development-banner {
-        padding-top: 20px;
-        padding-bottom: 50px;
+        padding-top: 20px !important;
+        padding-bottom: 50px !important;
         margin-bottom: 30px;
     }
 
@@ -118,19 +210,23 @@
         margin: 0px 0px 0px 0px !important;
 
         h1 {
-            font-size: 30px;
+            font-size: 25px;
             text-align: center;
         }
 
         .clor {
             padding-left: 15px;
-            padding-right: 15px;
+            padding-right: 5px;
         }
 
         p {
             margin-bottom: 0px;
             padding-left: 15px;
             padding-right: 15px;
+        }
+
+        .vision {
+            text-align: center;
         }
     }
 
@@ -147,7 +243,7 @@
 
         .ratings-box {
             background-color: #ffffff;
-            padding: 10px 20px;
+            padding: 10px 10px;
             width: 40%;
             height: 70px;
             display: flex;
@@ -158,14 +254,9 @@
 
     .getQuoteBtn {
 
-        display: block !important;
-    }
-}
-
-@media(max-width: 767px) {
-
-    .sw-development-banner {
-        padding-top: 40px;
-        padding-bottom: 70px;
+        margin: 0 auto !important;
+        display: table !important;
+        margin-top: 10px !important;
+        font-size: 12px;
     }
 }

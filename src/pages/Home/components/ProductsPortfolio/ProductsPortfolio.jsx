@@ -152,7 +152,7 @@ const ProductsPortfolio = () => {
 
     return (
         <>
-            <div className='products-catalog my-md-5'>
+            <div className='products-catalog my-md-5 my-2'>
 
                 <div className='container'>
 
@@ -169,7 +169,7 @@ const ProductsPortfolio = () => {
                             </p>
                         </div>
 
-                        <div className='col-md-5 pe-md-5'>
+                        <div className='col-lg-5 col-md-6 col-12 ps-lg-0 ps-md-4 pe-lg-5 pe-md-4'>
 
                             {/* mouse over area */}
                             <div className='row left-panel'>
@@ -197,7 +197,7 @@ const ProductsPortfolio = () => {
 
                         </div>
 
-                        <div className='col-md-7 d-flex flex-column align-items-end pe-md-5'>
+                        <div className='col-lg-7 col-md-6 col-12 d-flex flex-column align-items-end pe-md-5'>
 
                             {/* image and content will show according to mouse over */}
 

@@ -4,7 +4,7 @@ import CustomHeading from '../../../../components/heading/CustomHeading';
 
 const OutsourcingServices = () => {
     return (
-        <div className='container outsourcing-services mt-md-5 mb-md-5'>
+        <div className='container outsourcing-services mt-md-5 mt-4 mb-md-5'>
 
             <CustomHeading
                 firstWord="What"
@@ -17,7 +17,7 @@ const OutsourcingServices = () => {
             </p>
 
             <div className="row pt-2">
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-2">
                     <div className="ag-format-container">
                         <div className="ag-courses_box">
                             <div className="ag-courses_item">
@@ -42,7 +42,7 @@ const OutsourcingServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-2">
                     <div className="ag-format-container">
                         <div className="ag-courses_box">
                             <div className="ag-courses_item">
@@ -67,7 +67,7 @@ const OutsourcingServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-2">
                     <div className="ag-format-container">
                         <div className="ag-courses_box">
                             <div className="ag-courses_item">
@@ -90,7 +90,7 @@ const OutsourcingServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-2">
                     <div className="ag-format-container">
                         <div className="ag-courses_box">
                             <div className="ag-courses_item">
@@ -115,7 +115,7 @@ const OutsourcingServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-2">
                     <div className="ag-format-container">
                         <div className="ag-courses_box">
                             <div className="ag-courses_item">
@@ -140,7 +140,7 @@ const OutsourcingServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-2">
                     <div className="ag-format-container">
                         <div className="ag-courses_box">
                             <div className="ag-courses_item">

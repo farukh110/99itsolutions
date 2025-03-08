@@ -29,7 +29,7 @@ const HomeBanner = () => {
         <section className="d-flex align-items-center position-relative vh-90hirepag cover  custom-sft-banner sw-development-banner">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-12 col-md-8  mplp">
+                    <div className="col-12 col-xl-8 col-lg-12 col-md-12  mplp">
                         <h1 className="clor pt-3 pb-2">
                             Your Idea, Our Code
                         </h1>
@@ -37,21 +37,23 @@ const HomeBanner = () => {
                         <p className="clor fw-bold">
                             Empower Innovation: We Build Scalable, Custom Web & Software Solutions. With over 10 years of expertise, we serve startups and enterprises, driving real results and business success. Let’s bring your vision to life!
                         </p>
-                        <button
-                            type="button"
-                            className="btn button getQuoteBtn"
-                            onClick={() => navigate('/contact')}
-                        >
-                            Let’s work together!
-                        </button>
+                        <div className='action-buttons-alignment'>
+                            <button
+                                type="button"
+                                className="btn button getQuoteBtn"
+                                onClick={() => navigate('/contact')}
+                            >
+                                Let’s work together!
+                            </button>
 
-                        <button
-                            type="button"
-                            className="btn button getQuoteBtn ms-2"
-                            onClick={() => navigate('/services')}
-                        >
-                            Explore Services
-                        </button>
+                            <button
+                                type="button"
+                                className="btn button getQuoteBtn ms-2"
+                                onClick={() => navigate('/services')}
+                            >
+                                Explore Services
+                            </button>
+                        </div>
 
                         <div className="banner-ratings mt-md-4">
                             <div className="ratings-box">
@@ -108,7 +110,7 @@ const HomeBanner = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='text-white'>
+                        <p className='text-white vision'>
                             Quality Focus | Customer Centric | Insights Driven
                         </p>
                     </div>

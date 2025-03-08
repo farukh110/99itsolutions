@@ -77,3 +77,26 @@
         transform: scale3d(1, 1, 1)
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .footer-title {
+        margin-bottom: 18px;
+    }
+
+    .footer-logo {
+
+        a {
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+    .copyright-inner {
+        padding: 18px 0 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

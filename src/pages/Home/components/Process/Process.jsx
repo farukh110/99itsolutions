@@ -28,7 +28,7 @@ const Process = () => {
 
     return (
         <>
-            <div className='process-section container my-lg-5 my-md-4 my-4'>
+            <div className='process-section container my-lg-5 my-md-4 my-0'>
 
                 <CustomHeading
                     firstWord="How"
@@ -36,7 +36,7 @@ const Process = () => {
                     textCenter="text-center"
                 />
 
-                <div className='row row-cols-lg-7 g-2 g-lg-2 justify-content-center mt-md-4'>
+                <div className='row row-cols-lg-7 row-cols-md-4 row-cols-sm-3 row-cols-2 g-2 g-lg-2 justify-content-center mt-md-4'>
 
                     <div className='col p-1'>
 
@@ -164,11 +164,11 @@ const Process = () => {
 
                 {currentTab === 'consultation' && (
                     <div id='consultation' className='row mt-md-5 mt-4 consultation'>
-                        <div className='col-md-5'>
+                        <div className='col-md-5 col-sm-5'>
                             <img className='img-fluid' src={consultation} alt='' />
                         </div>
 
-                        <div className='col-md-7 mb-md-0 mb-4'>
+                        <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
                             {/* <h5 className='text-darkblue mt-md-0 mt-4'>
                                 The planning stage is debatable
                             </h5> */}
@@ -203,11 +203,11 @@ const Process = () => {
 
                 {currentTab === 'planning' && (
                     <div id='planning' className='row mt-md-5 mt-4 planning'>
-                        <div className='col-md-5'>
+                        <div className='col-md-5 col-sm-5'>
                             <img className='img-fluid' src={planning} alt='' />
                         </div>
 
-                        <div className='col-md-7 mb-md-0 mb-4'>
+                        <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
                             <h5 className='text-darkblue mt-md-0 mt-4'>
                                 The planning stage is debatable
                             </h5>
@@ -242,11 +242,11 @@ const Process = () => {
                 {currentTab === 'design' && (
                     <div id="design" className='row mt-md-5 mt-4'>
 
-                        <div className='col-md-5'>
+                        <div className='col-md-5 col-sm-5'>
                             <img className='img-fluid' src={design} alt="" />
                         </div>
 
-                        <div className='col-md-7 mb-md-0 mb-4'>
+                        <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
 
                             <h5 className="text-darkblue mt-md-0 mt-4">
                                 The design stage mostly.
@@ -276,11 +276,11 @@ const Process = () => {
 
                 {currentTab === 'develop' && (<div id="develop" className='row mt-md-5 mt-4 develop'>
 
-                    <div className='col-md-5'>
+                    <div className='col-md-5 col-sm-5'>
                         <img className='img-fluid' src={develop} alt="" />
                     </div>
 
-                    <div className='col-md-7 mb-md-0 mb-4'>
+                    <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-0 mt-4">
                             The development stage primarily involves the core
@@ -313,11 +313,11 @@ const Process = () => {
 
                 {currentTab === 'test' && (<div id="test" className='row mt-md-5 mt-4 test'>
 
-                    <div className='col-md-5'>
+                    <div className='col-md-5 col-sm-5'>
                         <img className='img-fluid' src={testing} alt="" />
                     </div>
 
-                    <div className='col-md-7 mb-md-0 mb-4'>
+                    <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-0 mt-4">
                             Perform the project through the final diagnostics
@@ -355,11 +355,11 @@ const Process = () => {
 
                 {currentTab === 'deliver' && (<div id="deliver" className='row mt-md-5 mt-4 deliver'>
 
-                    <div className='col-md-5'>
+                    <div className='col-md-5 col-sm-5'>
                         <img className='img-fluid' src={delivery} alt="" />
                     </div>
 
-                    <div className='col-md-7 mb-md-0 mb-4'>
+                    <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-0 mt-4">
                             Upon reaching the handover stage
@@ -401,11 +401,11 @@ const Process = () => {
 
                 {currentTab === 'maintenance' && (<div id="maintenance" className='row mt-md-5 mt-4 deliver'>
 
-                    <div className='col-md-5'>
+                    <div className='col-md-5 col-sm-5'>
                         <img className='img-fluid' src={support} alt="" />
                     </div>
 
-                    <div className='col-md-7 mb-md-0 mb-4'>
+                    <div className='col-md-7 col-sm-7 mb-md-0 mb-4'>
 
                         <h5 className="text-darkblue mt-md-0 mt-4">
                             During the maintenance phase
