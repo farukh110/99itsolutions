@@ -48,7 +48,7 @@ const Footer = () => {
                             </div>
                         </div> */}
                         <div className="row mt-lg-5 mt-md-4 mb-md-0">
-                            <div className="col-lg-4 col-md-12 col-sm-6">
+                            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                                 <div className="footer-widget about-widget">
                                     <div className="footer-logo mt-md-0 mt-2 mb-md-1">
                                         <a href="!index.html"><img className='img-fluid' src={logo} alt="Logo" /></a>

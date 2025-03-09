@@ -65,7 +65,7 @@ const ProductsCatalog = () => {
 
                     <div className='row'>
 
-                        <div className='col-md-12 pe-5'>
+                        <div className='col-md-12 pe-md-5'>
                             <CustomHeading
                                 firstWord="Exploring Emerging Technologies"
                                 lastWord="IT Outsourcing Services"
@@ -77,7 +77,7 @@ const ProductsCatalog = () => {
                             </p>
                         </div>
 
-                        <div className='col-md-5 pe-5'>
+                        <div className='col-lg-5 col-md-6 col-12 ps-lg-0 ps-md-4 pe-lg-5 pe-md-4'>
 
                             {/* mouse over area */}
                             <div className='left-panel'>
@@ -101,7 +101,7 @@ const ProductsCatalog = () => {
 
                         </div>
 
-                        <div className='col-md-7 d-flex flex-column align-items-end pe-5'>
+                        <div className='col-lg-7 col-md-6 col-12 d-flex flex-column align-items-end pe-md-5'>
 
                             {/* image and content will show according to mouse over */}
 
