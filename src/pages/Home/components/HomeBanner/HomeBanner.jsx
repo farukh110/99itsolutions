@@ -29,7 +29,7 @@ const HomeBanner = () => {
         <section className="d-flex align-items-center position-relative vh-90hirepag cover  custom-sft-banner sw-development-banner">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-12 col-xl-8 col-lg-12 col-md-12  mplp">
+                    <div className="col-12 col-xl-8 col-lg-12 col-md-12 mplp">
                         <h1 className="clor pt-3 pb-2">
                             Your Idea, Our Code
                         </h1>

@@ -44,3 +44,19 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+
+    .outsourcing {
+
+        .why-out-sourcing {
+
+            li {
+
+                flex-basis: 100%;
+                padding: 0px;
+            }
+        }
+
+    }
+}

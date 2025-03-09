@@ -82,7 +82,7 @@ const OutSourcing = () => {
         <>
             <HomeBannerTwo />
 
-            <div className='container mb-md-5 mt-md-5'>
+            <div className='container mb-md-5 mt-md-5 mt-sm-5 mt-4'>
 
                 <div className='row justify-content-center mt-md-3'>
 
