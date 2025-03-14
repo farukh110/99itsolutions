@@ -3,3 +3,14 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 480px) {
+
+    .cournter-section-three {
+
+        h2 {
+            font-weight: bold;
+            font-size: 22px;
+        }
+    }
+}
