@@ -14,7 +14,7 @@ import Focused from "../../Home/components/Focused/Focused";
 export default function MainSection() {
   return (
     <>
-      <section className="about-section style-five mt-md-0 mb-md-5 rpy-100">
+      <section className="about-section style-five mt-md-0 mt-0 mb-md-5 rpy-100 pt-4 pb-4">
         <div className="container">
           <div className="row">
 

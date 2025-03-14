@@ -14,3 +14,36 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+
+    .tab-container {
+
+        .tab-content {
+
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .tab-container {
+
+        .tab-content {
+
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .nav-item {
+
+            button {
+                color: #162E55;
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+    }
+}

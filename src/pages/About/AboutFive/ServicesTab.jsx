@@ -12,7 +12,7 @@ const ServicesTab = () => {
 
     return (
         <>
-            <div className='container tab-container mt-md-5 mb-md-5'>
+            <div className='container tab-container mt-md-5 mb-md-5 mb-4'>
 
                 <div className='shadow'>
                     <Tabs
@@ -27,13 +27,13 @@ const ServicesTab = () => {
 
                                 <div className='row'>
 
-                                    <div className='col-md-4 p-md-3'>
+                                    <div className='col-md-4 col-sm-4 p-md-3'>
 
                                         <img src={mob} alt='' className='img-fluid' />
 
                                     </div>
 
-                                    <div className='col-md-8 p-md-3'>
+                                    <div className='col-md-8 col-sm-8 p-md-3'>
 
                                         <h4 className="title">Mission</h4>
                                         <p>
@@ -68,13 +68,13 @@ const ServicesTab = () => {
 
                                 <div className='row'>
 
-                                    <div className='col-md-4 p-md-3'>
+                                    <div className='col-md-4 col-sm-4 p-md-3'>
 
                                         <img src={web} alt='' className='img-fluid' />
 
                                     </div>
 
-                                    <div className='col-md-8 p-md-3'>
+                                    <div className='col-md-8 col-sm-8 p-md-3'>
 
                                         <h4 className="title"> Vision </h4>
                                         <p>
@@ -133,13 +133,13 @@ const ServicesTab = () => {
 
                                 <div className='row'>
 
-                                    <div className='col-md-4 p-md-3'>
+                                    <div className='col-md-4 col-sm-4 p-md-3'>
 
                                         <img src={graphic} alt='' className='img-fluid' />
 
                                     </div>
 
-                                    <div className='col-md-8 p-md-3'>
+                                    <div className='col-md-8 col-sm-8 p-md-3'>
 
                                         <h4 className="title"> Client-Centric Partnership:
                                         </h4>

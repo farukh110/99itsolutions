@@ -26,22 +26,22 @@ const Focused = () => {
 
     return (
 
-        <div className='focused-section pb-md-1'>
-            <div className='container focused-container pt-md-5'>
+        <div className='focused-section pb-md-1 pb-4'>
+            <div className='container focused-container pt-md-5 pt-4'>
 
                 <h2 className='text-center text-white'> Focused Verticles </h2>
 
                 <div className='row my-md-5 my-0'>
 
-                    {dataItems.map((item, index) => <div key={index} className='col-md-3 col-6 my-md-4 my-2 p-0'>
+                    {dataItems.map((item, index) => <div key={index} className='col-md-3 col-sm-4 col-6 my-md-4 my-2 p-0'>
 
-                        <div className='row justify-content-center'>
+                        <div className='row justify-content-center align-items-center'>
 
-                            <div className='col-md-3 p-0'>
+                            <div className='col-md-3 col-sm-3 col-3 p-0'>
                                 <img className='img-fluid' src={item.img} alt={item.name} />
                             </div>
-                            <div className='col-md-7 p-0'>
-                                <h5 className='mt-md-1 text-white'> {item.name} </h5>
+                            <div className='col-md-7 col-sm-7 col-7 p-0'>
+                                <h5 className='mt-md-1 text-white mb-0'> {item.name} </h5>
                             </div>
 
                         </div>
