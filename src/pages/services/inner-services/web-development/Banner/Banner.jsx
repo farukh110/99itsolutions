@@ -10,7 +10,7 @@ const Banner = (props) => {
             <div className="banner container my-4">
                 <div className="animated-wrapper mt-4">
                     <div className="row">
-                        <div className="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="header-content">
                                 <h2 className='mb-0'>
                                     {bannerHeading1}
@@ -42,10 +42,10 @@ const Banner = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-12">
+                        <div className="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12">
                             <div className="animation-container">
                                 <img
-                                    className="img-fluid header-img"
+                                    className="img-fluid mx-auto d-block header-img"
                                     src={bannerImage}
                                     alt=""
                                 />

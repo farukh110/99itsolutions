@@ -183,3 +183,25 @@
         background-color: #3ecd5e;
     }
 }
+
+@media (max-width: 480px) {
+
+    .main-service {
+
+        .ag-courses_box {
+
+            .ag-courses_item {
+
+                .ag-courses-item_date-box {
+
+                    p {
+                        font-size: 13px !important;
+                        color: #fff;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,7 +1,6 @@
 import React from "react";
 // import { Formik, Field, Form, ErrorMessage } from "formik";
 // import * as Yup from "yup";
-import background from "../../assets/images/contact/contact.jpg";
 import banner from "../../assets/images/contact/contact-bg1.jpg";
 import CustomBanner from "../../components/layout/CustomBanner/CustomBanner";
 // import emailjs from '@emailjs/browser';
@@ -86,7 +85,7 @@ const Contact = () => {
         imgSourceAlt="Contact Us"
       />
 
-      <section className="contact-page py-30 pb-5 rpy-100">
+      <section className="contact-page py-30 pb-5 rpy-100 pt-4">
         {/* <div className="container"> */}
 
         <CustomHeading
@@ -95,14 +94,16 @@ const Contact = () => {
           textCenter="text-center"
         />
 
+        <div className="container">
+          <div className="row justify-content-center">
 
-        <div className="row justify-content-center">
+            <div className="col-xl-12 col-md-8 pb-5">
 
-          <div className="col-md-8 pb-5">
+              <p>
+                At 99Itsolutions, our focus is you. Our expert team comprises of professionals with varying business skillsets so we can better understand your needs, and put our money where our mouth is in offering you top-tier solutions. From the start to finish of your digital requirements, and beyond we are here to help.
+              </p>
 
-            <p>
-              At 99Itsolutions, our focus is you. Our expert team comprises of professionals with varying business skillsets so we can better understand your needs, and put our money where our mouth is in offering you top-tier solutions. From the start to finish of your digital requirements, and beyond we are here to help.
-            </p>
+            </div>
 
           </div>
 
@@ -113,10 +114,11 @@ const Contact = () => {
             <div
               className="contact-form-left bgs-cover h-100"
             >
-              <div className="get_in_toch_head pt-md-5 ps-5">
-                <h5>GET IN TOUCH</h5>
+              <div className="get_in_toch_head pt-md-5 pt-4 pb-4 ps-md-5 ps-0">
 
-                <div className="contact_team">
+                <h5 className="text-xl-left text-center">GET IN TOUCH</h5>
+
+                <div className="contact_team text-xl-left">
                   <h1>
                     CONTACT OUR TEAM
                   </h1>
@@ -125,11 +127,11 @@ const Contact = () => {
                   </p>
                 </div>
 
-                <div className="contact_info">
-                  <div className="contact_icon">
+                <div className="row contact_detail_info">
+                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
                     <img src={phone} alt="" />
                   </div>
-                  <div className="contact_no ps-5 text-white">
+                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                     <span className="bold_text">
                       PHONE:
                     </span>
@@ -140,11 +142,11 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="contact_info">
-                  <div className="contact_icon">
+                <div className="row contact_detail_info mt-xl-3">
+                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
                     <img src={email} alt="" />
                   </div>
-                  <div className="contact_no ps-5 text-white">
+                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                     <span className="bold_text">
                       EMAIL:
                     </span>
@@ -155,11 +157,11 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="contact_info">
-                  <div className="contact_icon">
+                <div className="row contact_detail_info mt-xl-3">
+                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
                     <img src={location} alt="" />
                   </div>
-                  <div className="contact_no ps-5 text-white">
+                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                     <span className="bold_text text-uppercase">
                       Office:
                     </span>
@@ -170,11 +172,11 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="contact_info">
-                  <div className="contact_icon">
+                <div className="row contact_detail_info mt-xl-3">
+                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
                     <img src={timings} alt="" />
                   </div>
-                  <div className="contact_no ps-5 text-white">
+                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                     <span className="bold_text text-uppercase">
                       OPENHOURS:
                     </span>
@@ -267,7 +269,7 @@ const Contact = () => {
                     </Form>
                   )}
                 </Formik> */}
-              <ContactForm customPadding="ps-3 pe-5" />
+              <ContactForm customPadding="ps-md-3 ps-3 pe-md-5 pe-3" />
             </div>
           </div>
         </div>
@@ -277,11 +279,11 @@ const Contact = () => {
       <div className="ready_set">
 
         <div className="container">
-          <div className="row">
-            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
-              <div className="row">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+              <div className="row justify-content-center">
 
-                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <div className="what_next_headings">
                     <h4 className="next_hea">READY, SET , GO !</h4>
                     <h1>WHAT'S NEXT ?
@@ -297,7 +299,7 @@ const Contact = () => {
                         1
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-9 col-12 mt-md-2 mt-sm-0">
+                    <div className="col-lg-6 col-md-9 col-sm-9 col-12 mt-md-2 mt-sm-0">
                       <div className="proposal">
                         <h5>Prepare a proposal
                         </h5>
@@ -319,14 +321,14 @@ const Contact = () => {
                 </div>
                 <div className="">
                   <div className="row justify-content-md-start justify-content-center animate__ animate__slideInRight animate__repeat-1 animate__delay-1s 1s wow  animated" data-wow-duration="0.5s" data-wow-delay="0.2s" style={{ visibility: 'visible', animationDuration: '0.5s', animationDelay: '0.2s', animationName: 'slideInRight' }}>
-                    <div className="col-lg-2 col-md-2 col-sm-2 col-12">
+                    <div className="col-lg-2 col-md-1 col-sm-2 col-12">
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-2 col-12  discuss_content">
                       <div className="proposal_no">
                         2
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-8 col-12 mt-md-2 mt-sm-0 discuss_content">
+                    <div className="col-lg-6 col-md-9 col-sm-8 col-12 mt-md-2 mt-sm-0 discuss_content">
                       <div className="proposal">
                         <h5>Discuss it
                         </h5>
@@ -339,14 +341,14 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="row justify-content-md-start justify-content-center animate__ animate__slideInLeft animate__repeat-1 animate__delay-1s 1s wow  animated" style={{ visibility: 'visible', animationName: 'slideInLeft' }}>
-                  <div className="col-lg-3 col-md-3 col-sm-3 col-12">
+                  <div className="col-lg-3 col-md-1 col-sm-3 col-12">
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-3 col-12 mt-md-2 mt-sm-0  discuss_content">
+                  <div className="col-lg-3 col-md-2 col-sm-3 col-12 mt-md-2 mt-sm-0  discuss_content">
                     <div className="proposal_no">
                       3
                     </div>
                   </div>
-                  <div className="col-lg-6 col-md-12 col-sm-6 col-12 mt-md-2 mt-sm-0  discuss_content">
+                  <div className="col-lg-6 col-md-9 col-sm-6 col-12 mt-md-2 mt-sm-0  discuss_content">
                     <div className="proposal">
                       <h5>Start the project
                       </h5>
@@ -360,7 +362,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 animate__ animate__slideInRight animate__repeat-1 animate__delay-1s 1s wow  animated" style={{ visibility: 'visible', animationName: 'slideInRight' }}>
+            <div className="col-xl-5 col-lg-5 col-md-12 col-sm-5 col-12 animate__ animate__slideInRight animate__repeat-1 animate__delay-1s 1s wow  animated" style={{ visibility: 'visible', animationName: 'slideInRight' }}>
               <div className="contact_img">
                 <div className="row">
                   <div className="col-md-6">

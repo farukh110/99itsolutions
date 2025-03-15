@@ -36,11 +36,11 @@ const Skills = (props) => {
 
                                         <ul className='services-ul'>
 
-                                            {leftPoints.map((item, index) => {
+                                            {leftPoints.length > 0 ? (leftPoints.map((item, index) => {
 
                                                 return <li key={index}> {item.point} </li>
 
-                                            })}
+                                            })) : null}
 
                                         </ul>
 
@@ -50,11 +50,11 @@ const Skills = (props) => {
 
                                         <ul className='services-ul'>
 
-                                            {rightPoints.map((item, index) => {
+                                            {rightPoints.length > 0 ? (rightPoints.map((item, index) => {
 
                                                 return <li key={index}> {item.point} </li>
 
-                                            })}
+                                            })) : null}
 
                                         </ul>
 

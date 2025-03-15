@@ -20,6 +20,17 @@
     }
 }
 
+@media (max-width: 767px) {
+
+    .focused-container {
+
+        h5 {
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+
 @media (max-width: 480px) {
 
     .focused-container {

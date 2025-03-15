@@ -15,7 +15,7 @@ const AboutDetails = (props) => {
 
                         <div className='col-md-12 mt-md-0 mt-0'>
 
-                            <div className='row mt-md-0 mt-3'>
+                            <div className='row mt-md-0 mt-md-3 mt-0'>
 
                                 <div className='col-md-7 mt-md-0 mt-3'>
 
@@ -29,14 +29,15 @@ const AboutDetails = (props) => {
 
                                             <div className='services-h mt-md-3'>
 
-                                                {leftPoints.map((item, index) => {
+                                                {leftPoints.length > 0 ? (
+                                                    leftPoints.map((item, index) => {
 
-                                                    return <>
-                                                        <h3 className='fw-bolder mb-0'>{item.title}</h3>
-                                                        <p className='mb-0' key={index}> {item.point} </p>
-                                                    </>
+                                                        return <>
+                                                            <h3 className='fw-bolder mb-0'>{item.title}</h3>
+                                                            <p className='mb-0' key={index}> {item.point} </p>
+                                                        </>
 
-                                                })}
+                                                    })) : null}
 
                                             </div>
 
@@ -45,14 +46,13 @@ const AboutDetails = (props) => {
                                         <div className='col-md-6'>
 
                                             <ul className='services-ul'>
-
-                                                {rightPoints.map((item, index) => {
-
-                                                    return <li key={index}> {item.point} </li>
-
-                                                })}
-
+                                                {rightPoints.length > 0 ? (
+                                                    rightPoints.map((item, index) => (
+                                                        <li key={index}> {item.point} </li>
+                                                    ))
+                                                ) : null}
                                             </ul>
+
 
                                         </div>
 

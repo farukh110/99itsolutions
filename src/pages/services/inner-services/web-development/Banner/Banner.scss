@@ -9,6 +9,7 @@ $color: #1a3059;
 
     h1 {
         font-weight: bold;
+        font-size: 60px;
         color: $color;
     }
 
@@ -23,9 +24,16 @@ $color: #1a3059;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
     .banner h1 {
         font-size: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .banner h1 {
+        font-size: 30px;
     }
 }

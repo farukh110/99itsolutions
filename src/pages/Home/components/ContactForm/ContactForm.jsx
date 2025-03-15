@@ -229,7 +229,7 @@ const ContactForm = (props) => {
                             </div>
 
                             <div className='row justify-content-center mt-md-4 mt-2'>
-                                <div className='col-md-3 my-md-3'>
+                                <div className='col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-sm-6 col-12 my-md-3'>
                                     <div className='d-grid'>
                                         <button type='submit' className='btn btn-primary p-3'>
                                             Get a Free Quote/Demo
