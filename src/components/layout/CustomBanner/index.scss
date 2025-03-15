@@ -3,3 +3,32 @@
     width: 100%;
     background-size: cover !important;
 }
+
+@media (max-width: 767px) {
+    .main-banner {
+        height: 50vh;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .main-banner {
+
+        height: 50vh;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 40px;
+        }
+
+    }
+}

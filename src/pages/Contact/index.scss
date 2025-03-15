@@ -7,7 +7,7 @@
     font-size: 16px;
     letter-spacing: 0.16em;
     line-height: 16.8px;
-    text-align: left;
+    text-align: left !important;
     color: #F9AD2F;
 
 }
@@ -32,7 +32,7 @@
 }
 
 .contact_info {
-    display: flex;
+    // display: flex;
 
     .contact_icon {
         color: #ffff;
@@ -167,7 +167,7 @@
 
 @media (max-width:991px) {
     .contact_img {
-        padding-top: 105px;
+        padding-top: 25px;
         position: relative;
         left: 30px;
     }
@@ -185,7 +185,6 @@
 
     .quote_img {
         position: absolute;
-        top: -158px;
         left: 128px;
         z-index: 1;
     }
@@ -215,3 +214,137 @@
 
 
 /* end what_next  */
+
+@media (max-width: 767px) {
+
+    .contact_team {
+
+        padding-left: 30px;
+
+        h1 {
+            font-size: 22px;
+            line-height: 42px;
+            // text-align: center;
+        }
+    }
+
+    .get_in_toch_head {
+
+        h5 {
+            // text-align: center !important;
+            padding-left: 30px;
+        }
+
+        &:after {
+
+            left: 0px;
+            width: 100%;
+        }
+    }
+
+    .contact_icon {
+        color: #ffff;
+        padding: 10px 0;
+        padding-left: 30px;
+
+        img {
+
+            display: table;
+            margin: 0 auto;
+        }
+    }
+
+    .contact_para {
+
+        text-align: left;
+    }
+
+    .proposal_no {
+        font-size: 40px;
+        line-height: 54px;
+        font-weight: bold;
+        background: #040025;
+        color: #fff;
+        padding: 7px 10px 10px 25px;
+        border-radius: 56px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .proposal {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact_team {
+
+        padding-left: 0px;
+
+        h1 {
+            font-size: 22px;
+            line-height: 42px;
+            text-align: center;
+        }
+    }
+
+    .get_in_toch_head {
+
+        h5 {
+            text-align: center !important;
+            padding-left: 0px;
+        }
+
+        &:after {
+
+            left: 0px;
+            width: 100%;
+        }
+    }
+
+    .contact_icon {
+        color: #ffff;
+        padding: 10px 0;
+        padding-left: 30px;
+
+        img {
+
+            display: table;
+            margin: 0 auto;
+        }
+    }
+
+    .contact_para {
+
+        text-align: center;
+    }
+
+    .proposal_no {
+        font-size: 40px;
+        line-height: 54px;
+        font-weight: bold;
+        background: #040025;
+        color: #fff;
+        padding: 7px 10px 10px 25px;
+        border-radius: 56px;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .proposal {
+        text-align: center;
+    }
+
+    .contact_detail_info {
+
+        padding-right: 20px;
+
+        .normal_text {
+
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}

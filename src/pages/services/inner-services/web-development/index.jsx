@@ -97,13 +97,17 @@ const WebDevelopment = () => {
     const imgStyle = {
 
         objectFit: 'cover',
-        height: '80vh'
+        height: '80vh',
+        display: 'table',
+        margin: '0 auto'
     }
 
     const webStyle = {
 
         objectFit: 'cover',
-        height: 'unset'
+        height: 'unset',
+        display: 'table',
+        margin: '0 auto'
     }
 
     const bannerContent = `Your website is possibly your most crucial marketing tool,

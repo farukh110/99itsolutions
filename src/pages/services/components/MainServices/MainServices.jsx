@@ -26,7 +26,7 @@ const MainServices = () => {
                     </div>
 
                     <div className="row pt-2 mt-md-4 justify-content-center">
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -51,7 +51,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -75,7 +75,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -98,7 +98,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -123,7 +123,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -148,7 +148,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -174,7 +174,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -198,7 +198,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -223,7 +223,7 @@ const MainServices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -249,7 +249,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -275,7 +275,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">
@@ -291,7 +291,7 @@ const MainServices = () => {
                                             </div>
                                             <div className="ag-courses-item_date-box pb-3">
                                                 <p>
-                                                    99 iT Solutions provides custom unity game development services that include building spectacular 2D and 3D multiplayer games for mobile devices with creative visualization & addictive gameplay considering the latest game directions and design trends
+                                                    99 iT Solutions provides custom unity game development services that include building spectacular 2D and 3D multiplayer games for mobile devices with creative visualization & addictive gameplay considering the latest game directions and design trends.
 
                                                 </p>
                                             </div>
@@ -301,7 +301,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2">
+                        <div className="col-lg-4 col-md-6 col-sm-12 mb-2 p-xl-0 p-lg-0 p-md-0 p-sm-0 p-1">
                             <div className="ag-format-container">
                                 <div className="ag-courses_box">
                                     <div className="ag-courses_item">

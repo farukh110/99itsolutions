@@ -26,3 +26,16 @@ $color: #1A3059;
         }
     }
 }
+
+@media (max-width: 480px) {
+
+    .about-details {
+
+        .content-small {
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+}
