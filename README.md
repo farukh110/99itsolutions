@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 🛒 99 IT Solutions - Your Trusted Technology Partner  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Overview  
+Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs.
 
-## Available Scripts
+## 🛠️ Tech Stack  
 
-In the project directory, you can run:
+| Technology | Description |
+|------------|-------------|
+| [![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://react.dev/) | [Modern, high-performance UI](https://react.dev/) |
+| [![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5-blueviolet?logo=bootstrap&logoColor=white)](https://getbootstrap.com/) | [Responsive and mobile-friendly design](https://getbootstrap.com/) |
+| [![Ant Design](https://img.shields.io/badge/Ant%20Design-UI%20Components-1890ff?logo=ant-design&logoColor=white)](https://ant.design/) | [Sleek and functional UI components](https://ant.design/) |
+| [![SCSS](https://img.shields.io/badge/SCSS-Styling-cc6699?logo=sass&logoColor=white)](https://sass-lang.com/) | [Powerful, maintainable stylesheets](https://sass-lang.com/) |
+| [![EmailJS](https://img.shields.io/badge/EmailJS-Email%20Service-ff6c37?logo=maildotru&logoColor=white)](https://www.emailjs.com/) | [Seamless email integration](https://www.emailjs.com/) |
+| [![Jest](https://img.shields.io/badge/Jest-Testing-C21325?logo=jest&logoColor=white)](https://jestjs.io/) | [Reliable JavaScript testing framework](https://jestjs.io/) |
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Key Features  
 
-### `yarn test`
+✅ **🌍 Modern & Responsive Design** – Fully optimized for desktop, tablet, and mobile users.  
+✅ **📖 Informative Content** – Detailed insights about services, expertise, and solutions.  
+✅ **📊 Service Portfolio & Case Studies** – Showcasing expertise and previous successful projects.  
+✅ **🛠️ Technology Stack Overview** – Clear breakdown of tools and technologies used.  
+✅ **🔒 Secure & Fast Performance** – Optimized for speed and security with **Vite** and **SCSS**.  
+✅ **📱 Social Media Integration** – Easy access to company profiles on LinkedIn, Twitter, and more.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## ⚙️ Installation & Setup  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📥 1. Clone the Repository  
+```sh
+git clone https://github.com/farukh110/99itsolutions
+cd 99itsolutions
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📦 2. Install Dependencies  
+```sh
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🚀 3. Start the Development Server  
+```sh
+yarn run start
+```
+> The app will be available at **http://localhost:3000/**  
 
-### `yarn eject`
+### 🏗️ 4. Build for Production  
+```sh
+yarn run build
+```
+> This will generate optimized production files in the **build/** folder.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔍 5. Preview the Production Build  
+```sh
+serve -s build
+```
+> This allows you to test the built app locally before deployment.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing  
+1. **Fork** the repository  
+2. **Create a new branch** (`feature/new-feature`)  
+3. **Commit your changes** (`git commit -m 'Add new feature'`)  
+4. **Push to the branch** (`git push origin feature/new-feature`)  
+5. **Open a Pull Request**  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📞 Contact  
+📧 Email: [farukhsajjad110@gmail.com](mailto:farukhsajjad110@gmail.com)  
+<!-- 🌐 Website: [www.pnfpapers.com](https://www.pnfpapers.com)  -->
+📱 Phone: [+92341-4285511](tel:+923414285511)
