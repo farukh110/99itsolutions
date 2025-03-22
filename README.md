@@ -1,4 +1,4 @@
-# 🛒 99 IT Solutions - Your Trusted Technology Partner  
+# 99 IT Solutions - Your Trusted Technology Partner  
 
 ## 🚀 Overview  
 Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs.
