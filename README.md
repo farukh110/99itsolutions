@@ -23,7 +23,6 @@ Since 2015, 99 IT Solutions has been delivering cutting-edge technology solution
 ✅ **📖 Informative Content** – Detailed insights about services, expertise, and solutions.  
 ✅ **📊 Service Portfolio & Case Studies** – Showcasing expertise and previous successful projects.  
 ✅ **🛠️ Technology Stack Overview** – Clear breakdown of tools and technologies used.  
-✅ **🔒 Secure & Fast Performance** – Optimized for speed and security with **Vite** and **SCSS**.  
 ✅ **📱 Social Media Integration** – Easy access to company profiles on LinkedIn, Twitter, and more.  
 
 ---
