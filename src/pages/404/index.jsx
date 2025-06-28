@@ -26,7 +26,7 @@ const FourZeroFour = () => {
                 It seems the page you're looking for wandered off. Let's get you back on track!
               </p>
 
-              <button onClick={() => navigate('/')} className='btn btn-primary mb-md-5 btn-connect mx-auto d-block'> Go to Home </button>
+              <button onClick={() => navigate('/')} className='btn btn-primary mb-md-5 mb-lg-5 mb-xl-5 mb-5 btn-connect mx-auto d-block'> Go to Home </button>
 
 
             </div>

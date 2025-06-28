@@ -38,3 +38,18 @@
         color: #1A3059;
     }
 }
+
+@media (max-width: 480px) {
+
+    .four-zero-four-title {
+
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .btn-connect {
+        margin-bottom: 15px !important;
+    }
+}
