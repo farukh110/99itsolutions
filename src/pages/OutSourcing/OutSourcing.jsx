@@ -306,7 +306,7 @@ const OutSourcing = () => {
             <Process />
             <Technologies />
             <ContactForm customPadding="ps-0 pe-0" />
-            <VerticalSlider title="Do you need a Full or Part-time" teamItems={teamItems} />
+            {/* <VerticalSlider title="Do you need a Full or Part-time" teamItems={teamItems} /> */}
 
         </>
     )

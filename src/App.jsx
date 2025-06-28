@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import ShimmerOverlay from './components/general/ShimmerOverlay';
+import FourZeroFour from './pages/404';
 
 // Lazy load the components
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -40,6 +41,7 @@ const App = () => {
           <Route exact path="/outsourcing" element={<OutSourcing />} />
           <Route exact path="/portfolio" element={<PortfolioPage />} />
           <Route exact path="/get-free-quote" element={<RequestDemo />} />
+          <Route path="*" element={<FourZeroFour />} />
         </Routes>
       </Suspense>
       <Footer />

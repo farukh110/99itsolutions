@@ -80,6 +80,12 @@ const Navigation = ({ className }) => {
                         Contact
                     </Link>
                 </li>
+
+                <li>
+                    <div className="menu-btn">
+                        <Link to='/outsourcing' className="btn btn-danger btn-get2">Outsourcing</Link>
+                    </div>
+                </li>
             </ul>
         </div>
     );

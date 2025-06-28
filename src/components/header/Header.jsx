@@ -58,7 +58,7 @@ const Header = () => {
                 <div className="header-upper bg-white">
                     <div className="container-fluid clearfix">
                         <div className="header-inner d-flex align-items-center">
-                            <div className="logo-outer px-85">
+                            <div className="logo-outer px-85 pe-0">
                                 <div className="logo">
                                     <Link to="/">
                                         <img className='img-fluid' src={logo} alt="Logo" title="Logo" />
@@ -69,9 +69,9 @@ const Header = () => {
                             <div className="nav-outer clearfix d-flex align-items-center">
                                 <Navigation className="nav-home-one" />
 
-                                <div className="menu-btn">
+                                {/* <div className="menu-btn">
                                     <Link to='/outsourcing' className="btn btn-danger btn-get2">Profitable Outsourcing</Link>
-                                </div>
+                                </div> */}
                                 <div className="menu-btn">
                                     <Link to='/get-free-quote' className="btn btn-danger btn-get btn_wiggle">Book a Free Consultation</Link>
                                 </div>

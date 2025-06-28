@@ -14,7 +14,6 @@ import quote_img from "../../assets/images/contact/quote.svg";
 import img3 from "../../assets/images/contact/img-3.png";
 import img2 from "../../assets/images/contact/img-2.png";
 
-
 import './index.scss';
 import ContactForm from "../Home/components/ContactForm/ContactForm";
 import CustomHeading from "../../components/heading/CustomHeading";
@@ -109,170 +108,106 @@ const Contact = () => {
 
         </div>
 
-        <div className="row mt-md-4">
-          <div className="col-lg-4 p-0">
-            <div
-              className="contact-form-left bgs-cover h-100"
-            >
-              <div className="get_in_toch_head pt-md-5 pt-4 pb-4 ps-md-5 ps-0">
+        <div className="bg-shad">
 
-                <h5 className="text-xl-left text-center">GET IN TOUCH</h5>
+          <div className="container ps-0 pe-0">
 
-                <div className="contact_team text-xl-left">
-                  <h1>
-                    CONTACT OUR TEAM
-                  </h1>
-                  <p className="contact_para text-white">
-                    Our Teams are here to help
-                  </p>
+            <div className="row mt-md-4 justify-content-center">
+
+              <div className="col-lg-7 bg-white left-border-radius">
+                <div className="contact-form">
+
+                  <ContactForm customPadding="ps-md-3 ps-3 pe-md-5 pe-3" />
                 </div>
+              </div>
+              <div className="col-lg-5 p-0">
+                <div
+                  className="contact-form-left bgs-cover h-100"
+                >
+                  <div className="get_in_toch_head pt-md-5 pt-4 pb-4 ps-md-5 ps-0 pe-2">
 
-                <div className="row contact_detail_info">
-                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                    <img src={phone} alt="" />
+                    <h5 className="text-xl-left text-center">GET IN TOUCH</h5>
+
+                    <div className="contact_team text-xl-left">
+                      {/* <h1>
+                        CONTACT OUR TEAM
+                      </h1> */}
+                      <p className="contact_para text-white">
+                        Our Teams are here to help
+                      </p>
+                    </div>
+
+                    <div className="row contact_detail_info">
+                      <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
+                        <img src={phone} alt="" />
+                      </div>
+                      <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
+                        <span className="bold_text">
+                          PHONE:
+                        </span>
+                        <br />
+                        <span className="normal_text">
+                          <a href="tel:+92 331 293-9594"> +92 331 293-9594 </a>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="row contact_detail_info mt-xl-3">
+                      <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
+                        <img src={email} alt="" />
+                      </div>
+                      <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
+                        <span className="bold_text">
+                          EMAIL:
+                        </span>
+                        <br />
+                        <span className="normal_text">
+                          <a href="mailto:info@99itsolutions.com"> info@99itsolutions.com </a>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="row contact_detail_info mt-xl-3">
+                      <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
+                        <img src={location} alt="" />
+                      </div>
+                      <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
+                        <span className="bold_text text-uppercase">
+                          Office:
+                        </span>
+                        <br />
+                        <span className="normal_text">
+                          <span> Shaheen Arcade, 26 National Stadium Rd, <br /> Shanti Nagar Chandni Chowk (New Town), Karachi, Karachi City, Sindh 74800 </span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="row contact_detail_info mt-xl-3">
+                      <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
+                        <img src={timings} alt="" />
+                      </div>
+                      <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
+                        <span className="bold_text text-uppercase">
+                          OPENHOURS:
+                        </span>
+                        <br />
+                        <span className="normal_text">
+                          <span> Mon-Fri: 9 am- 6 pm Sat-Sun: Closed </span>
+                        </span>
+                      </div>
+                    </div>
+
                   </div>
-                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
-                    <span className="bold_text">
-                      PHONE:
-                    </span>
-                    <br />
-                    <span className="normal_text">
-                      <a href="tel:+92 331 293-9594"> +92 331 293-9594 </a>
-                    </span>
-                  </div>
+
                 </div>
-
-                <div className="row contact_detail_info mt-xl-3">
-                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                    <img src={email} alt="" />
-                  </div>
-                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
-                    <span className="bold_text">
-                      EMAIL:
-                    </span>
-                    <br />
-                    <span className="normal_text">
-                      <a href="mailto:info@99itsolutions.com"> info@99itsolutions.com </a>
-                    </span>
-                  </div>
-                </div>
-
-                <div className="row contact_detail_info mt-xl-3">
-                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                    <img src={location} alt="" />
-                  </div>
-                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
-                    <span className="bold_text text-uppercase">
-                      Office:
-                    </span>
-                    <br />
-                    <span className="normal_text">
-                      <span> Shaheen Arcade, 26 National Stadium Rd, <br /> Shanti Nagar Chandni Chowk (New Town), Karachi, Karachi City, Sindh 74800 </span>
-                    </span>
-                  </div>
-                </div>
-
-                <div className="row contact_detail_info mt-xl-3">
-                  <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                    <img src={timings} alt="" />
-                  </div>
-                  <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
-                    <span className="bold_text text-uppercase">
-                      OPENHOURS:
-                    </span>
-                    <br />
-                    <span className="normal_text">
-                      <span> Mon-Fri: 9 am- 6 pm Sat-Sun: Closed </span>
-                    </span>
-                  </div>
-                </div>
-
               </div>
 
             </div>
           </div>
-          <div className="col-lg-8 p-0">
-            <div className="contact-form">
-              {/* <h3 className="comment-title mb-35">Send A Message</h3>
-                <p>
-                  Avoids pleasure itself, because it is pleasure, but because
-                  those who do not know how to pursue pleasure rationally
-                  encounter
-                </p> */}
-              {/* Formik Form */}
-              {/* <Formik
-                  initialValues={{
-                    name: "",
-                    email: "",
-                    message: "",
-                  }}
-                  validationSchema={validationSchema}
-                  onSubmit={sendEmail}
-                >
-                  {({ isSubmitting }) => (
-                    <Form ref={form}>
-                      <div className="row clearfix justify-content-center">
-                        <div className="col-sm-6">
-                          <div className="form-group">
-                            <label htmlFor="name">
-                              <i className="far fa-user"></i>
-                            </label>
-                            <Field
-                              type="text"
-                              id="name"
-                              name="name"
-                              className="form-control"
-                              placeholder="Your Full Name"
-                            />
-                            <ErrorMessage name="name" component="div" className="error-message" />
-                          </div>
-                        </div>
-                        <div className="col-sm-6">
-                          <div className="form-group">
-                            <label htmlFor="email">
-                              <i className="far fa-envelope"></i>
-                            </label>
-                            <Field
-                              type="email"
-                              id="email"
-                              name="email"
-                              className="form-control"
-                              placeholder="Your Email"
-                            />
-                            <ErrorMessage name="email" component="div" className="error-message" />
-                          </div>
-                        </div>
-                        <div className="col-sm-12">
-                          <div className="form-group">
-                            <label htmlFor="message">
-                              <i className="fas fa-pencil-alt"></i>
-                            </label>
-                            <Field
-                              as="textarea"
-                              name="message"
-                              id="message"
-                              className="form-control"
-                              rows="4"
-                              placeholder="Write Message"
-                            />
-                            <ErrorMessage name="message" component="div" className="error-message" />
-                          </div>
-                        </div>
-                        <div className="col-sm-12">
-                          <div className="form-group mb-0">
-                            <button type="submit" className="theme-btn" disabled={isSubmitting}>
-                              {isSubmitting ? "Sending..." : "Send Message"}
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </Form>
-                  )}
-                </Formik> */}
-              <ContactForm customPadding="ps-md-3 ps-3 pe-md-5 pe-3" />
-            </div>
-          </div>
+
         </div>
+
+
         {/* </div> */}
       </section>
 
@@ -389,10 +324,10 @@ const Contact = () => {
 
       </div>
 
-      <VerticalSlider
+      {/* <VerticalSlider
         title="Are you looking for professional"
         teamItems={teamItems}
-      />
+      /> */}
 
     </>
   );

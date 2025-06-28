@@ -72,7 +72,7 @@ const ContactForm = (props) => {
 
         if (serviceDropdownRef.current) {
 
-            const colClassName = selectedService === 'Service' ? 'col-md-3 my-md-2 my-2' : 'col-md-6 my-md-2 my-2';
+            const colClassName = selectedService === 'Service' ? 'col-md-12 my-md-2 my-2' : 'col-md-12 my-md-2 my-2';
             serviceDropdownRef.current.className = colClassName;
         }
 
@@ -85,7 +85,7 @@ const ContactForm = (props) => {
         setShowServiceDropdown(selectedProduct === 'Product');
 
         if (productDropdownRef.current) {
-            const colClassName = selectedProduct === 'Product' ? 'col-md-3 my-md-2 my-2' : 'col-md-6 my-md-2 my-2';
+            const colClassName = selectedProduct === 'Product' ? 'col-md-12 my-md-2 my-2' : 'col-md-12 my-md-2 my-2';
             productDropdownRef.current.className = colClassName;
 
         }
@@ -94,14 +94,14 @@ const ContactForm = (props) => {
 
     return (
         <div className='contact-form-section pt-md-4 pt-5 pb-md-4 pb-5'>
-            <div className='container my-md-5 my-4'>
-                <h2 className='text-center text-light'> Let's Talk Business </h2>
+            <div className='container form-container my-md-5 my-4'>
+                <h2 className='text-center'> Let's Talk Business </h2>
 
                 <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
                     {({ values }) => (
                         <Form ref={form} className={`custom-form ${customPadding}`}>
                             <div className='row'>
-                                <div className='col-md-3'>
+                                <div className='col-md-6'>
                                     <div className='row'>
                                         <div className='col-md-12 my-md-2 my-2'>
                                             <Field type='text' name='name' placeholder='Name' className='form-control' />
@@ -109,32 +109,11 @@ const ContactForm = (props) => {
                                         </div>
 
                                         <div className='col-md-12 my-md-2 my-2'>
-                                            <Field type='email' name='email' placeholder='enter your email' className='form-control' />
-                                            <ErrorMessage name='email' component='div' className='error text-danger mt-md-2' />
-                                        </div>
-
-                                        <div className='col-md-12 my-md-2 my-2'>
                                             <Field type='text' name='phone' placeholder='enter your phone number' className='form-control' />
                                             <ErrorMessage name='phone' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
-                                        <div className='col-md-12 my-md-2 my-2'>
-                                            <Field as='select' name='timings' className='form-control'>
-                                                <option value='Best time to call'>Best time to call</option>
-                                                <option value='Morning'>Morning</option>
-                                                <option value='Afternoon'>Afternoon</option>
-                                                <option value='Evening'>Evening</option>
-                                                <option value='Anytime'>Anytime</option>
-                                            </Field>
-                                            <ErrorMessage name='timings' component='div' className='error text-danger mt-md-2' />
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='col-md-9'>
-                                    <div className='row'>
-
-                                        {showServiceDropdown && (<div ref={serviceDropdownRef} className='col-md-3 my-md-2 my-2 service-dropdown'>
+                                        {showServiceDropdown && (<div ref={serviceDropdownRef} className='col-md-12 my-md-2 my-2 service-dropdown'>
 
                                             <Field as='select' name='services' className='form-control' value={selectedService} onChange={handleServiceChange}>
                                                 <option value='Service'>Select Service</option>
@@ -167,8 +146,43 @@ const ContactForm = (props) => {
                                         </div>
                                         )}
 
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field as='select' name='budget' className='form-control'>
+                                                <option value='Budget'>Select Your Budget</option>
+                                                <option value='$500 - $1000'>$500 - $1000</option>
+                                                <option value='$1000 - $5000'>$1000 - $5000</option>
+                                                <option value='$5000 - $10000'>$5000 - $10000</option>
+                                                <option value='$10000 & up'>$10000 & up</option>
+                                            </Field>
+                                            <ErrorMessage name='budget' component='div' className='error text-danger mt-md-2' />
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div className='col-md-6'>
+
+                                    <div className='row'>
+
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field type='email' name='email' placeholder='enter your email' className='form-control' />
+                                            <ErrorMessage name='email' component='div' className='error text-danger mt-md-2' />
+                                        </div>
+
+                                        <div className='col-md-12 my-md-2 my-2'>
+                                            <Field as='select' name='timings' className='form-control'>
+                                                <option value='Best time to call'>Best time to call</option>
+                                                <option value='Morning'>Morning</option>
+                                                <option value='Afternoon'>Afternoon</option>
+                                                <option value='Evening'>Evening</option>
+                                                <option value='Anytime'>Anytime</option>
+                                            </Field>
+                                            <ErrorMessage name='timings' component='div' className='error text-danger mt-md-2' />
+                                        </div>
+
                                         {showProductDropdown && (
-                                            <div ref={productDropdownRef} className='col-md-3 my-md-2 my-2'>
+                                            <div ref={productDropdownRef} className='col-md-12 my-md-2 my-2'>
 
                                                 <Field as='select' name='products' className='form-control' value={selectedProduct} onChange={handleProductChange}>
                                                     <option value='Product'>Select Product</option>
@@ -197,18 +211,7 @@ const ContactForm = (props) => {
                                             </div>
                                         )}
 
-                                        <div className='col-md-3 my-md-2 my-2'>
-                                            <Field as='select' name='budget' className='form-control'>
-                                                <option value='Budget'>Select Your Budget</option>
-                                                <option value='$500 - $1000'>$500 - $1000</option>
-                                                <option value='$1000 - $5000'>$1000 - $5000</option>
-                                                <option value='$5000 - $10000'>$5000 - $10000</option>
-                                                <option value='$10000 & up'>$10000 & up</option>
-                                            </Field>
-                                            <ErrorMessage name='budget' component='div' className='error text-danger mt-md-2' />
-                                        </div>
-
-                                        <div className='col-md-3 my-md-2 my-2'>
+                                        <div className='col-md-12 my-md-2 my-2'>
                                             <Field as='select' name='social' className='form-control'>
                                                 <option value='Social'>How did You Find Us</option>
                                                 <option value='Google'>Google</option>
@@ -220,6 +223,15 @@ const ContactForm = (props) => {
                                             <ErrorMessage name='social' component='div' className='error text-danger mt-md-2' />
                                         </div>
 
+
+
+                                    </div>
+
+                                </div>
+
+                                <div className='col-md-12'>
+                                    <div className='row'>
+
                                         <div className='col-md-12 my-md-2 my-2'>
                                             <Field as='textarea' name='message' className='form-control custom-text-area' placeholder='Message' />
                                             <ErrorMessage name='message' component='div' className='error text-danger mt-md-2' />
@@ -228,8 +240,8 @@ const ContactForm = (props) => {
                                 </div>
                             </div>
 
-                            <div className='row justify-content-center mt-md-4 mt-2'>
-                                <div className='col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-sm-6 col-12 my-md-3'>
+                            <div className='row justify-content-center mt-md-1 mt-2'>
+                                <div className='col-xxl-12 col-xl-12 col-lg-6 col-md-6 col-sm-6 col-12 my-md-3'>
                                     <div className='d-grid'>
                                         <button type='submit' className='btn btn-primary p-3'>
                                             Get a Free Quote/Demo

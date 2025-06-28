@@ -84,13 +84,13 @@ const OurWork = ({ isLogoDesignPage, isWebPage, isMobilePage, isGraphicDesignPag
             category: "logo",
             link: "https://www.behance.net/gallery/159614487/N-Allance-Tech"
         },
-        {
-            id: 7,
-            image: g1,
-            name: "Pak Magnesia",
-            category: "logo",
-            link: "https://www.behance.net/gallery/162683537/Pak-Magnesia-Logo"
-        },
+        // {
+        //     id: 7,
+        //     image: g1,
+        //     name: "Pak Magnesia",
+        //     category: "logo",
+        //     link: "https://www.behance.net/gallery/162683537/Pak-Magnesia-Logo"
+        // },
         // {
         //     id: 8,
         //     image: g2,
