@@ -1,7 +1,4 @@
 .contact-form-section {
-    background: #1a1b1b url(../../../../assets/images/contact/contact_bg1.jpg) center center no-repeat fixed;
-    box-shadow: inset 0 0 0 2000px rgba(13, 13, 14, 0.5);
-    background-size: cover;
 
     h2 {
         font-weight: bold;
@@ -12,24 +9,26 @@
 
     input {
         background: transparent;
-        color: #fff;
-        border-color: #fff;
+        color: #828282;
+        border-color: #E0E0E0;
+        border-radius: 0px;
 
         &::placeholder {
-            color: #fff;
+            color: #828282;
         }
 
         &:focus {
             background: transparent;
-            color: #fff;
-            border-color: #fff;
+            color: #1A3059;
+            border-color: #1A3059;
         }
     }
 
     select {
         background: transparent;
-        color: #fff;
-        border-color: #fff;
+        color: #828282;
+        border-color: #E0E0E0;
+        border-radius: 0px;
 
         option {
             background: #162E55;
@@ -39,8 +38,8 @@
 
         &:focus {
             background: transparent;
-            color: #fff;
-            border-color: #fff;
+            color: #1A3059;
+            border-color: #1A3059;
         }
     }
 
@@ -48,11 +47,12 @@
         height: 210px;
         resize: none;
         background: transparent;
-        color: #fff;
-        border-color: #fff;
+        color: #828282;
+        border-color: #E0E0E0;
+        border-radius: 0px;
 
         &::placeholder {
-            color: #fff;
+            color: #828282;
         }
     }
 

@@ -1,0 +1,40 @@
+.not-found-container {
+
+    background: #F7F6F6;
+}
+
+.four-zero-four-title {
+
+    font-size: 150px;
+    font-weight: 700;
+    color: #F9AD2F;
+    line-height: 150px;
+}
+
+.error-small-title {
+
+    font-weight: 600;
+    font-size: 25px;
+    color: #1A3059;
+}
+
+.not_found_text {
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #1A3059;
+}
+
+.btn-connect {
+
+    background: #1A3059;
+    border: 1px solid #1A3059;
+    font-weight: bold;
+
+    &:hover {
+
+        background: #F9AD2F;
+        border: 1px solid #F9AD2F;
+        color: #1A3059;
+    }
+}

@@ -28,7 +28,7 @@ $orange-color: #F9AD2F;
 
 .btn-get {
     background-color: $orange-color;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 12px;
     padding-left: 12px !important;
@@ -41,7 +41,7 @@ $orange-color: #F9AD2F;
     &:hover {
         background: #1A3059;
         border-color: #fff;
-        color: #F9AD2F !important;
+        color: #fff !important;
     }
 }
 
@@ -49,11 +49,11 @@ $orange-color: #F9AD2F;
     background-color: #1A3059;
     font-size: 12px;
     font-weight: 600;
-    border-radius: 100px;
+    border-radius: 10px;
     padding-left: 12px !important;
     padding-right: 12px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
     border: 2px solid #1A3059;
     color: #fff !important;
 

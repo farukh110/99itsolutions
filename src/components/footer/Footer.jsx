@@ -47,7 +47,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="row mt-lg-5 mt-md-4 mb-md-0">
+                        <div className="row mt-lg-4 mt-md-4 mb-md-0">
                             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                                 <div className="footer-widget about-widget">
                                     <div className="footer-logo mt-md-0 mt-2 mb-md-1">
@@ -55,7 +55,9 @@ const Footer = () => {
                                     </div>
                                     <div className="text dark_blue">
 
-                                        Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs.
+                                        Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting.
+
+                                        {/* Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs. */}
 
                                     </div>
                                 </div>
@@ -83,8 +85,8 @@ const Footer = () => {
                                         <li><Link to='/services/web-development'>Custom Web Design </Link></li>
                                         <li><Link to='/services/web-development'>AI/ML Solutions </Link></li>
                                         <li><Link to='/services/web-development'>Cloud/DevOps Solutions</Link></li>
-                                        <li><Link to='/services/web-development'>Whatsapp Business Solutions</Link></li>
-                                        <li><Link to='/services/web-development'>Whatsapp Chatbot Development</Link></li>
+                                        {/* <li><Link to='/services/web-development'>Whatsapp Business Solutions</Link></li>
+                                        <li><Link to='/services/web-development'>Whatsapp Chatbot Development</Link></li> */}
 
                                     </ul>
                                 </div>
@@ -95,10 +97,11 @@ const Footer = () => {
                                     <ul className="list-style-two">
                                         <li><Link to='/'> ERP </Link></li>
                                         <li><a href="!#">POS </a></li>
-                                        <li><a href="!#">Hotel Management System </a></li>
-                                        <li><a href="!#">Warehouse Management System</a></li>
-                                        <li><a href="!#">School  Management System</a></li>
-                                        <li><a href="!#">Learning Management System</a></li>
+                                        <li><a href="!#">CRM</a></li>
+                                        <li><a href="!#">LMS</a></li>
+                                        <li><a href="!#">School  Mgmt Sys</a></li>
+                                        <li><a href="!#">Hotel Mgmt Sys</a></li>
+                                        <li><a href="!#">Warehouse Mgmt Sys</a></li>
 
                                     </ul>
                                 </div>

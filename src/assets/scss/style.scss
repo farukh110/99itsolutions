@@ -6161,7 +6161,7 @@ h6,
 }
 
 .nav-outer .menu-btn {
-  margin-left: auto;
+  // margin-left: auto;
 }
 
 @media only screen and (max-width: 991px) {
@@ -13801,6 +13801,8 @@ blockquote .author {
   left: 0;
   // opacity: 0.9;
   background-color: #1A3059;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .contact-form-left h2 {
@@ -15310,7 +15312,7 @@ blockquote .author {
 }
 
 .footer-widget {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .footer-title {

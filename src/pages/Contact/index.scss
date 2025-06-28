@@ -4,7 +4,7 @@
 
 .get_in_toch_head h5 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     letter-spacing: 0.16em;
     line-height: 16.8px;
     text-align: left !important;
@@ -60,7 +60,7 @@
     background: #fff;
     position: absolute;
     top: 55px;
-    left: 196px;
+    left: 325px;
     margin-left: 12px;
     border-radius: 1px;
 }
@@ -137,6 +137,23 @@
     left: -50px;
 }
 
+.bg-shad {
+
+    background: url(../../assets/images/contact/bg-shad.svg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-position: center;
+
+    .left-border-radius {
+
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        box-shadow: 0px 141px 200px rgba(25, 58, 75, 0.3);
+    }
+}
+
+
 @media (max-width:991px) {
     .contact_img {
         padding-top: 105px;
@@ -187,6 +204,15 @@
         position: absolute;
         left: 128px;
         z-index: 1;
+    }
+
+    .left-border-radius {
+
+        border-radius: unset !important;
+    }
+
+    .contact-form-left::before {
+        border-radius: unset !important;
     }
 
 }
@@ -273,6 +299,15 @@
 
     .proposal {
         text-align: center;
+    }
+
+    .left-border-radius {
+
+        border-radius: unset !important;
+    }
+
+    .contact-form-left::before {
+        border-radius: unset !important;
     }
 }
 
